@@ -1,0 +1,401 @@
+{
+  "professors": [
+    {
+      "id": "po",
+      "tier": "pivot",
+      "name": "PO, Lai-Man 布禮文",
+      "role": "副教授 Associate Professor · Department of Electrical Engineering",
+      "email": "eelmpo@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=H_0EvmkAAAAJ",
+      "personalUrl": "https://www.ee.cityu.edu.hk/~lmpo/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/eelmpo/",
+      "scopusCitations": 6870,
+      "hIndex": 38,
+      "scholarCitedBy": 10166,
+      "oneLiner": "经典视频编码学者,但最近论文几乎全面转向了扩散模型/生成式AI——适合想做生成式AI又想要资深导师的人。",
+      "selfDeclared": [
+        "视频编码 Video Coding",
+        "内容相似视频拷贝检测",
+        "图像/视频质量评估",
+        "生物医学信号处理(远程脉搏检测 rPPG)",
+        "人脸活体检测 Face Liveness Detection"
+      ],
+      "classicTags": [
+        "Block Motion Estimation",
+        "Vector Quantization",
+        "Searching Algorithm",
+        "Image Coding",
+        "Image Compression"
+      ],
+      "emergingTags": [
+        "Generative Adversarial Networks",
+        "Convolutional Neural Network",
+        "Data Augmentation",
+        "Anti-Spoofing",
+        "Diffusion Model"
+      ],
+      "recentPapers": [
+        "《Multi-SBoRA: regional and non-overlapping weight updates for multi-concept customization of diffusion models》 — <i>Multimedia Systems</i>, 31(6), 2025",
+        "《RMP-adapter: A region-based Multiple Prompt Adapter for multi-concept customization in text-to-image diffusion model》 — <i>Expert Systems with Applications</i>, 274, 2025",
+        "《AesBiasBench: Evaluating Bias and Alignment in Multimodal Language Models for Personalized Image Aesthetic Assessment》 — arXiv:2509.11620, 2025"
+      ],
+      "narrative": "Po教授是视频编码领域的老牌学者(博士1991年毕业于CityU,执教三十余年),职业生涯大部分时间专注于运动估计、向量量化这类<b>经典视频压缩技术</b>。但近1-2年他的论文列表几乎被「扩散模型」「文生图」「多模态大模型」占据——说明即使资深教授,也可能因为带新学生、追新方向而大幅转型。如果你想做<b>生成式AI/扩散模型</b>相关研究,这个组反而可能是个「老树发新芽」的隐藏选项。但要注意:他官网自述的研究方向(视频编码、活体检测)<b>还没更新</b>,完全没体现这次转型——提醒你联系前务必先翻一下他最近的论文确认方向是否真的吻合。",
+      "matchTags": [
+        "video", "视频", "image processing", "图像处理", "deep learning", "深度学习",
+        "generative ai", "生成式ai", "diffusion model", "扩散模型", "ai绘画", "文生图",
+        "人脸识别", "face recognition", "活体检测", "anti-spoofing", "quality assessment",
+        "质量评估", "计算机视觉", "computer vision", "llm", "大模型", "multimodal", "多模态"
+      ]
+    },
+    {
+      "id": "hui",
+      "tier": "stable",
+      "name": "HUI, Ron S Y 許樹源",
+      "role": "Chair Professor of Power Electronics 电力电子学讲座教授",
+      "email": "eeronhui@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=kuXvNmkAAAAJ",
+      "personalUrl": null,
+      "labUrl": "https://www.researchgate.net/lab/Research-Team-led-by-Prof-Ron-Hui-sY-Ron-Hui",
+      "labLabel": "实验室(Hui & Tan团队,主页在ResearchGate)",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/eeronhui/",
+      "scopusCitations": 24575,
+      "hIndex": 80,
+      "oneLiner": "无线充电(Qi标准)奠基人之一,电力电子领域稳定深耕型大牛,基本不涉及AI。",
+      "selfDeclared": [
+        "电力电子-电能转换",
+        "平面无芯变压器技术",
+        "无线电能传输 Wireless Power Transfer",
+        "可持续照明技术",
+        "可再生能源与智能电网技术"
+      ],
+      "classicTags": [
+        "Inverter",
+        "Power Converter",
+        "LED Lighting",
+        "Printed Circuit Board",
+        "Power Electronics"
+      ],
+      "emergingTags": [
+        "DC Microgrid",
+        "Smart Load",
+        "Power Grid",
+        "Microgrid",
+        "Wireless Power Transfer"
+      ],
+      "recentPapers": [
+        "《Wireless Power Transfer: A Paradigm Shift for the Next Generation》 — <i>IEEE Journal of Emerging and Selected Topics in Power Electronics</i>, 11(3), 2023",
+        "《Dynamic Response and Stability Margin Improvement of Wireless Power Receiver Systems via Right-Half-Plane Zero Elimination》(与同系Kerui Li、Siew-Chong Tan合作)",
+        "2025年起任CityU「电力电子学」讲座教授;此前曾在港大/帝国理工兼任讲座教授,长期围绕无线充电标准Qi持续产出"
+      ],
+      "narrative": "Hui教授是无线充电技术的奠基人之一——现在手机背后的<b>Qi无线充电标准</b>,核心专利就来自他的实验室。他的研究版图非常稳固:从经典的逆变器、功率变换器,到他本人开创的无线电能传输,再延伸到智能电网/微电网,十几年方向高度一致。这是一个「地基特别扎实、且仍在原方向深耕」的老牌强组。如果你想做<b>电力电子/无线充电/智能电网</b>这类偏硬件应用的方向,这是行业里数一数二的选择;但相对来说不太会涉及AI/机器人方向。",
+      "matchTags": [
+        "power electronics", "电力电子", "wireless charging", "无线充电",
+        "wireless power transfer", "无线电能传输", "smart grid", "智能电网",
+        "microgrid", "微电网", "led", "照明", "renewable energy", "可再生能源",
+        "inverter", "逆变器"
+      ]
+    },
+    {
+      "id": "luk",
+      "tier": "evolve",
+      "name": "LUK, K M 陸貴文",
+      "role": "Chair Professor of Electronic Engineering 电子工程学讲座教授",
+      "email": "eekmluk@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=ojOsnwMAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/eekmluk/",
+      "scopusCitations": 23536,
+      "hIndex": 80,
+      "oneLiner": "天线设计的灯塔级人物,经典电磁学功底极强,近两年开始往天线+医学影像方向延伸。",
+      "selfDeclared": [
+        "贴片/平面/介质谐振器天线设计",
+        "微波与天线测量",
+        "计算电磁学 Computational Electromagnetics"
+      ],
+      "classicTags": [
+        "Patch Antenna",
+        "Dielectric Resonator",
+        "Antenna Arrays",
+        "Electric Dipole",
+        "Radiation Pattern"
+      ],
+      "emergingTags": [
+        "Millimeter Wave",
+        "天线雷达三维成像(医学应用)",
+        "Transmitarray",
+        "Reconfigurable Antenna"
+      ],
+      "recentPapers": [
+        "《An Antenna Array Based on Radar Operation with High Detection Capability and Implementability for Three-Dimensional Head Imaging》 — <i>IEEE Transactions on Antennas and Propagation</i>, 72(6), 4729-4743, 2024",
+        "《A Dual-Polarized Folded Transmitarray Antenna with Low-Profile and Wide Bandwidth》 — 2024 IEEE AP-S/INC-USNC-URSI Symposium"
+      ],
+      "narrative": "Luk教授是天线设计领域的灯塔级人物(Croucher高级研究学者,数十年深耕贴片天线/介质谐振器天线),h-index高达80,引用超2万次。他的方向非常「经典电磁学」——但并不是原地踏步:近两年开始把天线技术用到<b>医学成像</b>上(比如用天线阵列雷达检测中风、做头部三维成像),把传统天线设计延伸到了生物医学交叉应用。如果你对硬核电磁场理论、天线设计感兴趣,这是教科书级别的导师;如果对「天线+医疗」交叉感兴趣,他最近的工作也值得关注。",
+      "matchTags": [
+        "antenna", "天线", "electromagnetics", "电磁学", "microwave", "微波",
+        "millimeter wave", "毫米波", "radar", "雷达", "medical imaging", "医学成像",
+        "5g", "6g"
+      ]
+    },
+    {
+      "id": "basu",
+      "tier": "pivot",
+      "name": "BASU, Arindam",
+      "role": "Professor · 2026年新当选 IEEE Fellow",
+      "email": "arinbasu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=Ton5pYMAAAAJ",
+      "personalUrl": null,
+      "labUrl": "https://sites.google.com/view/brainsyslab/team",
+      "labLabel": "实验室(BRAINSys Lab)",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/arinbasu/",
+      "scopusCitations": 4420,
+      "hIndex": 34,
+      "scholarCitedBy": 5219,
+      "oneLiner": "类脑芯片(神经形态计算)新晋IEEE Fellow,正快速扩展到AI硬件+机器人+边缘计算交叉领域。",
+      "selfDeclared": [
+        "仿生类脑神经形态电路 Neuromorphic Circuits",
+        "神经系统中的非线性动力学",
+        "低功耗模拟集成电路设计",
+        "可编程电路与器件"
+      ],
+      "classicTags": [
+        "Neural Network(硬件实现)",
+        "Floating-Gate Transistor",
+        "Spiking Neural Network",
+        "Low-power Analog IC"
+      ],
+      "emergingTags": [
+        "Brain Machine Interface",
+        "Edge Computing",
+        "Memristor",
+        "Robotics",
+        "In-Memory Computing(2026最新方向)"
+      ],
+      "recentPapers": [
+        "《The neurobench framework for benchmarking neuromorphic computing algorithms and systems》 — <i>Nature Communications</i>, 16(1), Article 1545, 2025(近100位作者跨50+机构合作,Basu教授为共同作者)",
+        "2026年当选IEEE Fellow,官方介绍其研究已扩展到「存内计算的类脑架构、事件驱动处理、生物医学边缘安全处理」"
+      ],
+      "narrative": "Basu教授做的是「类脑芯片」——不是用软件模拟神经网络,而是直接用电路硬件去模仿大脑神经元的工作方式,目标是让AI芯片更省电、更适合塞进<b>机器人/可穿戴设备</b>。他的引用量这几年涨得非常快(从早期每年几十次到近两年六七百次),说明这个方向正在变热。2026年刚当选IEEE Fellow,官方介绍明确提到他在向「存内计算、边缘安全处理、机器人/IoT用AI硬件」扩展——正好踩在「AI+机器人硬件」的交叉点上。如果你对人形机器人感兴趣,但想从芯片/硬件角度切入(而不是纯算法),这个组是非常对口的隐藏选项。",
+      "matchTags": [
+        "neuromorphic", "类脑", "brain machine interface", "脑机接口", "robotics",
+        "机器人", "人形机器人", "humanoid", "edge ai", "边缘计算", "ai chip", "ai芯片",
+        "spiking neural network", "脉冲神经网络", "iot", "物联网", "low power", "低功耗",
+        "memristor", "忆阻器"
+      ]
+    },
+    {
+      "id": "dai",
+      "tier": "stable",
+      "name": "DAI, Lin 代琳",
+      "role": "Professor 教授",
+      "email": "lindai@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=LwUpRkgAAAAJ",
+      "personalUrl": "https://www.ee.cityu.edu.hk/~lindai/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/lindai/",
+      "scopusCitations": 3080,
+      "hIndex": 32,
+      "oneLiner": "无线通信理论学者,十几年专注随机接入/MIMO理论,数理基础扎实但偏理论、不偏AI。",
+      "selfDeclared": [
+        "通信与网络理论 Communications & Networking Theory",
+        "无线通信",
+        "下一代移动通信系统的建模、性能分析与接入设计优化"
+      ],
+      "classicTags": [
+        "Random Access",
+        "Distributed Antenna System",
+        "MIMO Systems",
+        "IEEE 802.11",
+        "Multiple Access"
+      ],
+      "emergingTags": [
+        "Machine to Machine",
+        "Cellular Network(面向5G/6G场景的随机接入理论)"
+      ],
+      "recentPapers": [
+        "受邀学术报告摘要(CityU Scholars,2024-2025):提出用「队首(Head-of-Line)分组行为建模」统一分析Aloha与CSMA两种随机接入网络的吞吐量、延迟与稳定性",
+        "我没能精确核实她最近1-2年单篇论文的确切标题,建议直接打开她的CityU Scholars发表列表页核对:<br><span class=\"paper-url\">https://scholars.cityu.edu.hk/en/persons/lindai/publications/</span>"
+      ],
+      "narrative": "Dai教授做的是无线通信的「数学理论」那一面——不是设计芯片或天线,而是用概率论、排队论去分析「当很多设备同时抢着接入网络时,系统能撑住多少流量、要等多久」这类问题(这正是5G/6G里大规模物联网接入要解决的核心问题)。她的研究方向十几年来高度一致、稳扎稳打,没有大幅转向的迹象。适合喜欢扎实数理推导、想做<b>通信理论</b>而不是软件应用的同学。",
+      "matchTags": [
+        "wireless communication", "无线通信", "5g", "6g", "mimo", "networking",
+        "网络", "random access", "随机接入", "iot", "物联网", "communication theory",
+        "通信理论", "数学", "theory", "理论"
+      ]
+    },
+    {
+      "id": "cheung",
+      "tier": "pivot",
+      "name": "CHEUNG, Ray C C 張澤松",
+      "role": "Professor · Associate Provost (Digital Learning)",
+      "email": "r.cheung@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=crJhZNMAAAAJ",
+      "personalUrl": null,
+      "labUrl": "http://www4.ee.cityu.edu.hk/CALAS/",
+      "labLabel": "实验室(CALAS)",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/racheung/",
+      "scopusCitations": 3992,
+      "hIndex": 30,
+      "oneLiner": "FPGA/可重构计算出身,这两年明显押注抗量子密码学和AI芯片加速两个风口。",
+      "selfDeclared": [
+        "抗量子密码学 Post-Quantum Cryptography",
+        "同态加密 Homomorphic Encryption",
+        "密码学硬件设计",
+        "RISC-V安全处理器架构",
+        "系统级芯片(SoC)设计"
+      ],
+      "classicTags": [
+        "FPGA现场可编程门阵列",
+        "Reconfigurable Hardware",
+        "Hardware Architecture",
+        "RISC-V处理器架构"
+      ],
+      "emergingTags": [
+        "Post-Quantum Cryptography",
+        "Lattice-Based Cryptography",
+        "CNN(FPGA加速)",
+        "AI加速器"
+      ],
+      "recentPapers": [
+        "《ConBOOM: A Configurable CPU Microarchitecture for Speculative Covert Channel Mitigation》 — <i>Electronics (Switzerland)</i>, 14(5), Article 850, 2025",
+        "《PQNTRU: Acceleration of NTRU-Based Schemes via Customized Post-Quantum Processor》 — <i>IEEE Transactions on Computers</i>, 2025",
+        "2026年6月因抗量子密码学方向研究获国家级创新奖(第四届国家级创新创业大赛优秀奖)"
+      ],
+      "narrative": "Cheung教授的底子是FPGA(可编程芯片)与可重构计算,这几年明显往两个新热点扩展:一是<b>抗量子密码学</b>——因为未来量子计算机可能破解现在用的加密算法,各国都在抢着研发「抗量子」的新一代加密硬件,他2026年6月刚因为这个方向拿了国家级创新奖;二是<b>AI加速器</b>——把深度学习模型(包括最新的Vision Mamba)塞进FPGA芯片里跑得更快更省电。如果你对「芯片+网络安全」或「芯片+AI」的交叉感兴趣,这个组目前正踩在两个风口上。",
+      "matchTags": [
+        "fpga", "芯片", "chip design", "芯片设计", "硬件加速", "hardware accelerator",
+        "cryptography", "密码学", "post-quantum", "抗量子", "risc-v", "网络安全",
+        "cybersecurity", "ai加速", "ai accelerator", "soc"
+      ]
+    },
+    {
+      "id": "li",
+      "tier": "pivot",
+      "name": "LI, Haoliang 李皓亮",
+      "role": "Assistant Professor 助理教授",
+      "email": "haoliang.li@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=1xioat8AAAAJ",
+      "personalUrl": "https://hlli1991.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/haoliali/",
+      "scopusCitations": 5493,
+      "hIndex": 35,
+      "oneLiner": "最年轻的助理教授,从人脸防伪一路做到大模型可信度/AI Agent安全,方向最贴近当下AI前沿。",
+      "selfDeclared": [
+        "可信AI Trustworthy AI",
+        "信息取证 Information Forensics",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "classicTags": [
+        "Anti-Spoofing(人脸活体检测)",
+        "Deepfake Detection",
+        "Domain Adaptation",
+        "Representation Learning"
+      ],
+      "emergingTags": [
+        "LLM Hallucination",
+        "AI Agent(自主智能体安全)",
+        "Misinformation Detection",
+        "AI生成内容 Watermarking"
+      ],
+      "recentPapers": [
+        "《TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection》 — 会议论文, 2024",
+        "《Clean-Label Attack on Face Authentication Systems Through Rolling Shutter Mechanism》 — 与Alex C. Kot等合作, 2024",
+        "CityU特邀讲座(2026):专题讨论大语言模型幻觉检测,以及自主智能体(AI Agent)的沙盒隔离/人工监督/目标对齐等责任部署问题——目前还没查到他本人在这个子方向上发表的具体论文标题,建议直接问他"
+      ],
+      "narrative": "Li教授2018年博士毕业,是7位里最年轻的一位,但从一开始研究方向就很「AI」——最早做<b>人脸活体检测/深度伪造检测</b>(判断一张脸是不是AI造的假脸),现在已经把研究范围扩展到大语言模型本身的可信度问题,比如怎么检测大模型「一本正经地编故事」(幻觉),以及怎么让自主运行的<b>AI Agent</b>不闯祸(沙盒隔离、人工监督、目标对齐)。这正是当下AI圈最热的安全/对齐话题之一,而且他目前在招PhD学生,是这7位里方向最贴近「前沿AI」的一位。",
+      "matchTags": [
+        "trustworthy ai", "可信ai", "ai safety", "ai安全", "deepfake", "深度伪造",
+        "llm", "大语言模型", "ai agent", "智能体", "hallucination", "幻觉",
+        "face recognition", "人脸识别", "misinformation", "虚假信息", "ai对齐",
+        "alignment", "对齐"
+      ]
+    }
+  ],
+  "themes": [
+    {"id": "antenna", "nameEn": "Antenna Design", "nameZh": "天线设计", "profIds": ["luk"]},
+    {"id": "aiml", "nameEn": "Big Data / ML / AI", "nameZh": "大数据/机器学习/AI", "profIds": ["po", "li"]},
+    {"id": "bioinfo", "nameEn": "Bioinformatics", "nameZh": "生物信息学", "profIds": []},
+    {"id": "biomed", "nameEn": "Biomedical Systems & Bioelectronics", "nameZh": "生物医学系统/生物电子", "profIds": ["basu"]},
+    {"id": "compeng", "nameEn": "Computer Engineering", "nameZh": "计算机工程", "profIds": ["cheung"]},
+    {"id": "control", "nameEn": "Control Systems & Optimization", "nameZh": "控制系统与优化", "profIds": []},
+    {"id": "micro", "nameEn": "Microelectronic Devices & Circuits", "nameZh": "微电子器件与电路", "profIds": []},
+    {"id": "nano", "nameEn": "Nanotechnology & Nanodevices", "nameZh": "纳米技术与纳米器件", "profIds": []},
+    {"id": "network", "nameEn": "Networking & IoT", "nameZh": "网络与物联网", "profIds": ["dai"]},
+    {"id": "photonics", "nameEn": "Photonics", "nameZh": "光子学", "profIds": []},
+    {"id": "power", "nameEn": "Power Electronics & Systems", "nameZh": "电力电子与系统", "profIds": ["hui"]},
+    {"id": "signal", "nameEn": "Signal & Image Processing", "nameZh": "信号与图像处理", "profIds": ["po"]},
+    {"id": "thz", "nameEn": "Terahertz & Millimeter Waves", "nameZh": "太赫兹与毫米波", "profIds": []},
+    {"id": "wireless", "nameEn": "Wireless Communications", "nameZh": "无线通信", "profIds": ["dai"]}
+  ],
+  "glossary": {
+    "Block Motion Estimation": "视频压缩里「猜」画面中物体下一帧往哪移动的算法,是MPEG等老式视频编码标准的核心招式。",
+    "Vector Quantization": "一种压缩方法:把大量相似的数据归类成几个「代表样本」,用代表样本的编号代替原始数据,从而省空间。",
+    "Searching Algorithm": "在大量候选方案里快速找到「最优解」的算法套路,常用于压缩、优化类问题。",
+    "Image Coding": "把图像数据压缩得更小、同时尽量不丢失画质的技术,日常用的JPEG就是一种图像编码标准。",
+    "Image Compression": "让图片占用空间变小的技术统称。",
+    "Generative Adversarial Networks": "生成对抗网络(GAN):让两个AI模型「对抗」训练——一个负责造假图,一个负责识破假图,反复较量后造假的一方会越来越逼真。",
+    "Convolutional Neural Network": "卷积神经网络(CNN):最经典的「看图AI」模型结构,擅长从图像里抓取边缘、纹理等局部特征,是深度学习时代计算机视觉的基础款。",
+    "Data Augmentation": "数据增强:人为地对训练数据做裁剪、旋转、加噪声等变化,让AI模型见多识广,不容易「死记硬背」。",
+    "Anti-Spoofing": "防伪/活体检测:判断摄像头前是不是一个真人,还是有人拿照片、视频、面具在冒充。",
+    "Diffusion Model": "扩散模型:目前最主流的AI画图技术之一(Midjourney、Stable Diffusion背后的原理),先把图片「打成噪点」,再训练AI学会怎么把噪点一步步还原成清晰图片。",
+    "Wireless Power Transfer": "无线电能传输:不用插电线,靠近一个充电板就能充电的技术,手机的无线充电就是简化版应用。",
+    "Inverter": "逆变器:把直流电(比如电池里的电)转换成交流电(家里插座用的电)的装置。",
+    "Power Converter": "功率变换器:统称各种「把一种电变成另一种电」的电路装置,比如手机充电器、电脑电源都算。",
+    "LED Lighting": "LED照明:用发光二极管做的照明技术,比传统灯泡更省电、寿命更长。",
+    "Printed Circuit Board": "印刷电路板(PCB):电子元件焊在上面、靠铜线连接起来的绿色/黑色板子,几乎所有电子产品里都有。",
+    "Power Electronics": "电力电子:研究怎么把电「转换、控制、调度」的工程学科,小到手机充电器、大到电网都属于这个领域。",
+    "DC Microgrid": "直流微电网:小范围内(比如一栋楼、一个园区)直接用直流电供电、自成一体的供电网络,常和太阳能、储能电池搭配。",
+    "Smart Load": "智能负载:能「听指挥」调节自己用电方式的电器/设备,配合智能电网削峰填谷。",
+    "Power Grid": "电网:把电从发电厂输送到千家万户的整套供电网络。",
+    "Microgrid": "微电网:可以独立于大电网运行的小型局部供电系统,常用于社区、校园、海岛。",
+    "Patch Antenna": "贴片天线:像一片薄薄的金属贴片贴在板子上的天线,体积小、好集成,手机、WiFi路由器里很常见。",
+    "Dielectric Resonator": "介质谐振器(天线):用特殊陶瓷材料做的天线元件,靠材料本身的电磁特性来「谐振」收发信号,效率比传统金属天线更高。",
+    "Antenna Arrays": "天线阵列:把很多根小天线排成阵列一起工作,可以让信号指向更精准(比如5G基站的「波束成形」)。",
+    "Electric Dipole": "电偶极子:最基础的一种天线辐射元件模型,很多复杂天线设计都是从它演化出来的。",
+    "Radiation Pattern": "辐射方向图:描述一根天线往各个方向「发力」强弱分布的图,看起来像花瓣形状。",
+    "Millimeter Wave": "毫米波:频率特别高、波长只有几毫米的无线电波,5G和未来6G用它实现超高速传输,但传播距离短、容易被遮挡。",
+    "天线雷达三维成像(医学应用)": "用一组天线像雷达一样发射、接收电磁波,通过分析反射信号重建人体内部(比如头部)的三维结构,可以用来无创检测中风等病变,是天线技术在医疗影像上的新应用。",
+    "Transmitarray": "透射阵列天线:让电磁波「穿过」一层特殊设计的阵列结构后被重新整形、聚焦的天线技术,常用于做高增益、低成本的大型天线。",
+    "Reconfigurable Antenna": "可重构天线:可以通过电子开关等方式,临场改变自己工作频率/方向的天线,一个天线能做多种用途。",
+    "Neural Network(硬件实现)": "神经网络硬件实现:不是用软件代码跑神经网络,而是直接设计专用电路去「物理实现」神经元的计算方式,目标是更快更省电。",
+    "Floating-Gate Transistor": "浮栅晶体管:一种能「记住」电荷的特殊晶体管结构,常被用来做存储器或模拟神经元的记忆功能。",
+    "Spiking Neural Network": "脉冲神经网络(SNN):模仿真实大脑神经元「放电」方式工作的AI模型,比传统神经网络更省电,常用在类脑芯片里。",
+    "Low-power Analog IC": "低功耗模拟集成电路:处理连续信号(而不是0/1数字信号)、同时特别省电的芯片设计方向,常用于植入式医疗设备、传感器。",
+    "Brain Machine Interface": "脑机接口:让大脑信号直接和电脑/机器「对话」的技术,比如用脑电波控制假肢。",
+    "Edge Computing": "边缘计算:让AI运算直接在设备本地(比如摄像头、手表)完成,不用都传到云端服务器,这样更快、更省流量、也更保护隐私。",
+    "Memristor": "忆阻器:一种新型电子元件,能像神经元突触一样「记住」之前流过的电流大小,被认为是未来类脑芯片的关键材料。",
+    "Robotics": "机器人学:研究让机器自主感知环境、做决策、执行动作的工程学科,涵盖机械、控制、AI等多个方向。",
+    "In-Memory Computing(2026最新方向)": "存内计算:让芯片直接在「存数据的地方」顺便做运算,不用来回搬数据,大幅降低AI芯片的耗电量。",
+    "Random Access": "随机接入:很多设备同时想连上一个网络/基站时,大家「抢」信道的机制和规则,设计得好就能减少冲突、提高效率。",
+    "Distributed Antenna System": "分布式天线系统:把原本集中在一处的天线拆开,分散布置在不同位置一起工作,可以让信号覆盖更均匀。",
+    "MIMO Systems": "多输入多输出(MIMO):同时用多根天线发送和接收信号,靠「多条路」同时传数据来提升速度和稳定性,是4G/5G的核心技术之一。",
+    "IEEE 802.11": "就是我们日常说的WiFi标准的官方名字。",
+    "Multiple Access": "多址接入:多个用户怎么共享同一个通信信道而不互相干扰的技术统称。",
+    "Machine to Machine": "机器间通信(M2M):设备之间不需要人参与、自动互相通信的场景,是物联网的基础。",
+    "Cellular Network(面向5G/6G场景的随机接入理论)": "蜂窝网络:手机信号靠一个个「蜂窝状」基站覆盖区域组成的移动通信网络,4G/5G都是蜂窝网络。",
+    "FPGA现场可编程门阵列": "一种「可以反复重新编程」的芯片,不像普通芯片出厂后电路就定死了,FPGA可以根据需要现场改变内部电路结构,常用于快速验证芯片设计或做专用加速器。",
+    "Reconfigurable Hardware": "可重构硬件:泛指像FPGA这样,硬件电路结构可以被软件重新配置、改变功能的硬件。",
+    "Hardware Architecture": "硬件架构:芯片/电路系统内部各模块怎么组织、怎么协同工作的整体设计方案。",
+    "RISC-V处理器架构": "一种开源的芯片指令集架构,相当于芯片设计界的「开源操作系统」,任何人都可以免费拿来设计自己的芯片,被视为ARM、x86之外的新势力。",
+    "Post-Quantum Cryptography": "抗量子密码学:为了应对未来量子计算机可能轻松破解现有加密算法,而提前设计的新一代「抗量子」加密方法。",
+    "Lattice-Based Cryptography": "基于格的密码学:目前最主流的抗量子密码学路线之一,利用数学里「高维格」问题的难解性来设计加密算法。",
+    "CNN(FPGA加速)": "把卷积神经网络(CNN)这种AI模型直接用FPGA芯片的硬件电路去加速运行,比纯软件跑得更快更省电。",
+    "AI加速器": "专门为运行AI模型而设计的芯片或电路,目标是比通用CPU/GPU跑AI任务更快、更省电。",
+    "Anti-Spoofing(人脸活体检测)": "判断摄像头前是不是一个真人,还是有人拿照片、视频、面具在冒充人脸识别系统。",
+    "Deepfake Detection": "深度伪造检测:判断一段视频/图片是不是AI合成出来的「假人假脸」。",
+    "Domain Adaptation": "域适应:让一个在A场景训练好的AI模型,换到长得不太一样的B场景(比如换了摄像头、换了光线)时依然好用的技术。",
+    "Representation Learning": "表征学习:让AI自己学会怎么用一组数字「概括」一张图片/一段文字的关键信息,而不是靠人工设计规则去描述。",
+    "LLM Hallucination": "大语言模型幻觉:像ChatGPT这样的大模型一本正经地编造不存在的事实或引用的现象。",
+    "AI Agent(自主智能体安全)": "自主智能体(AI Agent):不只是回答问题,而是能自己规划步骤、调用工具、连续执行多步任务的AI系统,比如自动帮你订票、写代码并调试。这里特指研究怎么让这类系统更安全、不闯祸。",
+    "Misinformation Detection": "虚假信息检测:判断网络上一条信息是不是谣言、假新闻的技术。",
+    "AI生成内容 Watermarking": "给AI生成的图片/文字偷偷加上肉眼难以察觉的标记,方便日后追溯「这是不是AI做的」。"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "phase": 1,
+    "totalProfessors": 41,
+    "pilotCount": 7,
+    "lastUpdated": "2026-06-23",
+    "dataSource": "CityUHK Scholars, Google Scholar, Scopus",
+    "department": "Department of Electrical Engineering, City University of Hong Kong"
+  }
+}
