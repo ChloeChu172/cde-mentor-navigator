@@ -41,10 +41,30 @@
       ],
       "narrative": "Po教授是视频编码领域的老牌学者(博士1991年毕业于CityU,执教三十余年),职业生涯大部分时间专注于运动估计、向量量化这类<b>经典视频压缩技术</b>。但近1-2年他的论文列表几乎被「扩散模型」「文生图」「多模态大模型」占据——说明即使资深教授,也可能因为带新学生、追新方向而大幅转型。如果你想做<b>生成式AI/扩散模型</b>相关研究,这个组反而可能是个「老树发新芽」的隐藏选项。但要注意:他官网自述的研究方向(视频编码、活体检测)<b>还没更新</b>,完全没体现这次转型——提醒你联系前务必先翻一下他最近的论文确认方向是否真的吻合。",
       "matchTags": [
-        "video", "视频", "image processing", "图像处理", "deep learning", "深度学习",
-        "generative ai", "生成式ai", "diffusion model", "扩散模型", "ai绘画", "文生图",
-        "人脸识别", "face recognition", "活体检测", "anti-spoofing", "quality assessment",
-        "质量评估", "计算机视觉", "computer vision", "llm", "大模型", "multimodal", "多模态"
+        "video",
+        "视频",
+        "image processing",
+        "图像处理",
+        "deep learning",
+        "深度学习",
+        "generative ai",
+        "生成式ai",
+        "diffusion model",
+        "扩散模型",
+        "ai绘画",
+        "文生图",
+        "人脸识别",
+        "face recognition",
+        "活体检测",
+        "anti-spoofing",
+        "quality assessment",
+        "质量评估",
+        "计算机视觉",
+        "computer vision",
+        "llm",
+        "大模型",
+        "multimodal",
+        "多模态"
       ]
     },
     {
@@ -89,10 +109,22 @@
       ],
       "narrative": "Hui教授是无线充电技术的奠基人之一——现在手机背后的<b>Qi无线充电标准</b>,核心专利就来自他的实验室。他的研究版图非常稳固:从经典的逆变器、功率变换器,到他本人开创的无线电能传输,再延伸到智能电网/微电网,十几年方向高度一致。这是一个「地基特别扎实、且仍在原方向深耕」的老牌强组。如果你想做<b>电力电子/无线充电/智能电网</b>这类偏硬件应用的方向,这是行业里数一数二的选择;但相对来说不太会涉及AI/机器人方向。",
       "matchTags": [
-        "power electronics", "电力电子", "wireless charging", "无线充电",
-        "wireless power transfer", "无线电能传输", "smart grid", "智能电网",
-        "microgrid", "微电网", "led", "照明", "renewable energy", "可再生能源",
-        "inverter", "逆变器"
+        "power electronics",
+        "电力电子",
+        "wireless charging",
+        "无线充电",
+        "wireless power transfer",
+        "无线电能传输",
+        "smart grid",
+        "智能电网",
+        "microgrid",
+        "微电网",
+        "led",
+        "照明",
+        "renewable energy",
+        "可再生能源",
+        "inverter",
+        "逆变器"
       ]
     },
     {
@@ -131,9 +163,20 @@
       ],
       "narrative": "Luk教授是天线设计领域的灯塔级人物(Croucher高级研究学者,数十年深耕贴片天线/介质谐振器天线),h-index高达80,引用超2万次。他的方向非常「经典电磁学」——但并不是原地踏步:近两年开始把天线技术用到<b>医学成像</b>上(比如用天线阵列雷达检测中风、做头部三维成像),把传统天线设计延伸到了生物医学交叉应用。如果你对硬核电磁场理论、天线设计感兴趣,这是教科书级别的导师;如果对「天线+医疗」交叉感兴趣,他最近的工作也值得关注。",
       "matchTags": [
-        "antenna", "天线", "electromagnetics", "电磁学", "microwave", "微波",
-        "millimeter wave", "毫米波", "radar", "雷达", "medical imaging", "医学成像",
-        "5g", "6g"
+        "antenna",
+        "天线",
+        "electromagnetics",
+        "电磁学",
+        "microwave",
+        "微波",
+        "millimeter wave",
+        "毫米波",
+        "radar",
+        "雷达",
+        "medical imaging",
+        "医学成像",
+        "5g",
+        "6g"
       ]
     },
     {
@@ -176,10 +219,26 @@
       ],
       "narrative": "Basu教授做的是「类脑芯片」——不是用软件模拟神经网络,而是直接用电路硬件去模仿大脑神经元的工作方式,目标是让AI芯片更省电、更适合塞进<b>机器人/可穿戴设备</b>。他的引用量这几年涨得非常快(从早期每年几十次到近两年六七百次),说明这个方向正在变热。2026年刚当选IEEE Fellow,官方介绍明确提到他在向「存内计算、边缘安全处理、机器人/IoT用AI硬件」扩展——正好踩在「AI+机器人硬件」的交叉点上。如果你对人形机器人感兴趣,但想从芯片/硬件角度切入(而不是纯算法),这个组是非常对口的隐藏选项。",
       "matchTags": [
-        "neuromorphic", "类脑", "brain machine interface", "脑机接口", "robotics",
-        "机器人", "人形机器人", "humanoid", "edge ai", "边缘计算", "ai chip", "ai芯片",
-        "spiking neural network", "脉冲神经网络", "iot", "物联网", "low power", "低功耗",
-        "memristor", "忆阻器"
+        "neuromorphic",
+        "类脑",
+        "brain machine interface",
+        "脑机接口",
+        "robotics",
+        "机器人",
+        "人形机器人",
+        "humanoid",
+        "edge ai",
+        "边缘计算",
+        "ai chip",
+        "ai芯片",
+        "spiking neural network",
+        "脉冲神经网络",
+        "iot",
+        "物联网",
+        "low power",
+        "低功耗",
+        "memristor",
+        "忆阻器"
       ]
     },
     {
@@ -216,9 +275,22 @@
       ],
       "narrative": "Dai教授做的是无线通信的「数学理论」那一面——不是设计芯片或天线,而是用概率论、排队论去分析「当很多设备同时抢着接入网络时,系统能撑住多少流量、要等多久」这类问题(这正是5G/6G里大规模物联网接入要解决的核心问题)。她的研究方向十几年来高度一致、稳扎稳打,没有大幅转向的迹象。适合喜欢扎实数理推导、想做<b>通信理论</b>而不是软件应用的同学。",
       "matchTags": [
-        "wireless communication", "无线通信", "5g", "6g", "mimo", "networking",
-        "网络", "random access", "随机接入", "iot", "物联网", "communication theory",
-        "通信理论", "数学", "theory", "理论"
+        "wireless communication",
+        "无线通信",
+        "5g",
+        "6g",
+        "mimo",
+        "networking",
+        "网络",
+        "random access",
+        "随机接入",
+        "iot",
+        "物联网",
+        "communication theory",
+        "通信理论",
+        "数学",
+        "theory",
+        "理论"
       ]
     },
     {
@@ -261,9 +333,22 @@
       ],
       "narrative": "Cheung教授的底子是FPGA(可编程芯片)与可重构计算,这几年明显往两个新热点扩展:一是<b>抗量子密码学</b>——因为未来量子计算机可能破解现在用的加密算法,各国都在抢着研发「抗量子」的新一代加密硬件,他2026年6月刚因为这个方向拿了国家级创新奖;二是<b>AI加速器</b>——把深度学习模型(包括最新的Vision Mamba)塞进FPGA芯片里跑得更快更省电。如果你对「芯片+网络安全」或「芯片+AI」的交叉感兴趣,这个组目前正踩在两个风口上。",
       "matchTags": [
-        "fpga", "芯片", "chip design", "芯片设计", "硬件加速", "hardware accelerator",
-        "cryptography", "密码学", "post-quantum", "抗量子", "risc-v", "网络安全",
-        "cybersecurity", "ai加速", "ai accelerator", "soc"
+        "fpga",
+        "芯片",
+        "chip design",
+        "芯片设计",
+        "硬件加速",
+        "hardware accelerator",
+        "cryptography",
+        "密码学",
+        "post-quantum",
+        "抗量子",
+        "risc-v",
+        "网络安全",
+        "cybersecurity",
+        "ai加速",
+        "ai accelerator",
+        "soc"
       ]
     },
     {
@@ -303,10 +388,25 @@
       ],
       "narrative": "Li教授2018年博士毕业,是7位里最年轻的一位,但从一开始研究方向就很「AI」——最早做<b>人脸活体检测/深度伪造检测</b>(判断一张脸是不是AI造的假脸),现在已经把研究范围扩展到大语言模型本身的可信度问题,比如怎么检测大模型「一本正经地编故事」(幻觉),以及怎么让自主运行的<b>AI Agent</b>不闯祸(沙盒隔离、人工监督、目标对齐)。这正是当下AI圈最热的安全/对齐话题之一,而且他目前在招PhD学生,是这7位里方向最贴近「前沿AI」的一位。",
       "matchTags": [
-        "trustworthy ai", "可信ai", "ai safety", "ai安全", "deepfake", "深度伪造",
-        "llm", "大语言模型", "ai agent", "智能体", "hallucination", "幻觉",
-        "face recognition", "人脸识别", "misinformation", "虚假信息", "ai对齐",
-        "alignment", "对齐"
+        "trustworthy ai",
+        "可信ai",
+        "ai safety",
+        "ai安全",
+        "deepfake",
+        "深度伪造",
+        "llm",
+        "大语言模型",
+        "ai agent",
+        "智能体",
+        "hallucination",
+        "幻觉",
+        "face recognition",
+        "人脸识别",
+        "misinformation",
+        "虚假信息",
+        "ai对齐",
+        "alignment",
+        "对齐"
       ]
     },
     {
@@ -320,12 +420,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电力系统规划与稳定性专家，研究方向涵盖可再生能源、智能电网和储能系统。",
-      "selfDeclared": ["电力系统规划与稳定性", "可再生能源", "智能电网", "储能系统"],
-      "classicTags": ["Power System Planning", "Power System Stability", "Renewable Energy", "Smart Grid"],
-      "emergingTags": ["Energy Storage", "Distributed Generation", "Microgrid Control"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表: https://scholars.cityu.edu.hk/en/persons/eedong/publications/"],
+      "selfDeclared": [
+        "电力系统规划与稳定性",
+        "可再生能源",
+        "智能电网",
+        "储能系统"
+      ],
+      "classicTags": [
+        "Power System Planning",
+        "Power System Stability",
+        "Renewable Energy",
+        "Smart Grid"
+      ],
+      "emergingTags": [
+        "Energy Storage",
+        "Distributed Generation",
+        "Microgrid Control"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表: https://scholars.cityu.edu.hk/en/persons/eedong/publications/"
+      ],
       "narrative": "DONG教授是电力系统领域的资深学者，现任EE系主任。他的研究聚焦于电力系统规划、稳定性分析以及可再生能源并网。随着全球能源转型加速，他的工作对智能电网和储能技术的发展具有重要意义。",
-      "matchTags": ["power system", "电力系统", "renewable energy", "可再生能源", "smart grid", "智能电网", "energy storage", "储能", "microgrid", "微电网"]
+      "matchTags": [
+        "power system",
+        "电力系统",
+        "renewable energy",
+        "可再生能源",
+        "smart grid",
+        "智能电网",
+        "energy storage",
+        "储能",
+        "microgrid",
+        "微电网"
+      ]
     },
     {
       "id": "chiang",
@@ -338,12 +465,36 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "光纤与光学器件专家，专注于非线性光学和光通信技术。",
-      "selfDeclared": ["光纤与光学器件", "非线性光学", "光通信"],
-      "classicTags": ["Optical Fiber", "Nonlinear Optics", "Photonic Devices"],
-      "emergingTags": ["Silicon Photonics", "Optical Signal Processing"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "光纤与光学器件",
+        "非线性光学",
+        "光通信"
+      ],
+      "classicTags": [
+        "Optical Fiber",
+        "Nonlinear Optics",
+        "Photonic Devices"
+      ],
+      "emergingTags": [
+        "Silicon Photonics",
+        "Optical Signal Processing"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHIANG教授是光电子学领域的资深学者，长期致力于光纤器件和非线性光学的研究。他的工作为高速光通信系统的发展奠定了重要基础。",
-      "matchTags": ["optics", "光学", "fiber", "光纤", "photonics", "光子学", "nonlinear", "非线性", "communication", "通信"]
+      "matchTags": [
+        "optics",
+        "光学",
+        "fiber",
+        "光纤",
+        "photonics",
+        "光子学",
+        "nonlinear",
+        "非线性",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "sun_yanni",
@@ -356,12 +507,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "生物信息学与深度学习交叉领域学者，将AI技术应用于基因组学研究。",
-      "selfDeclared": ["生物信息学", "深度学习", "基因组学", "健康信息学"],
-      "classicTags": ["Bioinformatics", "Computational Biology", "Genomics"],
-      "emergingTags": ["Deep Learning", "AI for Healthcare", "Precision Medicine"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "生物信息学",
+        "深度学习",
+        "基因组学",
+        "健康信息学"
+      ],
+      "classicTags": [
+        "Bioinformatics",
+        "Computational Biology",
+        "Genomics"
+      ],
+      "emergingTags": [
+        "Deep Learning",
+        "AI for Healthcare",
+        "Precision Medicine"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "SUN教授是生物信息学领域的领军学者，近年来积极将深度学习技术引入基因组学研究。她的工作旨在通过AI方法解析复杂疾病机制，推动精准医疗发展。",
-      "matchTags": ["bioinformatics", "生物信息学", "deep learning", "深度学习", "genomics", "基因组学", "AI", "healthcare", "医疗", "biology", "生物学"]
+      "matchTags": [
+        "bioinformatics",
+        "生物信息学",
+        "deep learning",
+        "深度学习",
+        "genomics",
+        "基因组学",
+        "AI",
+        "healthcare",
+        "医疗",
+        "biology",
+        "生物学"
+      ]
     },
     {
       "id": "yan",
@@ -374,12 +552,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "AI与数据科学领域资深学者，研究涵盖生物信息学和图像处理。",
-      "selfDeclared": ["人工智能", "数据科学", "生物信息学", "图像处理"],
-      "classicTags": ["Image Processing", "Pattern Recognition", "Data Mining"],
-      "emergingTags": ["Deep Learning", "AI", "Big Data Analytics"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "人工智能",
+        "数据科学",
+        "生物信息学",
+        "图像处理"
+      ],
+      "classicTags": [
+        "Image Processing",
+        "Pattern Recognition",
+        "Data Mining"
+      ],
+      "emergingTags": [
+        "Deep Learning",
+        "AI",
+        "Big Data Analytics"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "YAN教授是AI与数据科学领域的资深学者，研究涵盖图像处理、模式识别和生物信息学。他的工作致力于开发智能算法解决复杂的科学和工程问题。",
-      "matchTags": ["AI", "artificial intelligence", "人工智能", "data science", "数据科学", "image processing", "图像处理", "bioinformatics", "生物信息学", "machine learning", "机器学习"]
+      "matchTags": [
+        "AI",
+        "artificial intelligence",
+        "人工智能",
+        "data science",
+        "数据科学",
+        "image processing",
+        "图像处理",
+        "bioinformatics",
+        "生物信息学",
+        "machine learning",
+        "机器学习"
+      ]
     },
     {
       "id": "chan_ch",
@@ -392,12 +597,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "微波与太赫兹天线专家，研究涵盖集成电路和成像技术。",
-      "selfDeclared": ["微波天线", "太赫兹技术", "集成电路", "成像技术"],
-      "classicTags": ["Microwave Antennas", "THz Technology", "Integrated Circuits"],
-      "emergingTags": ["THz Imaging", "5G/6G Antennas", "Wearable Electronics"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "微波天线",
+        "太赫兹技术",
+        "集成电路",
+        "成像技术"
+      ],
+      "classicTags": [
+        "Microwave Antennas",
+        "THz Technology",
+        "Integrated Circuits"
+      ],
+      "emergingTags": [
+        "THz Imaging",
+        "5G/6G Antennas",
+        "Wearable Electronics"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN教授是微波与太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统微波天线延伸到太赫兹成像和集成电路，在通信和医疗成像领域有重要应用。",
-      "matchTags": ["microwave", "微波", "THz", "太赫兹", "antenna", "天线", "integrated circuit", "集成电路", "imaging", "成像", "5g", "6g"]
+      "matchTags": [
+        "microwave",
+        "微波",
+        "THz",
+        "太赫兹",
+        "antenna",
+        "天线",
+        "integrated circuit",
+        "集成电路",
+        "imaging",
+        "成像",
+        "5g",
+        "6g"
+      ]
     },
     {
       "id": "chen_gr",
@@ -410,12 +643,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "非线性系统与复杂网络领域国际知名学者，动力学与控制专家。",
-      "selfDeclared": ["非线性系统", "复杂网络", "动力学", "控制理论"],
-      "classicTags": ["Nonlinear Systems", "Chaos Theory", "Control Theory"],
-      "emergingTags": ["Complex Networks", "Multi-agent Systems", "Networked Control"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "非线性系统",
+        "复杂网络",
+        "动力学",
+        "控制理论"
+      ],
+      "classicTags": [
+        "Nonlinear Systems",
+        "Chaos Theory",
+        "Control Theory"
+      ],
+      "emergingTags": [
+        "Complex Networks",
+        "Multi-agent Systems",
+        "Networked Control"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHEN教授是非线性系统和复杂网络领域的国际知名学者，在混沌理论和动力学控制方面做出了奠基性贡献。他的研究对理解复杂系统行为和设计智能控制系统具有深远影响。",
-      "matchTags": ["nonlinear", "非线性", "complex network", "复杂网络", "control", "控制", "dynamics", "动力学", "chaos", "混沌", "system", "系统"]
+      "matchTags": [
+        "nonlinear",
+        "非线性",
+        "complex network",
+        "复杂网络",
+        "control",
+        "控制",
+        "dynamics",
+        "动力学",
+        "chaos",
+        "混沌",
+        "system",
+        "系统"
+      ]
     },
     {
       "id": "chen_jie",
@@ -428,12 +689,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "网络控制与多智能体系统专家，时滞系统与鲁棒控制权威。",
-      "selfDeclared": ["网络控制", "多智能体系统", "时滞系统", "鲁棒控制"],
-      "classicTags": ["Networked Control", "Time-delay Systems", "Robust Control"],
-      "emergingTags": ["Multi-agent Systems", "Distributed Control", "Cyber-physical Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "网络控制",
+        "多智能体系统",
+        "时滞系统",
+        "鲁棒控制"
+      ],
+      "classicTags": [
+        "Networked Control",
+        "Time-delay Systems",
+        "Robust Control"
+      ],
+      "emergingTags": [
+        "Multi-agent Systems",
+        "Distributed Control",
+        "Cyber-physical Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHEN教授是控制理论领域的资深学者，专注于网络控制系统、多智能体协同和时滞系统分析。他的研究为现代分布式系统和智能集群控制提供了理论基础。",
-      "matchTags": ["control", "控制", "networked", "网络", "multi-agent", "多智能体", "time-delay", "时滞", "robust", "鲁棒", "distributed", "分布式"]
+      "matchTags": [
+        "control",
+        "控制",
+        "networked",
+        "网络",
+        "multi-agent",
+        "多智能体",
+        "time-delay",
+        "时滞",
+        "robust",
+        "鲁棒",
+        "distributed",
+        "分布式"
+      ]
     },
     {
       "id": "chung_hsh",
@@ -446,12 +735,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电力电子与照明技术专家，智能电网研究方向资深学者。",
-      "selfDeclared": ["电力电子", "照明技术", "智能电网"],
-      "classicTags": ["Power Electronics", "LED Lighting", "Power Conversion"],
-      "emergingTags": ["Smart Grid", "Renewable Integration", "Energy Efficiency"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电力电子",
+        "照明技术",
+        "智能电网"
+      ],
+      "classicTags": [
+        "Power Electronics",
+        "LED Lighting",
+        "Power Conversion"
+      ],
+      "emergingTags": [
+        "Smart Grid",
+        "Renewable Integration",
+        "Energy Efficiency"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHUNG教授是电力电子领域的资深学者，研究涵盖电力变换器设计、LED照明系统和智能电网技术。他的工作对提高能源转换效率和推动绿色照明技术发展具有重要意义。",
-      "matchTags": ["power electronics", "电力电子", "lighting", "照明", "smart grid", "智能电网", "LED", "energy", "能源", "conversion", "转换"]
+      "matchTags": [
+        "power electronics",
+        "电力电子",
+        "lighting",
+        "照明",
+        "smart grid",
+        "智能电网",
+        "LED",
+        "energy",
+        "能源",
+        "conversion",
+        "转换"
+      ]
     },
     {
       "id": "guo",
@@ -464,12 +779,42 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "生物医学电磁学与天线设计专家，无线电能传输和射频技术权威。",
-      "selfDeclared": ["生物医学电磁学", "天线设计", "无线电能传输", "射频技术"],
-      "classicTags": ["Antenna Design", "RF Technology", "Wireless Power Transfer"],
-      "emergingTags": ["Biomedical Electromagnetics", "Wearable Antennas", "5G/6G Communications"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "生物医学电磁学",
+        "天线设计",
+        "无线电能传输",
+        "射频技术"
+      ],
+      "classicTags": [
+        "Antenna Design",
+        "RF Technology",
+        "Wireless Power Transfer"
+      ],
+      "emergingTags": [
+        "Biomedical Electromagnetics",
+        "Wearable Antennas",
+        "5G/6G Communications"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "GUO教授是天线和射频技术领域的资深学者，Global STEM Chair Professor。他的研究从传统天线设计延伸到生物医学电磁学和无线电能传输，在医疗植入设备和可穿戴技术方面有重要应用。",
-      "matchTags": ["antenna", "天线", "RF", "射频", "wireless power", "无线电能", "biomedical", "生物医学", "electromagnetics", "电磁", "5g", "6g", "wearable", "可穿戴"]
+      "matchTags": [
+        "antenna",
+        "天线",
+        "RF",
+        "射频",
+        "wireless power",
+        "无线电能",
+        "biomedical",
+        "生物医学",
+        "electromagnetics",
+        "电磁",
+        "5g",
+        "6g",
+        "wearable",
+        "可穿戴"
+      ]
     },
     {
       "id": "leung_kw",
@@ -482,12 +827,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "天线设计与电磁学理论专家，经典电磁学领域资深学者。",
-      "selfDeclared": ["天线设计", "电磁学理论"],
-      "classicTags": ["Antenna Design", "Electromagnetic Theory", "Microwave Engineering"],
-      "emergingTags": ["5G/6G Antennas", "Metamaterials", "Reconfigurable Antennas"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "天线设计",
+        "电磁学理论"
+      ],
+      "classicTags": [
+        "Antenna Design",
+        "Electromagnetic Theory",
+        "Microwave Engineering"
+      ],
+      "emergingTags": [
+        "5G/6G Antennas",
+        "Metamaterials",
+        "Reconfigurable Antennas"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "LEUNG教授是天线设计领域的资深学者，专注于电磁学理论和微波工程。他的研究为现代无线通信系统的天线设计提供了重要理论基础。",
-      "matchTags": ["antenna", "天线", "electromagnetics", "电磁", "microwave", "微波", "theory", "理论", "5g", "6g", "metamaterial", "超材料"]
+      "matchTags": [
+        "antenna",
+        "天线",
+        "electromagnetics",
+        "电磁",
+        "microwave",
+        "微波",
+        "theory",
+        "理论",
+        "5g",
+        "6g",
+        "metamaterial",
+        "超材料"
+      ]
     },
     {
       "id": "pang",
@@ -500,12 +871,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "生物医学传感器与纳米制造专家，太赫兹超材料器件研究方向。",
-      "selfDeclared": ["生物医学传感器", "纳米制造", "太赫兹超材料器件"],
-      "classicTags": ["Biomedical Sensors", "Nanofabrication", "MEMS"],
-      "emergingTags": ["THz Metadevices", "Wearable Sensors", "Lab-on-chip"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "生物医学传感器",
+        "纳米制造",
+        "太赫兹超材料器件"
+      ],
+      "classicTags": [
+        "Biomedical Sensors",
+        "Nanofabrication",
+        "MEMS"
+      ],
+      "emergingTags": [
+        "THz Metadevices",
+        "Wearable Sensors",
+        "Lab-on-chip"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "PANG教授是生物医学传感器和纳米制造领域的资深学者，现任CityU大学图书馆馆长。她的研究将纳米制造技术应用于生物医学传感器和太赫兹器件开发。",
-      "matchTags": ["biomedical", "生物医学", "sensor", "传感器", "nano", "纳米", "fabrication", "制造", "THz", "太赫兹", "metamaterial", "超材料", "MEMS"]
+      "matchTags": [
+        "biomedical",
+        "生物医学",
+        "sensor",
+        "传感器",
+        "nano",
+        "纳米",
+        "fabrication",
+        "制造",
+        "THz",
+        "太赫兹",
+        "metamaterial",
+        "超材料",
+        "MEMS"
+      ]
     },
     {
       "id": "pou",
@@ -518,12 +917,43 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电力电子与可再生能源专家，HVDC和智能电网研究方向，交通电气化领域权威。",
-      "selfDeclared": ["电力电子", "可再生能源", "高压直流输电", "智能电网", "交通电气化"],
-      "classicTags": ["Power Electronics", "Renewable Energy", "HVDC"],
-      "emergingTags": ["Smart Grid", "Transport Electrification", "Energy Storage"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电力电子",
+        "可再生能源",
+        "高压直流输电",
+        "智能电网",
+        "交通电气化"
+      ],
+      "classicTags": [
+        "Power Electronics",
+        "Renewable Energy",
+        "HVDC"
+      ],
+      "emergingTags": [
+        "Smart Grid",
+        "Transport Electrification",
+        "Energy Storage"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "POU教授是电力电子领域的国际知名学者，专注于可再生能源并网、高压直流输电和交通电气化。他的研究对全球能源转型和电动汽车发展具有重要意义。",
-      "matchTags": ["power electronics", "电力电子", "renewable", "可再生", "HVDC", "高压直流", "smart grid", "智能电网", "electrification", "电气化", "EV", "电动车", "energy storage", "储能"]
+      "matchTags": [
+        "power electronics",
+        "电力电子",
+        "renewable",
+        "可再生",
+        "HVDC",
+        "高压直流",
+        "smart grid",
+        "智能电网",
+        "electrification",
+        "电气化",
+        "EV",
+        "电动车",
+        "energy storage",
+        "储能"
+      ]
     },
     {
       "id": "tan_sc",
@@ -536,12 +966,41 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "先进电力电子控制专家，电动汽车充电和可再生能源并网研究方向。",
-      "selfDeclared": ["先进电力电子控制", "电动汽车充电", "可再生能源并网"],
-      "classicTags": ["Power Electronics Control", "Power Conversion", "Motor Drives"],
-      "emergingTags": ["EV Charging", "Renewable Integration", "Grid-forming Inverters"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "先进电力电子控制",
+        "电动汽车充电",
+        "可再生能源并网"
+      ],
+      "classicTags": [
+        "Power Electronics Control",
+        "Power Conversion",
+        "Motor Drives"
+      ],
+      "emergingTags": [
+        "EV Charging",
+        "Renewable Integration",
+        "Grid-forming Inverters"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "TAN教授是电力电子控制领域的资深学者，专注于先进控制策略在电力变换器和电动汽车充电系统中的应用。他的研究对智能电网和清洁能源发展具有重要价值。",
-      "matchTags": ["power electronics", "电力电子", "control", "控制", "EV", "电动车", "charging", "充电", "renewable", "可再生", "grid", "电网", "inverter", "逆变器"]
+      "matchTags": [
+        "power electronics",
+        "电力电子",
+        "control",
+        "控制",
+        "EV",
+        "电动车",
+        "charging",
+        "充电",
+        "renewable",
+        "可再生",
+        "grid",
+        "电网",
+        "inverter",
+        "逆变器"
+      ]
     },
     {
       "id": "tsai",
@@ -554,12 +1013,41 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "超材料与量子纳米光子学专家，微纳制造技术领域资深学者。",
-      "selfDeclared": ["超材料器件", "量子纳米光子学", "微纳制造"],
-      "classicTags": ["Metamaterials", "Nanophotonics", "Micro/nano Fabrication"],
-      "emergingTags": ["Quantum Photonics", "Topological Photonics", "Flat Optics"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "超材料器件",
+        "量子纳米光子学",
+        "微纳制造"
+      ],
+      "classicTags": [
+        "Metamaterials",
+        "Nanophotonics",
+        "Micro/nano Fabrication"
+      ],
+      "emergingTags": [
+        "Quantum Photonics",
+        "Topological Photonics",
+        "Flat Optics"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "TSAI教授是超材料和纳米光子学领域的国际知名学者。他的研究从传统微纳制造延伸到量子纳米光子学和拓扑光学，在下一代光电子器件和量子技术方面有重要应用。",
-      "matchTags": ["metamaterial", "超材料", "nanophotonics", "纳米光子", "quantum", "量子", "fabrication", "制造", "photonics", "光子学", "optics", "光学", "nano", "纳米"]
+      "matchTags": [
+        "metamaterial",
+        "超材料",
+        "nanophotonics",
+        "纳米光子",
+        "quantum",
+        "量子",
+        "fabrication",
+        "制造",
+        "photonics",
+        "光子学",
+        "optics",
+        "光学",
+        "nano",
+        "纳米"
+      ]
     },
     {
       "id": "tse",
@@ -572,12 +1060,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "模拟电路与电力电子专家，非线性系统研究方向，现任副校长（创新）。",
-      "selfDeclared": ["模拟电路", "电力电子", "非线性系统"],
-      "classicTags": ["Analog Circuits", "Power Electronics", "Nonlinear Dynamics"],
-      "emergingTags": ["Power Management IC", "Energy Harvesting", "Wireless Power"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "模拟电路",
+        "电力电子",
+        "非线性系统"
+      ],
+      "classicTags": [
+        "Analog Circuits",
+        "Power Electronics",
+        "Nonlinear Dynamics"
+      ],
+      "emergingTags": [
+        "Power Management IC",
+        "Energy Harvesting",
+        "Wireless Power"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "TSE教授是模拟电路和电力电子领域的资深学者，现任CityU副校长（创新）。他的研究涵盖模拟集成电路设计、电力电子变换器和非线性系统分析。",
-      "matchTags": ["analog", "模拟", "circuit", "电路", "power electronics", "电力电子", "nonlinear", "非线性", "power management", "电源管理", "energy harvesting", "能量收集"]
+      "matchTags": [
+        "analog",
+        "模拟",
+        "circuit",
+        "电路",
+        "power electronics",
+        "电力电子",
+        "nonlinear",
+        "非线性",
+        "power management",
+        "电源管理",
+        "energy harvesting",
+        "能量收集"
+      ]
     },
     {
       "id": "chan_nelson",
@@ -590,12 +1105,37 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "半导体激光动力学专家，混沌随机比特生成研究方向。",
-      "selfDeclared": ["半导体激光动力学", "混沌随机比特生成"],
-      "classicTags": ["Semiconductor Lasers", "Nonlinear Dynamics", "Chaotic Systems"],
-      "emergingTags": ["Quantum Random Number Generation", "Photonic Integrated Circuits"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "半导体激光动力学",
+        "混沌随机比特生成"
+      ],
+      "classicTags": [
+        "Semiconductor Lasers",
+        "Nonlinear Dynamics",
+        "Chaotic Systems"
+      ],
+      "emergingTags": [
+        "Quantum Random Number Generation",
+        "Photonic Integrated Circuits"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN教授是半导体激光动力学领域的资深学者，专注于混沌系统在随机数生成中的应用。他的研究对密码学和量子通信中的随机数源开发具有重要意义。",
-      "matchTags": ["laser", "激光", "semiconductor", "半导体", "chaos", "混沌", "random", "随机", "photonics", "光子学", "nonlinear", "非线性"]
+      "matchTags": [
+        "laser",
+        "激光",
+        "semiconductor",
+        "半导体",
+        "chaos",
+        "混沌",
+        "random",
+        "随机",
+        "photonics",
+        "光子学",
+        "nonlinear",
+        "非线性"
+      ]
     },
     {
       "id": "chan_rosa",
@@ -608,12 +1148,37 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "计算神经科学专家，神经假体和脑机接口研究方向。",
-      "selfDeclared": ["计算神经科学", "神经假体", "脑机接口"],
-      "classicTags": ["Computational Neuroscience", "Neural Signal Processing", "Brain-computer Interface"],
-      "emergingTags": ["Neural Prosthetics", "Cortical Implants", "Neurorehabilitation"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "计算神经科学",
+        "神经假体",
+        "脑机接口"
+      ],
+      "classicTags": [
+        "Computational Neuroscience",
+        "Neural Signal Processing",
+        "Brain-computer Interface"
+      ],
+      "emergingTags": [
+        "Neural Prosthetics",
+        "Cortical Implants",
+        "Neurorehabilitation"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN教授是计算神经科学和脑机接口领域的资深学者。她的研究从神经信号处理延伸到神经假体开发，致力于帮助瘫痪患者恢复运动功能。",
-      "matchTags": ["neuroscience", "神经科学", "brain-computer", "脑机", "neural", "神经", "prosthetics", "假体", "signal processing", "信号处理"]
+      "matchTags": [
+        "neuroscience",
+        "神经科学",
+        "brain-computer",
+        "脑机",
+        "neural",
+        "神经",
+        "prosthetics",
+        "假体",
+        "signal processing",
+        "信号处理"
+      ]
     },
     {
       "id": "leung_acs",
@@ -626,12 +1191,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "多媒体与机器学习专家，计算机图形学和信号处理研究方向。",
-      "selfDeclared": ["多媒体", "机器学习", "计算机图形学", "信号处理"],
-      "classicTags": ["Computer Graphics", "Signal Processing", "Multimedia Systems"],
-      "emergingTags": ["Machine Learning", "Deep Learning", "Computer Vision"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "多媒体",
+        "机器学习",
+        "计算机图形学",
+        "信号处理"
+      ],
+      "classicTags": [
+        "Computer Graphics",
+        "Signal Processing",
+        "Multimedia Systems"
+      ],
+      "emergingTags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "LEUNG教授是多媒体和信号处理领域的资深学者，近年来积极将机器学习技术引入计算机图形学和多媒体分析。他的研究在虚拟现实和智能媒体处理方面有重要应用。",
-      "matchTags": ["multimedia", "多媒体", "machine learning", "机器学习", "computer graphics", "计算机图形", "signal processing", "信号处理", "computer vision", "计算机视觉"]
+      "matchTags": [
+        "multimedia",
+        "多媒体",
+        "machine learning",
+        "机器学习",
+        "computer graphics",
+        "计算机图形",
+        "signal processing",
+        "信号处理",
+        "computer vision",
+        "计算机视觉"
+      ]
     },
     {
       "id": "so",
@@ -644,12 +1235,36 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "信号处理领域资深学者，研究方向涵盖参数估计和阵列信号处理。",
-      "selfDeclared": ["信号处理", "参数估计", "阵列信号处理"],
-      "classicTags": ["Signal Processing", "Parameter Estimation", "Array Processing"],
-      "emergingTags": ["Compressive Sensing", "Sparse Signal Recovery"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "信号处理",
+        "参数估计",
+        "阵列信号处理"
+      ],
+      "classicTags": [
+        "Signal Processing",
+        "Parameter Estimation",
+        "Array Processing"
+      ],
+      "emergingTags": [
+        "Compressive Sensing",
+        "Sparse Signal Recovery"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "SO教授是信号处理领域的资深学者，专注于参数估计和阵列信号处理。他的研究为雷达、通信和音频处理系统提供了重要的理论基础。",
-      "matchTags": ["signal processing", "信号处理", "estimation", "估计", "array", "阵列", "radar", "雷达", "communication", "通信"]
+      "matchTags": [
+        "signal processing",
+        "信号处理",
+        "estimation",
+        "估计",
+        "array",
+        "阵列",
+        "radar",
+        "雷达",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "wong_hei",
@@ -662,12 +1277,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电子器件与固态电路专家，半导体器件物理研究方向。",
-      "selfDeclared": ["电子器件", "固态电路", "半导体器件物理"],
-      "classicTags": ["Electronic Devices", "Solid-state Circuits", "Semiconductor Physics"],
-      "emergingTags": ["Nanoelectronics", "Flexible Electronics", "Power Devices"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电子器件",
+        "固态电路",
+        "半导体器件物理"
+      ],
+      "classicTags": [
+        "Electronic Devices",
+        "Solid-state Circuits",
+        "Semiconductor Physics"
+      ],
+      "emergingTags": [
+        "Nanoelectronics",
+        "Flexible Electronics",
+        "Power Devices"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WONG教授是电子器件和固态电路领域的资深学者，专注于半导体器件物理和集成电路设计。他的研究对提高芯片性能和可靠性具有重要意义。",
-      "matchTags": ["device", "器件", "semiconductor", "半导体", "circuit", "电路", "electronics", "电子", "solid-state", "固态", "physics", "物理"]
+      "matchTags": [
+        "device",
+        "器件",
+        "semiconductor",
+        "半导体",
+        "circuit",
+        "电路",
+        "electronics",
+        "电子",
+        "solid-state",
+        "固态",
+        "physics",
+        "物理"
+      ]
     },
     {
       "id": "wong_steve",
@@ -680,12 +1322,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "天线与太赫兹技术专家，超表面和毫米波研究方向。",
-      "selfDeclared": ["天线", "太赫兹技术", "超表面", "毫米波"],
-      "classicTags": ["Antenna Design", "THz Technology", "Metasurfaces"],
-      "emergingTags": ["5G/6G Communications", "Reconfigurable Intelligent Surfaces", "mmWave Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "天线",
+        "太赫兹技术",
+        "超表面",
+        "毫米波"
+      ],
+      "classicTags": [
+        "Antenna Design",
+        "THz Technology",
+        "Metasurfaces"
+      ],
+      "emergingTags": [
+        "5G/6G Communications",
+        "Reconfigurable Intelligent Surfaces",
+        "mmWave Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WONG教授是天线和太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统天线设计延伸到超表面和可重构智能表面，在5G/6G通信系统中有重要应用。",
-      "matchTags": ["antenna", "天线", "THz", "太赫兹", "metasurface", "超表面", "mmWave", "毫米波", "5g", "6g", "communication", "通信"]
+      "matchTags": [
+        "antenna",
+        "天线",
+        "THz",
+        "太赫兹",
+        "metasurface",
+        "超表面",
+        "mmWave",
+        "毫米波",
+        "5g",
+        "6g",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "chan_andy",
@@ -698,12 +1368,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "集成光纤光学与光子传感器专家，太赫兹器件研究方向。",
-      "selfDeclared": ["集成光纤光学", "光子传感器", "太赫兹器件"],
-      "classicTags": ["Integrated Optics", "Photonic Sensors", "THz Devices"],
-      "emergingTags": ["Silicon Photonics", "Optical Communication Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "集成光纤光学",
+        "光子传感器",
+        "太赫兹器件"
+      ],
+      "classicTags": [
+        "Integrated Optics",
+        "Photonic Sensors",
+        "THz Devices"
+      ],
+      "emergingTags": [
+        "Silicon Photonics",
+        "Optical Communication Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN副教授是集成光学和光子传感器领域的学者，专注于光纤器件和太赫兹技术开发。他的研究在光通信和传感系统中有重要应用。",
-      "matchTags": ["optics", "光学", "fiber", "光纤", "photonic", "光子", "sensor", "传感器", "THz", "太赫兹", "communication", "通信"]
+      "matchTags": [
+        "optics",
+        "光学",
+        "fiber",
+        "光纤",
+        "photonic",
+        "光子",
+        "sensor",
+        "传感器",
+        "THz",
+        "太赫兹",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "chan_katie",
@@ -716,12 +1412,37 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "生物信息学与计算生物学专家，大数据分析研究方向。",
-      "selfDeclared": ["生物信息学", "计算生物学", "大数据分析"],
-      "classicTags": ["Bioinformatics", "Computational Biology", "Genomics"],
-      "emergingTags": ["Big Data Analytics", "Machine Learning", "Systems Biology"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "生物信息学",
+        "计算生物学",
+        "大数据分析"
+      ],
+      "classicTags": [
+        "Bioinformatics",
+        "Computational Biology",
+        "Genomics"
+      ],
+      "emergingTags": [
+        "Big Data Analytics",
+        "Machine Learning",
+        "Systems Biology"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN副教授是生物信息学领域的学者，专注于计算生物学和基因组大数据分析。她的工作致力于通过计算方法解析复杂生物系统。",
-      "matchTags": ["bioinformatics", "生物信息学", "computational biology", "计算生物学", "big data", "大数据", "genomics", "基因组学", "machine learning", "机器学习"]
+      "matchTags": [
+        "bioinformatics",
+        "生物信息学",
+        "computational biology",
+        "计算生物学",
+        "big data",
+        "大数据",
+        "genomics",
+        "基因组学",
+        "machine learning",
+        "机器学习"
+      ]
     },
     {
       "id": "chan_leanne",
@@ -734,12 +1455,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "神经工程与视觉假体专家，神经调控和生物信号处理研究方向。",
-      "selfDeclared": ["神经工程", "视觉假体", "神经调控", "生物信号处理"],
-      "classicTags": ["Neural Engineering", "Visual Prosthetics", "Neuromodulation"],
-      "emergingTags": ["Bio-signal Processing", "Brain-computer Interface", "Neurorehabilitation"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "神经工程",
+        "视觉假体",
+        "神经调控",
+        "生物信号处理"
+      ],
+      "classicTags": [
+        "Neural Engineering",
+        "Visual Prosthetics",
+        "Neuromodulation"
+      ],
+      "emergingTags": [
+        "Bio-signal Processing",
+        "Brain-computer Interface",
+        "Neurorehabilitation"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN副教授是神经工程领域的学者，专注于视觉假体和神经调控技术。她的研究旨在帮助视觉障碍患者恢复视力，在生物医学工程领域有重要应用。",
-      "matchTags": ["neural", "神经", "prosthetics", "假体", "visual", "视觉", "neuromodulation", "神经调控", "bio-signal", "生物信号", "brain-computer", "脑机"]
+      "matchTags": [
+        "neural",
+        "神经",
+        "prosthetics",
+        "假体",
+        "visual",
+        "视觉",
+        "neuromodulation",
+        "神经调控",
+        "bio-signal",
+        "生物信号",
+        "brain-computer",
+        "脑机"
+      ]
     },
     {
       "id": "chan_sammy",
@@ -752,12 +1501,37 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "无线网络与性能评估专家，网络安全研究方向。",
-      "selfDeclared": ["无线网络", "性能评估", "网络安全"],
-      "classicTags": ["Wireless Networks", "Performance Evaluation", "Network Security"],
-      "emergingTags": ["5G/6G Networks", "IoT Security", "Distributed Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "无线网络",
+        "性能评估",
+        "网络安全"
+      ],
+      "classicTags": [
+        "Wireless Networks",
+        "Performance Evaluation",
+        "Network Security"
+      ],
+      "emergingTags": [
+        "5G/6G Networks",
+        "IoT Security",
+        "Distributed Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN副教授是无线网络领域的学者，专注于网络性能评估和安全研究。他的工作对设计高效可靠的通信系统具有重要意义。",
-      "matchTags": ["wireless", "无线", "network", "网络", "security", "安全", "performance", "性能", "communication", "通信"]
+      "matchTags": [
+        "wireless",
+        "无线",
+        "network",
+        "网络",
+        "security",
+        "安全",
+        "performance",
+        "性能",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "chan_ws",
@@ -770,12 +1544,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "高功率射频微波与放大器专家。",
-      "selfDeclared": ["高功率射频微波", "放大器"],
-      "classicTags": ["High-power RF", "Microwave Amplifiers", "Power Electronics"],
-      "emergingTags": ["5G Base Stations", "Radar Systems", "Satellite Communication"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "高功率射频微波",
+        "放大器"
+      ],
+      "classicTags": [
+        "High-power RF",
+        "Microwave Amplifiers",
+        "Power Electronics"
+      ],
+      "emergingTags": [
+        "5G Base Stations",
+        "Radar Systems",
+        "Satellite Communication"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHAN副教授是射频微波领域的学者，专注于高功率放大器和微波系统设计。他的研究在通信基站和雷达系统中有重要应用。",
-      "matchTags": ["RF", "射频", "microwave", "微波", "amplifier", "放大器", "power", "功率", "communication", "通信", "radar", "雷达"]
+      "matchTags": [
+        "RF",
+        "射频",
+        "microwave",
+        "微波",
+        "amplifier",
+        "放大器",
+        "power",
+        "功率",
+        "communication",
+        "通信",
+        "radar",
+        "雷达"
+      ]
     },
     {
       "id": "jiang",
@@ -788,12 +1588,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电动汽车技术与电力电子专家，无线电能传输研究方向。",
-      "selfDeclared": ["电动汽车技术", "电力电子", "无线电能传输"],
-      "classicTags": ["Power Electronics", "Electric Vehicles", "Motor Drives"],
-      "emergingTags": ["Wireless Power Transfer", "Battery Management", "Charging Infrastructure"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电动汽车技术",
+        "电力电子",
+        "无线电能传输"
+      ],
+      "classicTags": [
+        "Power Electronics",
+        "Electric Vehicles",
+        "Motor Drives"
+      ],
+      "emergingTags": [
+        "Wireless Power Transfer",
+        "Battery Management",
+        "Charging Infrastructure"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "JIANG副教授是电动汽车和电力电子领域的学者，专注于EV动力系统和无线电能传输技术。他的研究对推动交通电气化和智能充电网络发展具有重要意义。",
-      "matchTags": ["EV", "电动车", "power electronics", "电力电子", "wireless power", "无线电能", "battery", "电池", "charging", "充电", "motor", "电机"]
+      "matchTags": [
+        "EV",
+        "电动车",
+        "power electronics",
+        "电力电子",
+        "wireless power",
+        "无线电能",
+        "battery",
+        "电池",
+        "charging",
+        "充电",
+        "motor",
+        "电机"
+      ]
     },
     {
       "id": "nekoei",
@@ -806,12 +1633,41 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "控制系统与安全隐私专家，通信网络和人工智能/机器学习交叉研究方向。",
-      "selfDeclared": ["控制系统", "安全隐私", "通信网络", "人工智能", "机器学习"],
-      "classicTags": ["Control Systems", "Network Security", "Communication Networks"],
-      "emergingTags": ["AI/ML", "Privacy-preserving Computing", "Distributed Optimization"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "控制系统",
+        "安全隐私",
+        "通信网络",
+        "人工智能",
+        "机器学习"
+      ],
+      "classicTags": [
+        "Control Systems",
+        "Network Security",
+        "Communication Networks"
+      ],
+      "emergingTags": [
+        "AI/ML",
+        "Privacy-preserving Computing",
+        "Distributed Optimization"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "NEKOUEI副教授是控制理论和网络安全领域的学者，专注于将AI/ML技术应用于控制系统和通信网络。他的研究在智能系统的安全性和可靠性方面具有重要意义。",
-      "matchTags": ["control", "控制", "security", "安全", "privacy", "隐私", "network", "网络", "AI", "artificial intelligence", "machine learning", "机器学习"]
+      "matchTags": [
+        "control",
+        "控制",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "network",
+        "网络",
+        "AI",
+        "artificial intelligence",
+        "machine learning",
+        "机器学习"
+      ]
     },
     {
       "id": "sung",
@@ -824,12 +1680,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "无线通信网络与资源分配专家，分布式机器学习研究方向。",
-      "selfDeclared": ["无线通信网络", "资源分配", "分布式机器学习"],
-      "classicTags": ["Wireless Communications", "Resource Allocation", "Network Optimization"],
-      "emergingTags": ["Distributed ML", "Federated Learning", "5G/6G Networks"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "无线通信网络",
+        "资源分配",
+        "分布式机器学习"
+      ],
+      "classicTags": [
+        "Wireless Communications",
+        "Resource Allocation",
+        "Network Optimization"
+      ],
+      "emergingTags": [
+        "Distributed ML",
+        "Federated Learning",
+        "5G/6G Networks"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "SUNG副教授是无线通信领域的学者，专注于网络资源分配和分布式机器学习。他的研究对设计高效智能的无线通信系统具有重要意义。",
-      "matchTags": ["wireless", "无线", "communication", "通信", "network", "网络", "resource allocation", "资源分配", "distributed", "分布式", "machine learning", "机器学习"]
+      "matchTags": [
+        "wireless",
+        "无线",
+        "communication",
+        "通信",
+        "network",
+        "网络",
+        "resource allocation",
+        "资源分配",
+        "distributed",
+        "分布式",
+        "machine learning",
+        "机器学习"
+      ]
     },
     {
       "id": "tan_chaoliang",
@@ -842,12 +1725,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "二维材料与微电子专家，光子学和纳米医学研究方向。",
-      "selfDeclared": ["二维材料", "微电子", "光子学", "纳米医学"],
-      "classicTags": ["2D Materials", "Microelectronics", "Photonics"],
-      "emergingTags": ["Nanomedicine", "Optoelectronics", "Flexible Electronics"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "二维材料",
+        "微电子",
+        "光子学",
+        "纳米医学"
+      ],
+      "classicTags": [
+        "2D Materials",
+        "Microelectronics",
+        "Photonics"
+      ],
+      "emergingTags": [
+        "Nanomedicine",
+        "Optoelectronics",
+        "Flexible Electronics"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "TAN副教授是二维材料和纳米技术领域的学者，专注于新型电子材料和光电器件开发。他的研究在纳米医学和柔性电子方面有重要应用前景。",
-      "matchTags": ["2D materials", "二维材料", "microelectronics", "微电子", "photonics", "光子学", "nanomedicine", "纳米医学", "optoelectronics", "光电子"]
+      "matchTags": [
+        "2D materials",
+        "二维材料",
+        "microelectronics",
+        "微电子",
+        "photonics",
+        "光子学",
+        "nanomedicine",
+        "纳米医学",
+        "optoelectronics",
+        "光电子"
+      ]
     },
     {
       "id": "wang_cheng",
@@ -860,12 +1769,37 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "纳米制造与光子集成电路专家，光通信研究方向。",
-      "selfDeclared": ["纳米制造", "光子集成电路", "光通信"],
-      "classicTags": ["Nanofabrication", "Photonic Integrated Circuits", "Optical Communications"],
-      "emergingTags": ["Silicon Photonics", "Quantum Communication", "High-speed Optical Networks"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "纳米制造",
+        "光子集成电路",
+        "光通信"
+      ],
+      "classicTags": [
+        "Nanofabrication",
+        "Photonic Integrated Circuits",
+        "Optical Communications"
+      ],
+      "emergingTags": [
+        "Silicon Photonics",
+        "Quantum Communication",
+        "High-speed Optical Networks"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WANG副教授是纳米制造和光子学领域的学者，专注于光子集成电路和光通信系统。他的研究对高速光网络和量子通信技术发展具有重要意义。",
-      "matchTags": ["nanofabrication", "纳米制造", "photonic", "光子", "integrated circuit", "集成电路", "optical", "光", "communication", "通信"]
+      "matchTags": [
+        "nanofabrication",
+        "纳米制造",
+        "photonic",
+        "光子",
+        "integrated circuit",
+        "集成电路",
+        "optical",
+        "光",
+        "communication",
+        "通信"
+      ]
     },
     {
       "id": "wong_amh",
@@ -878,12 +1812,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "超材料与超表面专家，超分辨率和天线研究方向。",
-      "selfDeclared": ["超材料", "超表面", "超分辨率", "天线"],
-      "classicTags": ["Metamaterials", "Metasurfaces", "Super-resolution"],
-      "emergingTags": ["Reconfigurable Intelligent Surfaces", "5G/6G Antennas", "Imaging Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "超材料",
+        "超表面",
+        "超分辨率",
+        "天线"
+      ],
+      "classicTags": [
+        "Metamaterials",
+        "Metasurfaces",
+        "Super-resolution"
+      ],
+      "emergingTags": [
+        "Reconfigurable Intelligent Surfaces",
+        "5G/6G Antennas",
+        "Imaging Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WONG副教授是超材料领域的学者，专注于超表面设计和超分辨率成像技术。他的研究在先进天线和成像系统中有重要应用。",
-      "matchTags": ["metamaterial", "超材料", "metasurface", "超表面", "super-resolution", "超分辨率", "antenna", "天线", "imaging", "成像"]
+      "matchTags": [
+        "metamaterial",
+        "超材料",
+        "metasurface",
+        "超表面",
+        "super-resolution",
+        "超分辨率",
+        "antenna",
+        "天线",
+        "imaging",
+        "成像"
+      ]
     },
     {
       "id": "wong_ewm",
@@ -896,12 +1856,42 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电信网络与医疗系统专家，绿色蜂窝网络和光交换研究方向。",
-      "selfDeclared": ["电信网络", "医疗系统", "绿色蜂窝网络", "光交换"],
-      "classicTags": ["Telecom Networks", "Optical Switching", "Cellular Networks"],
-      "emergingTags": ["Green Networks", "Healthcare IoT", "5G/6G Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电信网络",
+        "医疗系统",
+        "绿色蜂窝网络",
+        "光交换"
+      ],
+      "classicTags": [
+        "Telecom Networks",
+        "Optical Switching",
+        "Cellular Networks"
+      ],
+      "emergingTags": [
+        "Green Networks",
+        "Healthcare IoT",
+        "5G/6G Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WONG副教授是电信网络领域的学者，专注于绿色通信网络和医疗信息系统。他的研究对可持续通信和智能医疗发展具有重要意义。",
-      "matchTags": ["telecom", "电信", "network", "网络", "healthcare", "医疗", "green", "绿色", "cellular", "蜂窝", "optical", "光", "switching", "交换"]
+      "matchTags": [
+        "telecom",
+        "电信",
+        "network",
+        "网络",
+        "healthcare",
+        "医疗",
+        "green",
+        "绿色",
+        "cellular",
+        "蜂窝",
+        "optical",
+        "光",
+        "switching",
+        "交换"
+      ]
     },
     {
       "id": "yuen",
@@ -914,12 +1904,36 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "黑盒优化与人工智能专家。",
-      "selfDeclared": ["黑盒优化", "人工智能"],
-      "classicTags": ["Black-box Optimization", "Evolutionary Algorithms", "Metaheuristics"],
-      "emergingTags": ["AI-driven Optimization", "AutoML", "Neural Architecture Search"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "黑盒优化",
+        "人工智能"
+      ],
+      "classicTags": [
+        "Black-box Optimization",
+        "Evolutionary Algorithms",
+        "Metaheuristics"
+      ],
+      "emergingTags": [
+        "AI-driven Optimization",
+        "AutoML",
+        "Neural Architecture Search"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "YUEN副教授是优化算法和AI领域的学者，专注于黑盒优化和自动机器学习。他的研究对设计高效智能的优化系统具有重要意义。",
-      "matchTags": ["optimization", "优化", "black-box", "黑盒", "AI", "artificial intelligence", "evolutionary", "进化", "algorithm", "算法"]
+      "matchTags": [
+        "optimization",
+        "优化",
+        "black-box",
+        "黑盒",
+        "AI",
+        "artificial intelligence",
+        "evolutionary",
+        "进化",
+        "algorithm",
+        "算法"
+      ]
     },
     {
       "id": "chen_muku",
@@ -932,12 +1946,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "超材料与纳米光子学专家，微纳制造技术研究方向。",
-      "selfDeclared": ["超材料器件", "纳米光子学", "微纳制造"],
-      "classicTags": ["Metamaterials", "Nanophotonics", "Micro/nano Fabrication"],
-      "emergingTags": ["Quantum Photonics", "Topological Photonics", "Flat Optics"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "超材料器件",
+        "纳米光子学",
+        "微纳制造"
+      ],
+      "classicTags": [
+        "Metamaterials",
+        "Nanophotonics",
+        "Micro/nano Fabrication"
+      ],
+      "emergingTags": [
+        "Quantum Photonics",
+        "Topological Photonics",
+        "Flat Optics"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "CHEN助理教授是超材料和纳米光子学领域的青年学者，专注于微纳制造技术和新型光电器件开发。他的研究在量子技术和下一代光电子器件方面有重要应用前景。",
-      "matchTags": ["metamaterial", "超材料", "nanophotonics", "纳米光子", "fabrication", "制造", "photonics", "光子学", "quantum", "量子", "optics", "光学"]
+      "matchTags": [
+        "metamaterial",
+        "超材料",
+        "nanophotonics",
+        "纳米光子",
+        "fabrication",
+        "制造",
+        "photonics",
+        "光子学",
+        "quantum",
+        "量子",
+        "optics",
+        "光学"
+      ]
     },
     {
       "id": "feng",
@@ -950,12 +1991,39 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "光子集成电路与微波光子学专家，集成传感研究方向。",
-      "selfDeclared": ["光子集成电路", "微波光子学", "集成传感"],
-      "classicTags": ["Photonic Integrated Circuits", "Microwave Photonics", "Integrated Sensing"],
-      "emergingTags": ["LiDAR Systems", "Optical Signal Processing", "Quantum Sensing"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "光子集成电路",
+        "微波光子学",
+        "集成传感"
+      ],
+      "classicTags": [
+        "Photonic Integrated Circuits",
+        "Microwave Photonics",
+        "Integrated Sensing"
+      ],
+      "emergingTags": [
+        "LiDAR Systems",
+        "Optical Signal Processing",
+        "Quantum Sensing"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "FENG助理教授是光子学领域的青年学者，专注于光子集成电路和微波光子学技术。他的研究在集成传感和光通信系统中有重要应用。",
-      "matchTags": ["photonic", "光子", "integrated circuit", "集成电路", "microwave", "微波", "sensing", "传感", "LiDAR", "激光雷达", "optical", "光"]
+      "matchTags": [
+        "photonic",
+        "光子",
+        "integrated circuit",
+        "集成电路",
+        "microwave",
+        "微波",
+        "sensing",
+        "传感",
+        "LiDAR",
+        "激光雷达",
+        "optical",
+        "光"
+      ]
     },
     {
       "id": "li_chaojie",
@@ -968,12 +2036,41 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "AI可再生能源集成与AIoT电池系统专家，分布式电网控制研究方向。",
-      "selfDeclared": ["AI可再生能源集成", "AIoT电池系统", "分布式电网控制"],
-      "classicTags": ["Renewable Energy", "Battery Systems", "Distributed Control"],
-      "emergingTags": ["AIoT", "Smart Grid", "Energy Management"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "AI可再生能源集成",
+        "AIoT电池系统",
+        "分布式电网控制"
+      ],
+      "classicTags": [
+        "Renewable Energy",
+        "Battery Systems",
+        "Distributed Control"
+      ],
+      "emergingTags": [
+        "AIoT",
+        "Smart Grid",
+        "Energy Management"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "LI助理教授是AI和能源系统交叉领域的青年学者，专注于将AI技术应用于可再生能源集成和电池管理。他的研究对智能电网和分布式能源系统发展具有重要意义。",
-      "matchTags": ["AI", "renewable", "可再生", "energy", "能源", "battery", "电池", "AIoT", "distributed", "分布式", "grid", "电网", "control", "控制"]
+      "matchTags": [
+        "AI",
+        "renewable",
+        "可再生",
+        "energy",
+        "能源",
+        "battery",
+        "电池",
+        "AIoT",
+        "distributed",
+        "分布式",
+        "grid",
+        "电网",
+        "control",
+        "控制"
+      ]
     },
     {
       "id": "li_kerui",
@@ -986,12 +2083,41 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "无线电能传输与电力电子专家，功率变换器建模与控制研究方向。",
-      "selfDeclared": ["无线电能传输", "电力电子", "功率变换器建模与控制"],
-      "classicTags": ["Wireless Power Transfer", "Power Electronics", "Power Converters"],
-      "emergingTags": ["EV Charging", "Battery Management", "Grid Integration"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "无线电能传输",
+        "电力电子",
+        "功率变换器建模与控制"
+      ],
+      "classicTags": [
+        "Wireless Power Transfer",
+        "Power Electronics",
+        "Power Converters"
+      ],
+      "emergingTags": [
+        "EV Charging",
+        "Battery Management",
+        "Grid Integration"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "LI助理教授是无线电能传输领域的青年学者，专注于功率变换器建模和控制策略。他的研究对电动汽车充电和智能电网技术发展具有重要意义。",
-      "matchTags": ["wireless power", "无线电能", "power electronics", "电力电子", "converter", "变换器", "modeling", "建模", "control", "控制", "EV", "电动车", "charging", "充电"]
+      "matchTags": [
+        "wireless power",
+        "无线电能",
+        "power electronics",
+        "电力电子",
+        "converter",
+        "变换器",
+        "modeling",
+        "建模",
+        "control",
+        "控制",
+        "EV",
+        "电动车",
+        "charging",
+        "充电"
+      ]
     },
     {
       "id": "song",
@@ -1004,12 +2130,42 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "信息物理系统与物联网专家，传感和移动计算研究方向。",
-      "selfDeclared": ["信息物理系统", "物联网", "传感", "移动计算"],
-      "classicTags": ["Cyber-physical Systems", "IoT", "Mobile Computing"],
-      "emergingTags": ["Edge Computing", "Smart Sensing", "Digital Twins"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "信息物理系统",
+        "物联网",
+        "传感",
+        "移动计算"
+      ],
+      "classicTags": [
+        "Cyber-physical Systems",
+        "IoT",
+        "Mobile Computing"
+      ],
+      "emergingTags": [
+        "Edge Computing",
+        "Smart Sensing",
+        "Digital Twins"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "SONG助理教授是物联网领域的青年学者，专注于信息物理系统和智能传感技术。他的研究在智慧城市和工业物联网方面有重要应用。",
-      "matchTags": ["cyber-physical", "信息物理", "IoT", "物联网", "sensing", "传感", "mobile", "移动", "computing", "计算", "edge", "边缘", "smart", "智能"]
+      "matchTags": [
+        "cyber-physical",
+        "信息物理",
+        "IoT",
+        "物联网",
+        "sensing",
+        "传感",
+        "mobile",
+        "移动",
+        "computing",
+        "计算",
+        "edge",
+        "边缘",
+        "smart",
+        "智能"
+      ]
     },
     {
       "id": "tao",
@@ -1022,12 +2178,38 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "电力系统规划与电力市场专家，智能电网和电动汽车研究方向。",
-      "selfDeclared": ["电力系统规划", "电力市场", "智能电网", "电动汽车"],
-      "classicTags": ["Power System Planning", "Electricity Market", "Smart Grid"],
-      "emergingTags": ["EV Integration", "Demand Response", "Energy Trading"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "电力系统规划",
+        "电力市场",
+        "智能电网",
+        "电动汽车"
+      ],
+      "classicTags": [
+        "Power System Planning",
+        "Electricity Market",
+        "Smart Grid"
+      ],
+      "emergingTags": [
+        "EV Integration",
+        "Demand Response",
+        "Energy Trading"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "TAO助理教授是电力系统领域的青年学者，专注于电力市场设计和智能电网规划。他的研究对电力系统经济性和可靠性优化具有重要意义。",
-      "matchTags": ["power system", "电力系统", "electricity market", "电力市场", "smart grid", "智能电网", "EV", "电动车", "planning", "规划"]
+      "matchTags": [
+        "power system",
+        "电力系统",
+        "electricity market",
+        "电力市场",
+        "smart grid",
+        "智能电网",
+        "EV",
+        "电动车",
+        "planning",
+        "规划"
+      ]
     },
     {
       "id": "wu_gengbo",
@@ -1040,12 +2222,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "太赫兹天线与可重构智能表面专家，集成传感与通信研究方向。",
-      "selfDeclared": ["太赫兹天线", "可重构智能表面", "集成传感与通信"],
-      "classicTags": ["THz Antennas", "Reconfigurable Intelligent Surfaces", "Integrated Sensing"],
-      "emergingTags": ["6G Communications", "Joint Sensing-Communication", "Holographic MIMO"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "太赫兹天线",
+        "可重构智能表面",
+        "集成传感与通信"
+      ],
+      "classicTags": [
+        "THz Antennas",
+        "Reconfigurable Intelligent Surfaces",
+        "Integrated Sensing"
+      ],
+      "emergingTags": [
+        "6G Communications",
+        "Joint Sensing-Communication",
+        "Holographic MIMO"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "WU助理教授是太赫兹技术领域的青年学者，专注于可重构智能表面和集成传感通信系统。他的研究对6G通信技术发展具有重要意义。",
-      "matchTags": ["THz", "太赫兹", "antenna", "天线", "RIS", "可重构智能表面", "sensing", "传感", "communication", "通信", "6g", "integrated", "集成"]
+      "matchTags": [
+        "THz",
+        "太赫兹",
+        "antenna",
+        "天线",
+        "RIS",
+        "可重构智能表面",
+        "sensing",
+        "传感",
+        "communication",
+        "通信",
+        "6g",
+        "integrated",
+        "集成"
+      ]
     },
     {
       "id": "yu_alex",
@@ -1058,12 +2268,40 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "移动通信与无线系统专家，信号处理研究方向。",
-      "selfDeclared": ["移动通信", "无线系统", "信号处理"],
-      "classicTags": ["Mobile Communications", "Wireless Systems", "Signal Processing"],
-      "emergingTags": ["5G/6G", "Massive MIMO", " mmWave Communications"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "移动通信",
+        "无线系统",
+        "信号处理"
+      ],
+      "classicTags": [
+        "Mobile Communications",
+        "Wireless Systems",
+        "Signal Processing"
+      ],
+      "emergingTags": [
+        "5G/6G",
+        "Massive MIMO",
+        " mmWave Communications"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "YU助理教授是无线通信领域的青年学者，专注于移动通信系统和信号处理技术。他的研究对5G/6G通信系统发展具有重要意义。",
-      "matchTags": ["mobile", "移动", "communication", "通信", "wireless", "无线", "system", "系统", "signal processing", "信号处理", "5g", "6g", "MIMO"]
+      "matchTags": [
+        "mobile",
+        "移动",
+        "communication",
+        "通信",
+        "wireless",
+        "无线",
+        "system",
+        "系统",
+        "signal processing",
+        "信号处理",
+        "5g",
+        "6g",
+        "MIMO"
+      ]
     },
     {
       "id": "zhu_yue",
@@ -1076,29 +2314,220 @@
       "scopusCitations": 0,
       "hIndex": 0,
       "oneLiner": "逆变器主导电力系统稳定性专家，数据驱动建模研究方向。",
-      "selfDeclared": ["逆变器主导电力系统稳定性", "数据驱动建模"],
-      "classicTags": ["Power System Stability", "Inverter-dominated Grids", "Data-driven Modeling"],
-      "emergingTags": ["Renewable Integration", "Grid-forming Inverters", "AI for Power Systems"],
-      "recentPapers": ["待核实 - 建议直接查看CityU Scholars发表列表"],
+      "selfDeclared": [
+        "逆变器主导电力系统稳定性",
+        "数据驱动建模"
+      ],
+      "classicTags": [
+        "Power System Stability",
+        "Inverter-dominated Grids",
+        "Data-driven Modeling"
+      ],
+      "emergingTags": [
+        "Renewable Integration",
+        "Grid-forming Inverters",
+        "AI for Power Systems"
+      ],
+      "recentPapers": [
+        "待核实 - 建议直接查看CityU Scholars发表列表"
+      ],
       "narrative": "ZHU助理教授是电力系统领域的青年学者（Presidential Assistant Professor），专注于逆变器主导电网的稳定性分析和数据驱动建模。她的研究对高比例可再生能源电网的安全运行具有重要意义。",
-      "matchTags": ["power system", "电力系统", "inverter", "逆变器", "stability", "稳定性", "data-driven", "数据驱动", "modeling", "建模", "renewable", "可再生", "grid", "电网"]
+      "matchTags": [
+        "power system",
+        "电力系统",
+        "inverter",
+        "逆变器",
+        "stability",
+        "稳定性",
+        "data-driven",
+        "数据驱动",
+        "modeling",
+        "建模",
+        "renewable",
+        "可再生",
+        "grid",
+        "电网"
+      ]
     }
   ],
   "themes": [
-    {"id": "antenna", "nameEn": "Antenna Design", "nameZh": "天线设计", "profIds": ["luk"]},
-    {"id": "aiml", "nameEn": "Big Data / ML / AI", "nameZh": "大数据/机器学习/AI", "profIds": ["po", "li"]},
-    {"id": "bioinfo", "nameEn": "Bioinformatics", "nameZh": "生物信息学", "profIds": []},
-    {"id": "biomed", "nameEn": "Biomedical Systems & Bioelectronics", "nameZh": "生物医学系统/生物电子", "profIds": ["basu"]},
-    {"id": "compeng", "nameEn": "Computer Engineering", "nameZh": "计算机工程", "profIds": ["cheung"]},
-    {"id": "control", "nameEn": "Control Systems & Optimization", "nameZh": "控制系统与优化", "profIds": []},
-    {"id": "micro", "nameEn": "Microelectronic Devices & Circuits", "nameZh": "微电子器件与电路", "profIds": []},
-    {"id": "nano", "nameEn": "Nanotechnology & Nanodevices", "nameZh": "纳米技术与纳米器件", "profIds": []},
-    {"id": "network", "nameEn": "Networking & IoT", "nameZh": "网络与物联网", "profIds": ["dai"]},
-    {"id": "photonics", "nameEn": "Photonics", "nameZh": "光子学", "profIds": []},
-    {"id": "power", "nameEn": "Power Electronics & Systems", "nameZh": "电力电子与系统", "profIds": ["hui"]},
-    {"id": "signal", "nameEn": "Signal & Image Processing", "nameZh": "信号与图像处理", "profIds": ["po"]},
-    {"id": "thz", "nameEn": "Terahertz & Millimeter Waves", "nameZh": "太赫兹与毫米波", "profIds": []},
-    {"id": "wireless", "nameEn": "Wireless Communications", "nameZh": "无线通信", "profIds": ["dai"]}
+    {
+      "id": "antenna",
+      "nameEn": "Antenna Design",
+      "nameZh": "天线设计",
+      "profIds": [
+        "luk",
+        "guo",
+        "leung_kw",
+        "wong_steve",
+        "wong_amh",
+        "wu_gengbo"
+      ]
+    },
+    {
+      "id": "aiml",
+      "nameEn": "Big Data / ML / AI",
+      "nameZh": "大数据/机器学习/AI",
+      "profIds": [
+        "po",
+        "basu",
+        "cheung",
+        "li",
+        "sun_yanni",
+        "yan",
+        "leung_acs",
+        "yuen",
+        "li_chaojie"
+      ]
+    },
+    {
+      "id": "bioinfo",
+      "nameEn": "Bioinformatics",
+      "nameZh": "生物信息学",
+      "profIds": [
+        "sun_yanni",
+        "chan_katie"
+      ]
+    },
+    {
+      "id": "biomed",
+      "nameEn": "Biomedical Systems & Bioelectronics",
+      "nameZh": "生物医学系统/生物电子",
+      "profIds": [
+        "basu",
+        "pang",
+        "chan_rosa",
+        "chan_leanne"
+      ]
+    },
+    {
+      "id": "compeng",
+      "nameEn": "Computer Engineering",
+      "nameZh": "计算机工程",
+      "profIds": [
+        "cheung"
+      ]
+    },
+    {
+      "id": "control",
+      "nameEn": "Control Systems & Optimization",
+      "nameZh": "控制系统与优化",
+      "profIds": [
+        "chen_gr",
+        "chen_jie",
+        "tan_sc",
+        "nekoei",
+        "yuen",
+        "tao"
+      ]
+    },
+    {
+      "id": "micro",
+      "nameEn": "Microelectronic Devices & Circuits",
+      "nameZh": "微电子器件与电路",
+      "profIds": [
+        "chan_ch",
+        "tse",
+        "chan_nelson",
+        "wong_hei",
+        "chan_ws",
+        "wang_cheng",
+        "feng"
+      ]
+    },
+    {
+      "id": "nano",
+      "nameEn": "Nanotechnology & Nanodevices",
+      "nameZh": "纳米技术与纳米器件",
+      "profIds": [
+        "pang",
+        "tsai",
+        "tan_chaoliang",
+        "wong_amh",
+        "chen_muku"
+      ]
+    },
+    {
+      "id": "network",
+      "nameEn": "Networking & IoT",
+      "nameZh": "网络与物联网",
+      "profIds": [
+        "dai",
+        "chen_jie",
+        "chan_sammy",
+        "nekoei",
+        "sung",
+        "wong_ewm",
+        "song"
+      ]
+    },
+    {
+      "id": "photonics",
+      "nameEn": "Photonics",
+      "nameZh": "光子学",
+      "profIds": [
+        "chiang",
+        "tsai",
+        "chan_nelson",
+        "chan_andy",
+        "tan_chaoliang",
+        "wang_cheng",
+        "chen_muku",
+        "feng"
+      ]
+    },
+    {
+      "id": "power",
+      "nameEn": "Power Electronics & Systems",
+      "nameZh": "电力电子与系统",
+      "profIds": [
+        "hui",
+        "dong",
+        "chung_hsh",
+        "pou",
+        "tan_sc",
+        "tse",
+        "jiang",
+        "li_chaojie",
+        "li_kerui",
+        "tao",
+        "zhu_yue"
+      ]
+    },
+    {
+      "id": "signal",
+      "nameEn": "Signal & Image Processing",
+      "nameZh": "信号与图像处理",
+      "profIds": [
+        "po",
+        "yan",
+        "leung_acs",
+        "so"
+      ]
+    },
+    {
+      "id": "thz",
+      "nameEn": "Terahertz & Millimeter Waves",
+      "nameZh": "太赫兹与毫米波",
+      "profIds": [
+        "chan_ch",
+        "wong_steve",
+        "wu_gengbo"
+      ]
+    },
+    {
+      "id": "wireless",
+      "nameEn": "Wireless Communications",
+      "nameZh": "无线通信",
+      "profIds": [
+        "dai",
+        "guo",
+        "chan_sammy",
+        "chan_ws",
+        "sung",
+        "yu_alex"
+      ]
+    }
   ],
   "glossary": {
     "Block Motion Estimation": "视频压缩里「猜」画面中物体下一帧往哪移动的算法,是MPEG等老式视频编码标准的核心招式。",
@@ -1164,14 +2593,16 @@
     "AI生成内容 Watermarking": "给AI生成的图片/文字偷偷加上肉眼难以察觉的标记,方便日后追溯「这是不是AI做的」。"
   },
   "metadata": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "phase": 1,
-    "totalProfessors": 52,
+    "totalProfessors": 50,
     "pilotCount": 7,
     "coverage": "Chair Professor / Professor / Associate Professor / Assistant Professor (full-time faculty only)",
     "excluded": "Honorary, Emeritus, and Adjunct Professors",
     "lastUpdated": "2026-06-24",
     "dataSource": "CityUHK Scholars, Google Scholar, Scopus",
-    "department": "Department of Electrical Engineering, City University of Hong Kong"
+    "department": "Department of Electrical Engineering, City University of Hong Kong",
+    "siteVersion": "v1.2.0",
+    "changelog": "v1.2.0: map all 50 faculty into 14 research theme bubbles; add visible version badge"
   }
 }

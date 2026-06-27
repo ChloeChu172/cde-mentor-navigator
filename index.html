@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="CityU EE 导师方向雷达 —— 帮CDE系学生筛选、对比、理解导师研究方向">
-<title>CDE Mentor Navigator · CityU EE 导师方向雷达</title>
+<title>CDE Mentor Navigator v1.2.0 · CityU EE 导师方向雷达</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,21 +15,22 @@
 
   <!-- HERO -->
   <div class="hero">
-    <p class="eyebrow">CityU EE Department · 基础数据 50/50 位已录入</p>
+    <p class="eyebrow">CityU EE Department · <span id="versionEyebrow">站点 v1.2.0 · 数据 v1.2.0</span> · 50/50 位已录入</p>
     <h1>导师方向<span class="accent">雷达</span> —— 谁的方向在变,谁的方向很稳</h1>
     <p>给CDE系想探索研究方向、准备联系导师申请lab的你。把零散的「官网简介 / Google Scholar / CityU Scholars 研究指纹 / 最近论文」拼成一张可筛选、可打分的地图,并把生僻术语翻成大白话。</p>
     <p>目前覆盖 CityU EE Department <b>50 位全职教职人员</b>(Chair Professor / Professor / Associate Professor / Assistant Professor),不含荣誉教授、荣休教授及兼职教职。7位试点导师数据已完善，其余43位基础信息已录入（Scopus引用数、近期论文等字段待核实）。</p>
     <div class="hero-meta">
-      <span class="pill">数据采集于 2026-06</span>
+      <span class="pill pill-version" id="versionPill" title="站点与数据版本,便于核对是否打开最新版">站点 v1.2.0</span>
+      <span class="pill" id="dataDatePill">数据更新 2026-06-24</span>
       <span class="pill">关键词窗口:近10年</span>
-      <span class="pill">50 位全职教职</span>
+      <span class="pill" id="profCountPill">50 位全职教职</span>
       <span class="pill" id="storageStatusNote">检测存储环境中…</span>
     </div>
 
     <!-- BUBBLE OVERVIEW -->
     <div class="bubble-section">
       <p class="panel-title" style="margin-bottom:4px;">按研究方向总览(点泡泡 = 展开看这个方向有哪些老师)</p>
-      <p class="bubble-sub">大小 = 这个方向目前有几位老师(7/41试点中) · 颜色 琥珀→青绿 = 整体偏经典稳定→偏新兴活跃 · 空心虚线泡泡 = 这批试点还没覆盖到,后续补上</p>
+      <p class="bubble-sub" id="bubbleSub">大小 = 这个方向目前有几位老师 · 颜色 琥珀→青绿 = 整体偏经典稳定→偏新兴活跃 · 一位老师可能出现在多个方向泡泡里</p>
       <div class="bubble-field" id="bubbleField"></div>
       <div class="theme-expand" id="themeExpand"></div>
     </div>
@@ -43,7 +44,7 @@
           <li><b>「稳定经典型 / 稳中拓新型 / 快速转向型」</b>是我综合「自述研究方向 vs 指纹关键词 vs 最近论文标题」三者是否吻合做出的<b>定性判断</b>,不是某个精确算出来的分数。</li>
           <li><b>学术影响力分数</b>基于 Scopus 累计被引用次数,换算成<b>固定对数刻度</b>的0-100分(地板500次引用、天花板4万次引用)—— 这是文献计量学处理引用数这种贫富差距悬殊数据的常见做法,好处是以后加更多老师进来,同一个人的这个分数不会跟着变动。</li>
           <li><b>匹配度分数</b>基于你输入的关键词和每位老师的研究标签做文本匹配,纯粹是给你探索用的工具,不代表老师本人是否愿意带你。</li>
-          <li><b>顶部研究方向气泡</b>用的是CityU EE官网自己划分的14个研究主题大类,泡泡里的人数是当前7人试点批次里属于这个方向的老师数量,会随着我覆盖更多老师持续更新。</li>
+          <li><b>顶部研究方向气泡</b>用的是 CityU EE 官网划分的 14 个研究主题大类;泡泡人数按当前已录入的 50 位全职老师统计,同一位老师可能因跨方向研究出现在多个泡泡里。</li>
           <li><b>"已联系/感兴趣/放弃"标记和搜索历史</b>存在你浏览器的 localStorage 里,只有你自己能看到。如果你清除了浏览器数据,这些标记会消失。</li>
           <li>联系导师前,务必自己再翻一下对方最近1-2年的论文/Google Scholar主页确认——教授官网自述的「研究方向」有时候更新不及时(下面PO教授的案例就是个例子)。</li>
           <li>Google Scholar的个人主页链接偶尔会被Google自己的风控拦截显示404(不是我数据错了),打不开的话直接去Google Scholar搜索框搜老师的英文全名+City University of Hong Kong,基本不会失败。</li>
@@ -102,7 +103,8 @@
   <div class="grid" id="cardGrid"></div>
 
   <footer>
-    <p>试点批次到此结束。如果这个颗粒度、格式、术语讲解的深浅你觉得OK,告诉我一声,我就按同样流程继续把剩下34位EE老师补完;如果想调整(比如想要更偏硬件/更偏理论的画像维度、或者想换掉试点里的某一位),也可以直接说,这边随时改。</p>
+    <p id="footerVersionNote">CDE Mentor Navigator · Phase 1 · 站点 v1.2.0 · 数据 v1.2.0 · 最后更新 2026-06-24</p>
+    <p>7 位试点导师叙述较完整;其余 43 位基础信息已录入,Scopus / 近期论文等待核实。版本记录见 GitHub README 项目日志。</p>
   </footer>
 
 </div>

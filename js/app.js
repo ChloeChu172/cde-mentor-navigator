@@ -166,7 +166,7 @@ function renderBubbles() {
     const count = theme.profIds.length;
     if (count === 0) {
       const size = 58;
-      return `<div class="bubble ghost" style="width:${size}px;height:${size}px;" title="这批试点老师里暂时没人覆盖这个方向,后续批次会补上">
+      return `<div class="bubble ghost" style="width:${size}px;height:${size}px;" title="这个方向暂时没有已录入的老师">
         <div class="bname-en">${escapeHtml(theme.nameEn)}</div>
         <div class="bcount">0 位 · 待补充</div>
       </div>`;
@@ -766,6 +766,40 @@ function setupEventListeners() {
 }
 
 // ======== INITIALIZATION ========
+function updateVersionUI() {
+  const siteVersion = METADATA.siteVersion || (METADATA.version ? `v${METADATA.version}` : 'v1.2.0');
+  const dataVersion = METADATA.version ? `v${METADATA.version}` : siteVersion;
+  const lastUpdated = METADATA.lastUpdated || '—';
+  const count = PROFESSORS.length;
+
+  document.title = `CDE Mentor Navigator ${siteVersion} · CityU EE 导师方向雷达`;
+
+  const eyebrow = document.getElementById('versionEyebrow');
+  if (eyebrow) eyebrow.textContent = `站点 ${siteVersion} · 数据 ${dataVersion}`;
+
+  const versionPill = document.getElementById('versionPill');
+  if (versionPill) {
+    versionPill.textContent = `站点 ${siteVersion}`;
+    versionPill.title = `数据 ${dataVersion} · 更新 ${lastUpdated} · 共 ${count} 位导师`;
+  }
+
+  const dataDatePill = document.getElementById('dataDatePill');
+  if (dataDatePill) dataDatePill.textContent = `数据更新 ${lastUpdated}`;
+
+  const profCountPill = document.getElementById('profCountPill');
+  if (profCountPill) profCountPill.textContent = `${count} 位全职教职`;
+
+  const footerNote = document.getElementById('footerVersionNote');
+  if (footerNote) {
+    footerNote.textContent = `CDE Mentor Navigator · Phase ${METADATA.phase || 1} · 站点 ${siteVersion} · 数据 ${dataVersion} · 最后更新 ${lastUpdated}`;
+  }
+
+  const bubbleSub = document.getElementById('bubbleSub');
+  if (bubbleSub) {
+    bubbleSub.textContent = `大小 = 这个方向目前有几位老师(当前已录入 ${count} 位) · 颜色 琥珀→青绿 = 整体偏经典稳定→偏新兴活跃 · 一位老师可能出现在多个方向泡泡里`;
+  }
+}
+
 function updateStorageStatusNote() {
   const el = document.getElementById('storageStatusNote');
   if (!el) return;
@@ -803,6 +837,7 @@ async function init() {
   }
 
   // Update UI
+  updateVersionUI();
   updateStorageStatusNote();
   renderBubbles();
   renderHistoryChips();
