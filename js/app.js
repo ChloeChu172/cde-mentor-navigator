@@ -1,23 +1,31 @@
 /**
  * CDE Mentor Navigator - Phase 1
- * Vanilla JS app for browsing and filtering CityU EE professors
- * Data loaded from ../data/professors.json
- * State persisted via localStorage
+ * Shared app for EE / CS (configure via window.DEPT_CONFIG)
  */
 
 // ======== CONFIGURATION ========
+const DEPT = window.DEPT_CONFIG || {};
 const CONFIG = {
+  dataUrl: DEPT.dataUrl || 'data/professors.json',
+  deptShort: DEPT.deptShort || 'EE',
+  deptTitle: DEPT.deptTitle || 'CityU EE 导师方向雷达',
   STORAGE_KEYS: {
-    statusMap: 'cde_mentor_status_map',
-    searchHistory: 'cde_mentor_search_history',
-    weights: 'cde_mentor_weights'
+    // EE 保持旧 key，避免已有「我的清单」丢失；CS 等用 storagePrefix
+    statusMap: DEPT.storagePrefix ? `${DEPT.storagePrefix}_status_map` : 'cde_mentor_status_map',
+    searchHistory: DEPT.storagePrefix ? `${DEPT.storagePrefix}_search_history` : 'cde_mentor_search_history',
+    weights: DEPT.storagePrefix ? `${DEPT.storagePrefix}_weights` : 'cde_mentor_weights'
   },
   MAX_COMPARE: 3,
-  PRESET_KEYWORDS: ['AI', '机器人', '芯片', '天线', '电力电子', '无线通信', '密码学', '脑机接口', '图像处理'],
+  PRESET_KEYWORDS: DEPT.presetKeywords || ['AI', '机器人', '芯片', '天线', '电力电子', '无线通信', '密码学', '脑机接口', '图像处理'],
   TIER_LABEL: {
     stable: '稳健经典型 —— 方向多年一致,没有明显转向',
     evolve: '稳中拓新型 —— 主体方向不变,正向新应用延伸',
     pivot: '快速转向型 —— 近年明显往新热点靠拢'
+  },
+  TIER_SHORT: {
+    stable: '稳健经典',
+    evolve: '稳中拓新',
+    pivot: '快速转向'
   },
   TIER_SCORE: { stable: 25, evolve: 55, pivot: 85 },
   TIER_GAUGE_X: { stable: 15, evolve: 48, pivot: 82 },
@@ -42,6 +50,10 @@ let searchHistory = [];
 let weights = { match: 50, trend: 30, impact: 20 };
 const compareSet = new Set();
 let expandedThemeId = null;
+/** 结果区分类 Tab：all | stable | evolve | pivot */
+let tierTab = 'all';
+/** 卡片完整画像：id -> { open, tab }；tab = contact|declared|narrative|papers */
+const portraitState = {};
 
 // ======== UTILITY FUNCTIONS ========
 function escapeHtml(s) {
@@ -64,12 +76,13 @@ function parseTags(raw) {
 }
 
 function tierColor(score) {
-  const amber = [244, 163, 64];
+  // 低分=稳健(青绿) → 高分=快速转向(琥珀)
   const teal = [94, 234, 212];
+  const amber = [244, 163, 64];
   const t = Math.max(0, Math.min(100, score)) / 100;
-  const r = Math.round(amber[0] + (teal[0] - amber[0]) * t);
-  const g = Math.round(amber[1] + (teal[1] - amber[1]) * t);
-  const b = Math.round(amber[2] + (teal[2] - amber[2]) * t);
+  const r = Math.round(teal[0] + (amber[0] - teal[0]) * t);
+  const g = Math.round(teal[1] + (amber[1] - teal[1]) * t);
+  const b = Math.round(teal[2] + (amber[2] - teal[2]) * t);
   return `rgb(${r},${g},${b})`;
 }
 
@@ -79,6 +92,27 @@ function getInitials(name) {
 
 function getShortName(name) {
   return name.split(',')[0].trim();
+}
+
+function lookupGlossary(term) {
+  if (!term) return null;
+  if (GLOSSARY[term]) return GLOSSARY[term];
+  const lower = String(term).toLowerCase();
+  for (const [k, v] of Object.entries(GLOSSARY)) {
+    if (k.toLowerCase() === lower) return v;
+  }
+  return null;
+}
+
+function nameMatches(prof, nameQuery) {
+  if (!nameQuery) return true;
+  const q = nameQuery.trim().toLowerCase();
+  if (!q) return true;
+  const full = (prof.name || '').toLowerCase();
+  const short = getShortName(prof.name || '').toLowerCase();
+  const compact = full.replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
+  const qCompact = q.replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
+  return full.includes(q) || short.includes(q) || (qCompact && compact.includes(qCompact));
 }
 
 // ======== LOCAL STORAGE ========
@@ -103,7 +137,7 @@ function storageSet(key, value) {
 // ======== DATA LOADING ========
 async function loadData() {
   try {
-    const response = await fetch('data/professors.json');
+    const response = await fetch(CONFIG.dataUrl);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
 
@@ -115,7 +149,7 @@ async function loadData() {
     return true;
   } catch (error) {
     console.error('Failed to load data:', error);
-    showError('数据加载失败，请刷新页面重试。');
+    showError('数据加载失败。请用本地服务器打开（python3 -m http.server），不要直接双击 HTML。');
     return false;
   }
 }
@@ -133,10 +167,13 @@ function computeScores(prof, userTags, w) {
   if (userTags.length === 0) {
     matchScore = 100;
   } else {
-    const pool = prof.matchTags.map(t => t.toLowerCase());
+    const pool = (prof.matchTags || []).map(t => t.toLowerCase());
+    const namePool = (prof.name || '').toLowerCase();
     let hits = 0;
     userTags.forEach(ut => {
-      const hit = pool.some(pt => pt.includes(ut) || ut.includes(pt));
+      const hit =
+        namePool.includes(ut) ||
+        pool.some(pt => pt.includes(ut) || ut.includes(pt));
       if (hit) hits++;
     });
     matchScore = Math.round((hits / userTags.length) * 100);
@@ -230,11 +267,11 @@ function renderCard(prof, scores, userTags) {
 
   // Contact rows
   const contactRows = [];
-  contactRows.push({ label: 'Email', value: prof.email });
-  contactRows.push({ label: 'Scholar', value: prof.scholarUrl });
+  if (prof.email) contactRows.push({ label: 'Email', value: prof.email });
+  if (prof.scholarUrl) contactRows.push({ label: 'Scholar', value: prof.scholarUrl });
   if (prof.personalUrl) contactRows.push({ label: '个人主页', value: prof.personalUrl });
   if (prof.labUrl) contactRows.push({ label: prof.labLabel || '实验室', value: prof.labUrl });
-  contactRows.push({ label: 'CityU Scholars', value: prof.scholarsUrl });
+  if (prof.scholarsUrl) contactRows.push({ label: 'CityU Scholars', value: prof.scholarsUrl });
 
   const latinName = prof.name.replace(/[一-鿿].*$/, '').trim();
 
@@ -260,41 +297,73 @@ function renderCard(prof, scores, userTags) {
     `<option value="${o.key}" ${o.key === status ? 'selected' : ''}>${o.label}</option>`
   ).join('');
 
-  // Tags
-  const classicChips = prof.classicTags.map(t =>
+  // Tags（扑克牌卡片上只展示前几个，完整信息在展开区）
+  const classicChips = (prof.classicTags || []).slice(0, 4).map(t =>
     `<button class="chip classic" data-term="${escapeHtml(t)}" type="button">${escapeHtml(t)}</button>`
   ).join('');
 
-  const emergingChips = prof.emergingTags.map(t =>
+  const emergingChips = (prof.emergingTags || []).slice(0, 4).map(t =>
     `<button class="chip emerging" data-term="${escapeHtml(t)}" type="button">${escapeHtml(t)}</button>`
   ).join('');
 
-  // Lists
-  const declared = prof.selfDeclared.map(t => `<li>${escapeHtml(t)}</li>`).join('');
-  const recent = prof.recentPapers.map(t => `<li>${t}</li>`).join('');
+  const declared = (prof.selfDeclared || []).map(t => `<li>${escapeHtml(t)}</li>`).join('');
+  const recent = (prof.recentPapers || []).map(t => `<li>${t}</li>`).join('');
+  const oneLiner = prof.oneLiner
+    ? `<p class="one-liner">${escapeHtml(prof.oneLiner)}</p>`
+    : '';
 
-  const matchNote = userTags.length ? `<span title="关键词匹配度">匹配 ${scores.matchScore}</span> · ` : '';
+  const matchNote = userTags.length ? `<span title="关键词匹配度">匹配 ${scores.matchScore}</span>` : '';
+
+  const tierBadge = `<div class="tier-badge tier-${prof.tier}" title="${escapeHtml(CONFIG.TIER_LABEL[prof.tier] || '')}">${CONFIG.TIER_SHORT[prof.tier] || prof.tier}</div>`;
+
+  const ps = portraitState[prof.id] || { open: false, tab: 'contact' };
+  const tab = ps.tab || 'contact';
+  const open = !!ps.open;
+  const tabs = [
+    { key: 'contact', label: '联系方式' },
+    { key: 'declared', label: '自述' },
+    { key: 'narrative', label: '解读' },
+    { key: 'papers', label: '论文' }
+  ];
+  const tabBtns = tabs.map(t =>
+    `<button type="button" class="portrait-tab ${tab === t.key ? 'active' : ''}" data-portrait-tab="${t.key}" data-id="${prof.id}">${t.label}</button>`
+  ).join('');
+
+  let tabPanel = '';
+  if (tab === 'contact') {
+    tabPanel = `<div class="contact-list">${contactHtml}</div>`;
+  } else if (tab === 'declared') {
+    tabPanel = `<ul class="declared-list">${declared || '<li style="color:var(--ink-faint)">暂无自述</li>'}</ul>`;
+  } else if (tab === 'narrative') {
+    tabPanel = `<p class="narrative">${prof.narrative || '<span style="color:var(--ink-faint)">暂无解读</span>'}</p>`;
+  } else {
+    tabPanel = `<ul class="recent-list">${recent || '<li style="color:var(--ink-faint)">暂无论文条目</li>'}</ul>`;
+  }
 
   return `
-  <div class="card tier-${prof.tier}" id="card-${prof.id}">
+  <div class="card tier-${prof.tier} ${open ? 'portrait-open' : ''}" id="card-${prof.id}">
     <div class="card-head">
       <div class="avatar">${initials}</div>
       <div class="head-text">
         <h3>${escapeHtml(prof.name)}</h3>
         <div class="role">${escapeHtml(prof.role)}</div>
-        <div class="contact-list">${contactHtml}</div>
       </div>
-      <div class="score-badge">
-        <div class="num">${scores.composite}</div>
-        <div class="lbl">综合得分</div>
-        ${statusBadge}
+      <div class="head-right">
+        ${tierBadge}
+        <div class="score-badge">
+          <div class="num">${scores.composite}</div>
+          <div class="lbl">综合得分</div>
+          ${statusBadge}
+        </div>
       </div>
     </div>
+
+    ${oneLiner}
 
     <div class="card-controls-row">
       <label class="ctrl-compare">
         <input type="checkbox" class="compare-check" data-id="${prof.id}" ${compareChecked ? 'checked' : ''} ${compareDisabled ? 'disabled' : ''}>
-        加入对比
+        对比
       </label>
       <label class="ctrl-status">
         标记
@@ -302,46 +371,36 @@ function renderCard(prof, scores, userTags) {
       </label>
     </div>
 
-    <div class="gauge-wrap">
-      <div class="gauge-label-row"><span>稳健经典</span><span>稳中拓新</span><span>快速转向</span></div>
-      <div class="gauge"><div class="marker" style="left:${CONFIG.TIER_GAUGE_X[prof.tier]}%;"></div></div>
-      <div class="gauge-tier-text">研究方向漂移仪: <b>${CONFIG.TIER_LABEL[prof.tier]}</b></div>
-    </div>
-
     <div class="stats-row">
-      <span>Scopus被引 <b>${prof.scopusCitations.toLocaleString()}</b></span>
-      <span>h-index <b>${prof.hIndex}</b></span>
-      ${prof.scholarCitedBy ? `<span>Google Scholar累计被引 <b>${prof.scholarCitedBy.toLocaleString()}</b></span>` : ''}
-      <span>${matchNote}活跃度 ${scores.trendScore} · 影响力 ${scores.impactScore}</span>
+      <span>Scopus <b>${prof.scopusCitations != null ? Number(prof.scopusCitations).toLocaleString() : '—'}</b></span>
+      <span>h <b>${prof.hIndex != null ? prof.hIndex : '—'}</b></span>
+      <span>活跃 <b>${scores.trendScore}</b></span>
+      <span>影响 <b>${scores.impactScore}</b></span>
+      ${matchNote ? `<span>${matchNote}</span>` : ''}
     </div>
 
     <div class="section-block">
-      <h4>教授官方自述方向</h4>
-      <ul class="declared-list">${declared}</ul>
+      <h4>经典方向 <span class="chip-hint">点词看解释</span></h4>
+      <div class="chips">${classicChips || '<span class="chip">待补充</span>'}</div>
     </div>
 
     <div class="section-block">
-      <h4>经典/established 方向 <span style="color:var(--ink-faint);">(点击看大白话解释)</span></h4>
-      <div class="chips">${classicChips}</div>
-    </div>
-
-    <div class="section-block">
-      <h4>新兴/活跃方向 <span style="color:var(--ink-faint);">(点击看大白话解释)</span></h4>
-      <div class="chips">${emergingChips}</div>
+      <h4>新兴 / 活跃 <span class="chip-hint">点词看解释</span></h4>
+      <div class="chips">${emergingChips || '<span class="chip">待补充</span>'}</div>
       <div class="glossary-box" id="glossary-${prof.id}"></div>
     </div>
 
-    <div class="section-block" style="border-top:1px dashed var(--line-soft);">
-      <h4>我的解读</h4>
-      <p class="narrative">${prof.narrative}</p>
-    </div>
-
-    <details class="more">
-      <summary>查看代表性/近期论文(真实标题,可复制去Google Scholar搜索)</summary>
-      <div class="more-body">
-        <ul class="recent-list">${recent}</ul>
+    <div class="portrait-panel">
+      <button type="button" class="portrait-toggle ${open ? 'is-open' : ''}" data-portrait-toggle="${prof.id}">
+        <span class="portrait-toggle-icon">${open ? '▼' : '▸'}</span>
+        <span class="portrait-toggle-text">${open ? '收起完整画像' : '展开完整画像'}</span>
+      </button>
+      <div class="portrait-body ${open ? 'show' : ''}">
+        <div class="portrait-tabs" role="tablist">${tabBtns}</div>
+        <p class="portrait-scroll-hint">↕ 下方内容区可上下滚动（右侧有滚动条）</p>
+        <div class="portrait-tab-panel" data-active-tab="${tab}" tabindex="0">${tabPanel}</div>
       </div>
-    </details>
+    </div>
   </div>`;
 }
 
@@ -349,6 +408,7 @@ function renderCard(prof, scores, userTags) {
 function render() {
   const raw = document.getElementById('interestInput').value;
   const userTags = parseTags(raw);
+  const nameQuery = (document.getElementById('nameInput')?.value || '').trim();
 
   weights = {
     match: Number(document.getElementById('wMatch').value),
@@ -365,20 +425,55 @@ function render() {
   const activeTagsEl = document.getElementById('activeTags');
   activeTagsEl.innerHTML = userTags.map(t => `<span>${escapeHtml(t)}</span>`).join('');
 
-  // Score and sort
-  const scored = PROFESSORS.map(p => ({ p, s: computeScores(p, userTags, weights) }));
+  // Filter by name + tier tab, then score and sort
+  const filtered = PROFESSORS.filter(p => {
+    if (!nameMatches(p, nameQuery)) return false;
+    if (tierTab !== 'all' && p.tier !== tierTab) return false;
+    return true;
+  });
+  const scored = filtered.map(p => ({ p, s: computeScores(p, userTags, weights) }));
   scored.sort((a, b) => b.s.composite - a.s.composite);
 
-  document.getElementById('resultsCount').textContent = `共 ${scored.length} 位`;
+  const nameNote = nameQuery ? ` · 姓名「${nameQuery}」` : '';
+  const tierNote = tierTab === 'all' ? '' : ` · ${CONFIG.TIER_SHORT[tierTab]}`;
+  document.getElementById('resultsCount').textContent = `共 ${scored.length} 位${tierNote}${nameNote}`;
 
   const grid = document.getElementById('cardGrid');
   if (scored.length === 0) {
-    grid.innerHTML = `<div class="empty-state">没有匹配的导师 —— 试试换个关键词</div>`;
+    grid.innerHTML = `<div class="empty-state">这个分类下没有匹配的导师 —— 试试切换 Tab，或换个姓名/关键词</div>`;
   } else {
     grid.innerHTML = scored.map(({ p, s }) => renderCard(p, s, userTags)).join('');
   }
 
   renderPresetChips();
+  renderTierTabs();
+}
+
+function renderTierTabs() {
+  const el = document.getElementById('tierTabs');
+  if (!el) return;
+
+  const nameQuery = (document.getElementById('nameInput')?.value || '').trim();
+  const base = PROFESSORS.filter(p => nameMatches(p, nameQuery));
+  const counts = {
+    all: base.length,
+    stable: base.filter(p => p.tier === 'stable').length,
+    evolve: base.filter(p => p.tier === 'evolve').length,
+    pivot: base.filter(p => p.tier === 'pivot').length
+  };
+
+  const tabs = [
+    { key: 'all', label: '全部' },
+    { key: 'stable', label: CONFIG.TIER_SHORT.stable },
+    { key: 'evolve', label: CONFIG.TIER_SHORT.evolve },
+    { key: 'pivot', label: CONFIG.TIER_SHORT.pivot }
+  ];
+
+  el.innerHTML = tabs.map(t =>
+    `<button type="button" class="tier-tab tier-tab-${t.key} ${tierTab === t.key ? 'active' : ''}" data-tier-tab="${t.key}">
+      ${escapeHtml(t.label)} <span class="tier-tab-count">${counts[t.key]}</span>
+    </button>`
+  ).join('');
 }
 
 // ======== PRESET & HISTORY CHIPS ========
@@ -519,6 +614,44 @@ function openMyList() {
   showOverlay('myListOverlay');
 }
 
+function exportMyListCsv() {
+  const rows = [['状态', '姓名', '职务', '邮箱', '方向类型', '一句话', 'Scholar']];
+  const order = ['interested', 'contacted', 'dropped', 'none'];
+  const labelOf = Object.fromEntries(CONFIG.STATUS_OPTIONS.map(o => [o.key, o.label]));
+
+  order.forEach(status => {
+    PROFESSORS.filter(p => (statusMap[p.id] || 'none') === status).forEach(p => {
+      rows.push([
+        labelOf[status] || status,
+        p.name || '',
+        p.role || '',
+        p.email || '',
+        CONFIG.TIER_SHORT[p.tier] || p.tier || '',
+        (p.oneLiner || '').replace(/"/g, '""'),
+        p.scholarUrl || ''
+      ]);
+    });
+  });
+
+  const marked = rows.length - 1;
+  if (marked === 0) {
+    alert('清单还是空的：先在卡片上把老师标记为「感兴趣 / 已联系 / 放弃」。');
+    return;
+  }
+
+  const csv = rows.map(r => r.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',')).join('\n');
+  const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const stamp = new Date().toISOString().slice(0, 10);
+  a.href = url;
+  a.download = `mentor-list-${CONFIG.deptShort}-${stamp}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 // ======== OVERLAY ========
 function showOverlay(id) {
   document.getElementById(id).classList.add('show');
@@ -611,6 +744,11 @@ function setupEventListeners() {
     commitHistory(e.target.value);
   });
 
+  const nameInput = document.getElementById('nameInput');
+  if (nameInput) {
+    nameInput.addEventListener('input', render);
+  }
+
   // Sliders
   ['wMatch', 'wTrend', 'wImpact'].forEach(id => {
     document.getElementById(id).addEventListener('input', render);
@@ -619,9 +757,19 @@ function setupEventListeners() {
   // Reset
   document.getElementById('resetBtn').addEventListener('click', () => {
     interestInput.value = '';
+    if (nameInput) nameInput.value = '';
+    tierTab = 'all';
     document.getElementById('wMatch').value = 50;
     document.getElementById('wTrend').value = 30;
     document.getElementById('wImpact').value = 20;
+    render();
+  });
+
+  // Tier classification tabs
+  document.getElementById('tierTabs')?.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-tier-tab]');
+    if (!btn) return;
+    tierTab = btn.getAttribute('data-tier-tab') || 'all';
     render();
   });
 
@@ -640,7 +788,7 @@ function setupEventListeners() {
     render();
   });
 
-  // Card grid: copy, glossary, status, compare
+  // Card grid: copy, glossary, portrait toggle/tabs, status, compare
   document.getElementById('cardGrid').addEventListener('click', (e) => {
     // Copy button
     const copyBtn = e.target.closest('.copy-btn');
@@ -650,15 +798,53 @@ function setupEventListeners() {
       return;
     }
 
-    // Glossary chip
-    const chipBtn = e.target.closest('.chip');
+    // Expand / collapse portrait
+    const toggleBtn = e.target.closest('[data-portrait-toggle]');
+    if (toggleBtn) {
+      const id = toggleBtn.getAttribute('data-portrait-toggle');
+      const prev = portraitState[id] || { open: false, tab: 'contact' };
+      portraitState[id] = { open: !prev.open, tab: prev.tab || 'contact' };
+      render();
+      return;
+    }
+
+    // Portrait inner tabs
+    const tabBtn = e.target.closest('[data-portrait-tab]');
+    if (tabBtn) {
+      const id = tabBtn.getAttribute('data-id');
+      const tab = tabBtn.getAttribute('data-portrait-tab');
+      const prev = portraitState[id] || { open: true, tab: 'contact' };
+      portraitState[id] = { open: true, tab };
+      render();
+      return;
+    }
+
+    // Glossary chip：再点同一关键词 = 收起解释
+    const chipBtn = e.target.closest('.chip[data-term]');
     if (chipBtn) {
       const term = chipBtn.getAttribute('data-term');
       const card = chipBtn.closest('.card');
       const box = card.querySelector('.glossary-box');
-      const def = GLOSSARY[term] || '（这个词的解释还没整理,提个醒我下一批补上）';
-      box.innerHTML = `<b>${escapeHtml(term)}</b>　${def}`;
+      const isSameOpen =
+        box.classList.contains('show') &&
+        box.getAttribute('data-active-term') === term;
+
+      card.querySelectorAll('.chip[data-term]').forEach(c => c.classList.remove('active'));
+
+      if (isSameOpen) {
+        box.classList.remove('show');
+        box.removeAttribute('data-active-term');
+        box.innerHTML = '';
+        return;
+      }
+
+      const def = lookupGlossary(term);
+      box.innerHTML = def
+        ? `<b>${escapeHtml(term)}</b>　${escapeHtml(def)}`
+        : `<b>${escapeHtml(term)}</b>　<span style="color:var(--amber);">（这个词的解释还没整理，提个醒我下一批补上）</span>`;
+      box.setAttribute('data-active-term', term);
       box.classList.add('show');
+      chipBtn.classList.add('active');
       box.scrollIntoView({ block: 'nearest', behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
       return;
     }
@@ -723,6 +909,11 @@ function setupEventListeners() {
     });
   });
 
+  // Guide / tutorial button（与清单同款右上角 tab）
+  document.getElementById('guideBtn')?.addEventListener('click', () => {
+    showOverlay('guideOverlay');
+  });
+
   // My list button
   document.getElementById('myListBtn').addEventListener('click', openMyList);
 
@@ -731,6 +922,9 @@ function setupEventListeners() {
     const nm = e.target.closest('.mylist-name');
     if (nm) scrollToCard(nm.getAttribute('data-target'));
   });
+
+  // Export my list
+  document.getElementById('exportListBtn')?.addEventListener('click', exportMyListCsv);
 
   // Clear status button
   let clearArmed = false;
@@ -772,7 +966,7 @@ function updateVersionUI() {
   const lastUpdated = METADATA.lastUpdated || '—';
   const count = PROFESSORS.length;
 
-  document.title = `CDE Mentor Navigator ${siteVersion} · CityU EE 导师方向雷达`;
+  document.title = `CDE Mentor Navigator ${siteVersion} · ${CONFIG.deptTitle}`;
 
   const eyebrow = document.getElementById('versionEyebrow');
   if (eyebrow) eyebrow.textContent = `站点 ${siteVersion} · 数据 ${dataVersion}`;
@@ -794,10 +988,8 @@ function updateVersionUI() {
     footerNote.textContent = `CDE Mentor Navigator · Phase ${METADATA.phase || 1} · 站点 ${siteVersion} · 数据 ${dataVersion} · 最后更新 ${lastUpdated}`;
   }
 
-  const bubbleSub = document.getElementById('bubbleSub');
-  if (bubbleSub) {
-    bubbleSub.textContent = `大小 = 这个方向目前有几位老师(当前已录入 ${count} 位) · 颜色 琥珀→青绿 = 整体偏经典稳定→偏新兴活跃 · 一位老师可能出现在多个方向泡泡里`;
-  }
+  const bubbleCount = document.getElementById('bubbleCount');
+  if (bubbleCount) bubbleCount.textContent = String(count);
 }
 
 function updateStorageStatusNote() {

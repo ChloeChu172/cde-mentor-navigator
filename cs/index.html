@@ -3,29 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="CityU EE 导师方向雷达 —— 帮学生筛选、对比、理解导师研究方向">
-<title>CDE Mentor Navigator · CityU EE 导师方向雷达</title>
+<meta name="description" content="CityU CS 导师方向雷达 —— 帮学生筛选、对比、理解导师研究方向">
+<title>CDE Mentor Navigator · CityU CS 导师方向雷达（试点）</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="wrap">
 
   <div class="hero">
-    <p class="eyebrow">CityU EE Department · <span id="versionEyebrow">站点 · 数据</span> · 50 位已录入</p>
+    <p class="eyebrow">CityU CS Department · <span id="versionEyebrow">站点 v0.1.0 · 数据 v0.1.0</span> · 试点 5 人</p>
     <h1>导师方向<span class="accent">雷达</span> —— 谁的方向在变,谁的方向很稳</h1>
-    <p>给想探索研究方向、准备联系导师申请 lab 的你。把官网简介 / Scholar / CityU Scholars 指纹 / 最近论文，拼成一张可筛选、可打分的地图。</p>
+    <p>给想探索 CS 研究方向、准备联系导师申请 lab 的你。布局与交互和 EE 版相同：筛选、打分、对比、术语大白话、我的清单。</p>
+    <p>当前是 <b>5 位试点老师</b>（审核通过后再扩展全系）。部分引用数字/链接仍可能待核实，卡片右上角有方向类型分类。</p>
     <div class="hero-meta">
-      <span class="pill pill-version" id="versionPill">站点</span>
-      <span class="pill" id="dataDatePill">数据更新</span>
-      <span class="pill" id="profCountPill">50 位全职教职</span>
+      <span class="pill pill-version" id="versionPill">站点 v0.1.0</span>
+      <span class="pill" id="dataDatePill">数据更新 2026-07-16</span>
+      <span class="pill" id="profCountPill">试点 5 位</span>
       <span class="pill" id="storageStatusNote">检测存储环境中…</span>
     </div>
     <nav class="dept-switch" aria-label="院系切换">
-      <a class="active" href="./index.html">EE</a>
-      <a href="./cs/index.html">CS</a>
+      <a href="../index.html">EE</a>
+      <a class="active" href="./index.html">CS</a>
     </nav>
 
     <div class="bubble-section">
@@ -49,10 +50,10 @@
       <summary>数据是怎么来的、有什么局限(建议先看一下)</summary>
       <div class="m-body">
         <ul>
-          <li><b>经典/新兴方向标签</b>来自 CityUHK Scholars 对 career-wide 论文的关键词加权；能在近 1–2 年论文标题对上的，归为新兴/活跃。这是归纳估计，不是逐年精确曲线。</li>
-          <li><b>稳健经典 / 稳中拓新 / 快速转向</b>是综合「自述 vs 指纹 vs 近作」的定性判断，不是精确算出的分数。</li>
-          <li><b>学术影响力</b>基于 Scopus 被引的固定对数刻度；<b>匹配度</b>只反映你输入的关键词重合，不代表导师是否愿意带你。</li>
-          <li>标记与关键词搜索历史存在本机 localStorage；清除浏览器数据会丢失。</li>
+          <li>名单来自 CS Academic Staff 公开页；本批覆盖安全、AI for Science、视觉、Edge/LLM Systems、NLP Agents。</li>
+          <li><b>稳健经典 / 稳中拓新 / 快速转向</b>显示在卡片右上角，是对方向漂移的定性判断。</li>
+          <li>点击经典/新兴标签可看大白话解释；「我的清单」可一键导出 CSV。</li>
+          <li>标记存在本机 localStorage，与 EE 清单互不覆盖。</li>
         </ul>
       </div>
     </details>
@@ -68,7 +69,7 @@
           <label for="nameInput">按姓名找人</label>
           <span class="search-engine-tag">即时过滤</span>
         </div>
-        <input id="nameInput" type="text" placeholder="例如：Po、布禮文、Lai-Man" autocomplete="off">
+        <input id="nameInput" type="text" placeholder="例如：Wang、王聰、Ma" autocomplete="off">
         <div class="input-hint">支持英文姓/名或中文；输入即过滤卡片。此项不记历史。</div>
       </div>
 
@@ -78,7 +79,7 @@
           <label for="interestInput">按方向关键词打分</label>
           <span class="search-engine-tag">有历史</span>
         </div>
-        <input id="interestInput" type="text" placeholder="例如：机器人, 深度学习, 芯片" autocomplete="off">
+        <input id="interestInput" type="text" placeholder="例如：LLM, 安全, 视觉, edge AI" autocomplete="off">
         <div class="input-hint">留空 = 只按下方权重排序 · 按 Enter 或点别处 → 存进「最近搜索」（最多 5 条）</div>
         <div class="active-tags" id="activeTags"></div>
       </div>
@@ -107,7 +108,7 @@
       <div class="slider-block">
         <label>学术影响力权重 <span class="val" id="wImpactVal">20</span></label>
         <input type="range" id="wImpact" min="0" max="100" value="20">
-        <div class="slider-sub">基于 Scopus 被引数的固定对数刻度</div>
+        <div class="slider-sub">基于Scopus被引数的固定对数刻度</div>
       </div>
     </div>
 
@@ -135,8 +136,8 @@
   <div class="grid" id="cardGrid"></div>
 
   <footer>
-    <p id="footerVersionNote">CDE Mentor Navigator · EE</p>
-    <p>联系导师前请再核对对方近 1–2 年论文。版本与数据说明见项目文档。</p>
+    <p id="footerVersionNote">CDE Mentor Navigator · CS 试点 · 与 EE 同款纵版布局</p>
+    <p>审核通过后将按同样结构扩展 CS 全系老师。</p>
   </footer>
 
 </div>
@@ -231,6 +232,15 @@
   </div>
 </div>
 
-<script src="js/app.js"></script>
+<script>
+  window.DEPT_CONFIG = {
+    deptShort: 'CS',
+    deptTitle: 'CityU CS 导师方向雷达',
+    dataUrl: 'data/professors.json',
+    storagePrefix: 'cde_mentor_cs',
+    presetKeywords: ['LLM', '安全', '视觉', '边缘AI', '智能体', '隐私', 'AI for Science']
+  };
+</script>
+<script src="../js/app.js"></script>
 </body>
 </html>

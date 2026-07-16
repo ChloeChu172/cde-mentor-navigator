@@ -4,21 +4,14 @@
 
 | 版本 | 日期 | 变更摘要 |
 |------|------|----------|
-| **v1.2.0** | 2026-06-24 | 50 位导师全部映射进 14 个方向泡泡；页面显示版本号；修正过时文案 |
-| v1.1.0 | 2026-06-24 | 新增 43 位导师（共 50 人）；泡泡仍只有试点 7 人 |
+| **v1.3.0** | 2026-07-16 | 扑克牌横排；分类 Tab；教程面板；统一搜索；CS 试点页 |
+| v1.2.0 | 2026-06-24 | 50 位导师全部映射进 14 个方向泡泡；页面显示版本号 |
+| v1.1.0 | 2026-06-24 | 新增 43 位导师（共 50 人） |
 | v1.0.0 | 2026-06-23 | Phase 1 MVP 上线；试点 7 位导师 |
 
-## 版本号含义
+## 在线地址（固定链接）
 
-- **站点版本** (`siteVersion`)：HTML / CSS / JS 界面与交互
-- **数据版本** (`metadata.version`)：`data/professors.json` 里的导师与主题数据
+- EE：https://chloechu172.github.io/cde-mentor-navigator/
+- CS：https://chloechu172.github.io/cde-mentor-navigator/cs/
 
-两者通常一起升级；若只改数据、不改界面，可只升数据版本。
-
-## 正确打开方式
-
-请使用 **`/Users/chuyuhan/cde-mentor-navigator`** 或在线地址：
-
-https://chloechu172.github.io/cde-mentor-navigator/
-
-iCloud 里的 `Claude-导师整理器` 是旧副本（v1.0.0，仅 7 人），不要用它验收 50 人版。
+本地开发：`python3 -m http.server 8765`

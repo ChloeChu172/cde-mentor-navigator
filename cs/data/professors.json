@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "version": "0.1.0-pilot",
+    "siteVersion": "v0.1.0",
+    "department": "Department of Computer Science, City University of Hong Kong",
+    "departmentZh": "计算机科学系",
+    "phase": "pilot",
+    "totalProfessors": 5,
+    "pilotTargetApprox": 50,
+    "lastUpdated": "2026-07-16",
+    "coverage": "试点 5 人（审核通过后再扩展全系）",
+    "dataSource": "CS 官网 Academic Staff、CityUHK Scholars、Google Scholar（部分影响力数字为公开页面摘录，建议自行核实）",
+    "layout": "vertical-same-as-ee",
+    "productSpec": "导师 产品说明:ai/CS产品需求文档.md",
+    "note": "本批次用于审核信息结构；与 EE 同款纵版布局。Scopus/论文字段可能未完全核实。"
+  },
+  "themes": [
+    {
+      "id": "security",
+      "nameEn": "Security",
+      "nameZh": "安全与隐私",
+      "profIds": [
+        "wang-cong"
+      ]
+    },
+    {
+      "id": "ai-systems",
+      "nameEn": "AI Systems",
+      "nameZh": "AI系统",
+      "profIds": [
+        "wang-cong",
+        "li-zhenjiang",
+        "zhang-zhisong"
+      ]
+    },
+    {
+      "id": "vision",
+      "nameEn": "Vision",
+      "nameZh": "计算机视觉",
+      "profIds": [
+        "chan-antoni"
+      ]
+    },
+    {
+      "id": "ai-science",
+      "nameEn": "AI for Science",
+      "nameZh": "科学智能",
+      "profIds": [
+        "ma-weiying"
+      ]
+    },
+    {
+      "id": "nlp-agents",
+      "nameEn": "NLP / Agents",
+      "nameZh": "NLP与智能体",
+      "profIds": [
+        "zhang-zhisong",
+        "ma-weiying"
+      ]
+    },
+    {
+      "id": "edge-iot",
+      "nameEn": "Edge / AIoT",
+      "nameZh": "边缘与物联网",
+      "profIds": [
+        "li-zhenjiang"
+      ]
+    }
+  ],
+  "glossary": {
+    "Federated Learning": "联邦学习：数据不出本地，只交换模型更新，多方协作训练。",
+    "Confidential Computing": "机密计算：在可信硬件环境中保护正在使用的数据。",
+    "Explainable AI": "可解释AI：让模型决策对人类更可理解。",
+    "Edge AI": "边缘AI：在端侧设备上直接跑AI。",
+    "Large Language Model": "大语言模型（LLM）：用海量文本训练的超大语言模型。",
+    "Multi-Agent Systems": "多智能体系统：多个智能体协作或竞争完成任务。",
+    "Cloud Security": "云安全：保护云上数据、身份与算力不被未授权访问或滥用。",
+    "Encrypted Storage": "加密存储：数据落盘时加密，泄露后也更难直接读出明文。",
+    "Privacy-Preserving Computation": "隐私保护计算：在尽量不暴露原始数据的前提下完成协作计算。",
+    "Access Control": "访问控制：决定谁能访问哪些资源、能做什么操作。",
+    "Blockchain Security": "区块链安全：防双花、防共识被操控、防智能合约漏洞等。",
+    "LLM Red Teaming": "大模型红队：主动找LLM的漏洞与越狱路径，用来加固系统。",
+    "AI Systems Security": "AI系统安全：保护训练/推理/供应链整条AI流水线不被攻击。",
+    "Encrypted Analytics": "加密分析：在加密数据上做查询或统计，减少明文暴露。",
+    "Web Search": "网络搜索：从海量网页中检索与查询最相关的结果。",
+    "Data Mining": "数据挖掘：从大数据里发现隐藏模式、关联或异常。",
+    "Information Retrieval": "信息检索：搜索引擎背后的「找相关文档」技术。",
+    "Machine Learning": "机器学习：让计算机从数据中自动学规律。",
+    "Multimedia": "多媒体：图像、视频、音频等多种媒体形态及其处理。",
+    "AI for Science": "科学智能：用AI加速科学发现（材料、生物等）。",
+    "Generative AI": "生成式AI：能创造新内容的人工智能。",
+    "Biology / Life Sciences AI": "生命科学AI：把AI用于生物与医学科研问题。",
+    "Foundation Models": "基础模型：大规模预训练后可适配很多下游任务的通用模型。",
+    "Computer Vision": "计算机视觉：让计算机看懂图像与视频。",
+    "Pattern Recognition": "模式识别：从数据中自动识别类别或规律。",
+    "Surveillance": "监控视觉：在监控视频里做检测、跟踪、行为分析。",
+    "Visual Tracking": "视觉跟踪：在视频中持续跟上某个目标的位置。",
+    "Eye Gaze Analysis": "眼动分析：研究人看哪里、看多久。",
+    "Computer Audition": "计算机听觉：让机器理解声音/音乐内容。",
+    "Music Information Retrieval": "音乐信息检索：从音频中检索风格、旋律等信息。",
+    "Cross-modal Learning": "跨模态学习：同时理解文本、图像、音频等多种信息。",
+    "Mobile Computing": "移动计算：面向手机等移动设备的计算与服务。",
+    "IoT Sensing": "物联网感知：用联网传感器采集环境与状态数据。",
+    "Low-Power Systems": "低功耗系统：在极有限电量下仍能工作的嵌入式系统。",
+    "Embedded Systems": "嵌入式系统：嵌在设备里的专用计算机系统。",
+    "Wireless Sensing": "无线感知：用无线信号感知人的存在或动作。",
+    "LLM Systems": "大模型系统：围绕LLM的训练、推理与工程化部署。",
+    "Embedded AI": "嵌入式AI：把AI能力放进资源受限的设备里。",
+    "AIoT": "AIoT：人工智能+物联网。",
+    "On-device Inference": "端侧推理：模型在本地设备上运行，不依赖云端。",
+    "Natural Language Processing": "自然语言处理：让计算机理解与生成人类语言。",
+    "Text Understanding": "文本理解：从文字中抽取语义与意图。",
+    "Autonomous Agents": "自主智能体：能规划并采取行动完成目标的AI系统。",
+    "Language Agents": "语言智能体：以大语言模型为大脑、能调用工具完成任务的智能体。"
+  },
+  "professors": [
+    {
+      "id": "wang-cong",
+      "tier": "pivot",
+      "name": "WANG, Cong 王聰",
+      "role": "系主任 · Chair Professor of Cyber Security · Department of Computer Science",
+      "email": "congwang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=wRa_lOEAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~congwang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/congwang/",
+      "scopusCitations": 20000,
+      "hIndex": 69,
+      "scholarCitedBy": 35688,
+      "metricsNote": "h-index/Scholar引用摘自 CityU impact 页（约2026-07）；Scopus引用为粗估占位，请核实",
+      "oneLiner": "安全与隐私大组掌门人；近年明显把「加密系统/区块链」延伸到 LLM 安全、联邦学习与AI系统安全。",
+      "selfDeclared": [
+        "Data security and privacy",
+        "AI systems and security",
+        "Blockchain and decentralized application security"
+      ],
+      "classicTags": [
+        "Cloud Security",
+        "Encrypted Storage",
+        "Privacy-Preserving Computation",
+        "Access Control",
+        "Blockchain Security"
+      ],
+      "emergingTags": [
+        "LLM Red Teaming",
+        "Federated Learning",
+        "Confidential Computing",
+        "AI Systems Security",
+        "Encrypted Analytics"
+      ],
+      "recentPapers": [
+        "《Nemesis: Combating Abusive Information in Encrypted Messaging with Private Reporting》 — ESORICS 2024",
+        "加密数据存储 / 多方加密分析相关工作见个人主页 2024 VLDB 等列表（建议点开主页核对最新题名）",
+        "个人主页明确列出近期兴趣：LLM red teaming、federated (un)learning、robust RL 等"
+      ],
+      "narrative": "王聪教授是 CityU CS 系主任，长期做<b>数据安全与隐私</b>（加密存储、外包计算、隐私增强通信），并有区块链/去中心化应用安全线。近年公开兴趣明显「转向」：把安全能力接到 <b>AI 系统与 LLM</b>（红队、联邦学习、鲁棒强化学习等）。如果你想做「安全 × AI」交叉，而不是纯视觉/纯NLP，这是 CS 系很有代表性的强组。联系前请自行核对个人主页最新论文，确认招收方向与你匹配。",
+      "matchTags": [
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "blockchain",
+        "区块链",
+        "federated learning",
+        "联邦学习",
+        "llm",
+        "大模型",
+        "ai security",
+        "AI安全",
+        "cryptography",
+        "密码",
+        "cloud",
+        "云安全"
+      ]
+    },
+    {
+      "id": "ma-weiying",
+      "tier": "evolve",
+      "name": "MA, Wei-Ying 馬維英",
+      "role": "Chair Professor of Artificial Intelligence for Science · CityUHK Chief of AI · Department of Computer Science",
+      "email": "ma.wei-ying@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=SXkgK-EAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/weiyma/",
+      "scopusCitations": 50000,
+      "hIndex": 100,
+      "metricsNote": "影响力数字为粗估占位（微软亚洲研究院背景、引用量级很高），务必用 Scholar/Scopus 自行核实",
+      "oneLiner": "科学智能 / 生成式AI 旗帜人物；更偏「AI for Science + 大模型」战略方向，不是传统系统安全路线。",
+      "selfDeclared": [
+        "Artificial Intelligence",
+        "Generative AI for Biology and Life Sciences",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Search and Data Mining"
+      ],
+      "classicTags": [
+        "Web Search",
+        "Data Mining",
+        "Information Retrieval",
+        "Machine Learning",
+        "Multimedia"
+      ],
+      "emergingTags": [
+        "AI for Science",
+        "Generative AI",
+        "Large Language Model",
+        "Biology / Life Sciences AI",
+        "Foundation Models"
+      ],
+      "recentPapers": [
+        "研究方向以 CityUHK Scholars / 港校 AI for Science 机构动态为准（本试点未逐条核近期论文标题）",
+        "关键词窗口：Generative AI for biology、LLM、AI for Science",
+        "建议联系前先查 Google Scholar 近 1–2 年论文确认是否收学生及具体课题"
+      ],
+      "narrative": "马维英教授是 CityU「AI for Science」讲座教授，并担任大学 AI 相关高层职务；研究叙事从经典的检索/数据挖掘，延伸到<b>生成式AI与生命科学交叉</b>。适合目标非常明确、想做大模型或科学智能的申请者。注意：大组/战略型教授往往更挑学生背景与匹配度，邮件务必写清你的技能栈与想做的具体问题。",
+      "matchTags": [
+        "ai for science",
+        "科学智能",
+        "generative ai",
+        "生成式ai",
+        "llm",
+        "大模型",
+        "nlp",
+        "自然语言",
+        "biology",
+        "生物",
+        "search",
+        "检索",
+        "data mining",
+        "数据挖掘"
+      ]
+    },
+    {
+      "id": "chan-antoni",
+      "tier": "stable",
+      "name": "CHAN, Antoni Bert 陳萬師",
+      "role": "Professor · Department of Computer Science",
+      "email": "abchan@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=Xq5POJIAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~abchan/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/abchan/",
+      "scopusCitations": 8000,
+      "hIndex": 40,
+      "metricsNote": "引用/h-index 为粗估占位，请核实",
+      "oneLiner": "计算机视觉与可解释AI的稳健深耕型；从监控/模式识别一路做到 gaze、音乐信息检索等跨模态。",
+      "selfDeclared": [
+        "Computer Vision",
+        "Machine Learning",
+        "Explainable AI (XAI)",
+        "Eye Gaze Analysis",
+        "Surveillance / Pattern Recognition",
+        "Computer Audition / Music Information Retrieval"
+      ],
+      "classicTags": [
+        "Computer Vision",
+        "Pattern Recognition",
+        "Surveillance",
+        "Machine Learning",
+        "Visual Tracking"
+      ],
+      "emergingTags": [
+        "Explainable AI",
+        "Eye Gaze Analysis",
+        "Computer Audition",
+        "Music Information Retrieval",
+        "Cross-modal Learning"
+      ],
+      "recentPapers": [
+        "官网研究方向：Computer Vision、XAI、Eye Gaze、Surveillance、Music IR（论文标题请到个人主页/Scholar 核对）",
+        "适合关键词：visual recognition / explainability / gaze",
+        "本试点未逐条核 2024–2025 论文题名"
+      ],
+      "narrative": "Chan教授是 CS 系偏<b>视觉与可解释性</b>的稳健选项：方向长期在计算机视觉/模式识别，同时把 XAI、gaze、甚至音乐信息检索纳入版图。如果你想做视觉但希望组风更「方法扎实、可解释」，而不是纯堆大模型规模，可以把他放进短名单。",
+      "matchTags": [
+        "computer vision",
+        "计算机视觉",
+        "xai",
+        "可解释",
+        "gaze",
+        "眼动",
+        "surveillance",
+        "监控",
+        "music",
+        "音乐",
+        "pattern recognition",
+        "模式识别",
+        "machine learning",
+        "机器学习"
+      ]
+    },
+    {
+      "id": "li-zhenjiang",
+      "tier": "pivot",
+      "name": "LI, Zhenjiang 李鎮江",
+      "role": "Professor · Department of Computer Science",
+      "email": "zhenjiang.li@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=0QnHhY4AAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~zhenjiang.li/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/zhenjiangli/",
+      "scopusCitations": 5000,
+      "hIndex": 35,
+      "metricsNote": "引用/h-index 为粗估占位，请核实",
+      "oneLiner": "从 AIoT / 低功耗传感走向 Edge AI 与 LLM Systems——系统味道很重的「AI落地」路线。",
+      "selfDeclared": [
+        "Edge and Embedded AI Systems",
+        "Large Language Model (LLM) Systems",
+        "Artificial Internet of Things (AIoT) and Smart Sensing",
+        "Low-Power and battery-free IoT Systems"
+      ],
+      "classicTags": [
+        "Mobile Computing",
+        "IoT Sensing",
+        "Low-Power Systems",
+        "Embedded Systems",
+        "Wireless Sensing"
+      ],
+      "emergingTags": [
+        "Edge AI",
+        "LLM Systems",
+        "Embedded AI",
+        "AIoT",
+        "On-device Inference"
+      ],
+      "recentPapers": [
+        "官网兴趣已明确包含 LLM Systems / Edge AI（具体论文请查 Scholar）",
+        "经典线：battery-free / LPWAN / smart sensing",
+        "适合想做「系统+模型部署」而非纯算法理论的同学"
+      ],
+      "narrative": "李镇江教授的轨迹很适合想做<b>端侧智能/系统向 AI</b>的人：早期强项在物联网感知与低功耗系统，近期公开方向已写上 Edge/Embedded AI 与 <b>LLM Systems</b>。和纯做推荐/纯做视觉的组画像不同——更强调把模型塞进真实设备与资源约束里。",
+      "matchTags": [
+        "edge ai",
+        "边缘",
+        "llm systems",
+        "大模型系统",
+        "iot",
+        "物联网",
+        "aiot",
+        "embedded",
+        "嵌入式",
+        "sensing",
+        "感知",
+        "mobile computing",
+        "低功耗",
+        "on-device"
+      ]
+    },
+    {
+      "id": "zhang-zhisong",
+      "tier": "pivot",
+      "name": "ZHANG, Zhisong 張智松",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "zhisong.zhang@cityu.edu.hk",
+      "scholarUrl": null,
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/",
+      "scopusCitations": 1500,
+      "hIndex": 15,
+      "metricsNote": "年轻教师；引用数字为占位，Scholar链接待补，请用姓名+CityU检索核实",
+      "oneLiner": "NLP / Autonomous Agents 方向的新晋助理教授——适合想跟年轻 PI 做智能体与语言智能的人。",
+      "selfDeclared": [
+        "Natural Language Processing",
+        "Artificial Intelligence",
+        "Autonomous Agents"
+      ],
+      "classicTags": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Text Understanding"
+      ],
+      "emergingTags": [
+        "Autonomous Agents",
+        "Large Language Model",
+        "Multi-Agent Systems",
+        "Language Agents"
+      ],
+      "recentPapers": [
+        "CS 官网列出兴趣：NLP、AI、Autonomous Agents",
+        "本试点未核对其 Google Scholar 与近作标题——审核阶段请你重点帮忙指出要补的链接",
+        "联系前务必自行检索确认是否在招、方向是否仍是 Agents"
+      ],
+      "narrative": "张智松教授是 CS 系较新的助理教授画像：官网关键词集中在 <b>NLP 与 Autonomous Agents</b>。年轻 PI 通常更亲力亲为、课题迭代快，但也更需要你自己核实组规模、资助与招生节奏。本条是「结构试点」样本，链接与引用还需你审核后我再补全。",
+      "matchTags": [
+        "nlp",
+        "自然语言",
+        "agents",
+        "智能体",
+        "autonomous agents",
+        "llm",
+        "大模型",
+        "ai",
+        "人工智能",
+        "language model",
+        "multi-agent"
+      ]
+    }
+  ]
+}
