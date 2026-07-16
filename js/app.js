@@ -8,7 +8,7 @@ const DEPT = window.DEPT_CONFIG || {};
 const CONFIG = {
   dataUrl: DEPT.dataUrl || 'data/professors.json',
   deptShort: DEPT.deptShort || 'EE',
-  deptTitle: DEPT.deptTitle || 'CityU EE 导师方向雷达',
+  deptTitle: DEPT.deptTitle || 'CityU EE 导师筛选器',
   STORAGE_KEYS: {
     // EE 保持旧 key，避免已有「我的清单」丢失；CS 等用 storagePrefix
     statusMap: DEPT.storagePrefix ? `${DEPT.storagePrefix}_status_map` : 'cde_mentor_status_map',
@@ -966,7 +966,7 @@ function updateVersionUI() {
   const lastUpdated = METADATA.lastUpdated || '—';
   const count = PROFESSORS.length;
 
-  document.title = `CDE Mentor Navigator ${siteVersion} · ${CONFIG.deptTitle}`;
+  document.title = `导师筛选器 ${siteVersion} · ${CONFIG.deptTitle}`;
 
   const eyebrow = document.getElementById('versionEyebrow');
   if (eyebrow) eyebrow.textContent = `站点 ${siteVersion} · 数据 ${dataVersion}`;
