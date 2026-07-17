@@ -1,18 +1,40 @@
 {
   "metadata": {
-    "version": "0.1.0-pilot",
-    "siteVersion": "v0.1.0",
+    "version": "0.3.0",
+    "siteVersion": "v0.3.0",
     "department": "Department of Computer Science, City University of Hong Kong",
     "departmentZh": "计算机科学系",
-    "phase": "pilot",
-    "totalProfessors": 5,
-    "pilotTargetApprox": 50,
-    "lastUpdated": "2026-07-16",
-    "coverage": "试点 5 人（审核通过后再扩展全系）",
-    "dataSource": "CS 官网 Academic Staff、CityUHK Scholars、Google Scholar（部分影响力数字为公开页面摘录，建议自行核实）",
+    "phase": "curated-pass-1",
+    "totalProfessors": 51,
+    "pilotCount": 5,
+    "lastUpdated": "2026-07-17",
+    "coverage": "CS Academic Staff 全职教职 51 人；叙事/标签已精修，影响力数字与近作标题建议自行核实",
+    "dataSource": "https://www.cs.cityu.edu.hk/people/academic-staff ；CityUHK Scholars / Google Scholar（批量条未逐核）",
     "layout": "vertical-same-as-ee",
     "productSpec": "导师 产品说明:ai/CS产品需求文档.md",
-    "note": "本批次用于审核信息结构；与 EE 同款纵版布局。Scopus/论文字段可能未完全核实。"
+    "note": "全员 dataQuality=curated-v1；联系方式已尽量从官网/Scholars 补全。招生信号与产业线索仍仅部分试点有核验。",
+    "industryProfilePilot": {
+      "updated": "2026-07-16",
+      "ids": [
+        "wang-cong",
+        "li-zhenjiang",
+        "wang-jianping",
+        "ma-weiying",
+        "chan-antoni"
+      ],
+      "note": "合作 Tab 试点：仅公开可核信息"
+    },
+    "recruitingPilot": {
+      "updated": "2026-07-16",
+      "note": "招生信号试点：仅公开页可见信息，status=open/closed/unknown"
+    },
+    "qualitySummary": {
+      "curated": 51,
+      "batch": 0,
+      "total": 51,
+      "note": "2026-07-16 全员 curated-v1；CS 叙事为中文精修第二遍",
+      "lastCuratedPass": "2026-07-16"
+    }
   },
   "themes": [
     {
@@ -20,25 +42,65 @@
       "nameEn": "Security",
       "nameZh": "安全与隐私",
       "profIds": [
-        "wang-cong"
+        "wang-cong",
+        "fang-yuguang",
+        "jia-xiaohua",
+        "hancke-gerhard",
+        "bai-guangdong",
+        "xu-weitao",
+        "yin-zhimeng",
+        "huang-heqing",
+        "huang-jun",
+        "lu-zhenliang",
+        "zhao-qingchuan"
       ]
     },
     {
       "id": "ai-systems",
-      "nameEn": "AI Systems",
-      "nameZh": "AI系统",
+      "nameEn": "AI / ML Systems",
+      "nameZh": "AI与机器学习",
       "profIds": [
         "wang-cong",
+        "fang-yuguang",
+        "ma-weiying",
+        "wang-jianping",
+        "wang-jun",
+        "wu-dapeng",
+        "zhang-qingfu",
+        "li-shuaicheng",
         "li-zhenjiang",
-        "zhang-zhisong"
+        "wang-lusheng",
+        "keung-jacky",
+        "ma-chen",
+        "song-linqi",
+        "wong-ka-chun",
+        "dong-minjing",
+        "guo-jianyuan",
+        "liu-chen",
+        "lu-zhichao",
+        "ma-jiawei",
+        "ma-ziye",
+        "qiu-shuang",
+        "wu-chenyuan",
+        "zhang-zhisong",
+        "zuo-jinhang"
       ]
     },
     {
       "id": "vision",
-      "nameEn": "Vision",
-      "nameZh": "计算机视觉",
+      "nameEn": "Vision / Graphics",
+      "nameZh": "视觉与图形",
       "profIds": [
-        "chan-antoni"
+        "wong-hau-san",
+        "chan-antoni",
+        "hou-junhui",
+        "wang-shiqi",
+        "leung-howard",
+        "liao-jing",
+        "ma-kede",
+        "dong-minjing",
+        "guo-jianyuan",
+        "ma-jiawei"
       ]
     },
     {
@@ -54,8 +116,12 @@
       "nameEn": "NLP / Agents",
       "nameZh": "NLP与智能体",
       "profIds": [
-        "zhang-zhisong",
-        "ma-weiying"
+        "deng-xiaotie",
+        "ma-weiying",
+        "ma-chen",
+        "guo-jianyuan",
+        "qiu-shuang",
+        "zhang-zhisong"
       ]
     },
     {
@@ -63,40 +129,153 @@
       "nameEn": "Edge / AIoT",
       "nameZh": "边缘与物联网",
       "profIds": [
-        "li-zhenjiang"
+        "guan-nan",
+        "fang-yuguang",
+        "hancke-gerhard",
+        "li-zhenjiang",
+        "liang-weifa",
+        "lam-kam-yiu",
+        "xu-weitao",
+        "yin-zhimeng",
+        "huang-jun",
+        "zhao-qingchuan",
+        "zuo-jinhang"
+      ]
+    },
+    {
+      "id": "networks",
+      "nameEn": "Networks",
+      "nameZh": "网络与通信",
+      "profIds": [
+        "fang-yuguang",
+        "jia-xiaohua",
+        "wang-jianping",
+        "wu-dapeng",
+        "liang-weifa",
+        "cheung-man-hon",
+        "yin-zhimeng",
+        "huang-jun",
+        "zuo-jinhang"
+      ]
+    },
+    {
+      "id": "theory",
+      "nameEn": "Theory / Algorithms",
+      "nameZh": "理论与算法",
+      "profIds": [
+        "deng-xiaotie",
+        "wang-jun",
+        "zhang-qingfu",
+        "li-minming",
+        "li-shuaicheng",
+        "liang-weifa",
+        "wang-lusheng",
+        "cheung-man-hon",
+        "song-linqi",
+        "wong-ka-chun",
+        "liu-chen",
+        "lu-zhenliang",
+        "lu-zhichao",
+        "ma-ziye"
+      ]
+    },
+    {
+      "id": "blockchain",
+      "nameEn": "Blockchain",
+      "nameZh": "区块链",
+      "profIds": [
+        "deng-xiaotie",
+        "jia-xiaohua",
+        "cheung-man-hon",
+        "keung-jacky",
+        "lu-zhenliang",
+        "wu-chenyuan"
+      ]
+    },
+    {
+      "id": "systems",
+      "nameEn": "Systems / SE",
+      "nameZh": "系统与软件工程",
+      "profIds": [
+        "guan-nan",
+        "jia-xiaohua",
+        "bai-guangdong",
+        "chan-ricky",
+        "keung-jacky",
+        "lam-kam-yiu",
+        "huang-heqing",
+        "qiu-junqiao",
+        "wu-chenyuan"
+      ]
+    },
+    {
+      "id": "multimedia",
+      "nameEn": "Multimedia",
+      "nameZh": "多媒体",
+      "profIds": [
+        "wong-hau-san",
+        "chan-antoni",
+        "hou-junhui",
+        "wang-shiqi",
+        "leung-howard",
+        "liao-jing",
+        "ma-kede"
+      ]
+    },
+    {
+      "id": "bioinformatics",
+      "nameEn": "Bioinformatics",
+      "nameZh": "生物信息",
+      "profIds": [
+        "wong-hau-san",
+        "wu-dapeng",
+        "li-shuaicheng",
+        "wang-lusheng",
+        "wong-ka-chun"
+      ]
+    },
+    {
+      "id": "hci",
+      "nameEn": "HCI",
+      "nameZh": "人机交互",
+      "profIds": [
+        "zhao-shengdong",
+        "leung-howard",
+        "zhu-kening",
+        "luo-yuhan"
       ]
     }
   ],
   "glossary": {
-    "Federated Learning": "联邦学习：数据不出本地，只交换模型更新，多方协作训练。",
+    "Federated Learning": "联邦学习：数据不出本地，只交换模型更新。",
     "Confidential Computing": "机密计算：在可信硬件环境中保护正在使用的数据。",
     "Explainable AI": "可解释AI：让模型决策对人类更可理解。",
     "Edge AI": "边缘AI：在端侧设备上直接跑AI。",
-    "Large Language Model": "大语言模型（LLM）：用海量文本训练的超大语言模型。",
+    "Large Language Model": "大语言模型：用海量文本训练的超大语言模型。",
     "Multi-Agent Systems": "多智能体系统：多个智能体协作或竞争完成任务。",
     "Cloud Security": "云安全：保护云上数据、身份与算力不被未授权访问或滥用。",
     "Encrypted Storage": "加密存储：数据落盘时加密，泄露后也更难直接读出明文。",
     "Privacy-Preserving Computation": "隐私保护计算：在尽量不暴露原始数据的前提下完成协作计算。",
-    "Access Control": "访问控制：决定谁能访问哪些资源、能做什么操作。",
+    "Access Control": "访问控制：决定谁能访问哪些资源。",
     "Blockchain Security": "区块链安全：防双花、防共识被操控、防智能合约漏洞等。",
     "LLM Red Teaming": "大模型红队：主动找LLM的漏洞与越狱路径，用来加固系统。",
     "AI Systems Security": "AI系统安全：保护训练/推理/供应链整条AI流水线不被攻击。",
     "Encrypted Analytics": "加密分析：在加密数据上做查询或统计，减少明文暴露。",
     "Web Search": "网络搜索：从海量网页中检索与查询最相关的结果。",
-    "Data Mining": "数据挖掘：从大数据里发现隐藏模式、关联或异常。",
-    "Information Retrieval": "信息检索：搜索引擎背后的「找相关文档」技术。",
-    "Machine Learning": "机器学习：让计算机从数据中自动学规律。",
+    "Data Mining": "数据挖掘：从大规模数据中发现模式与知识。",
+    "Information Retrieval": "信息检索：从大规模集合中找出相关信息。",
+    "Machine Learning": "机器学习：从数据中自动学习规律的方法总称。",
     "Multimedia": "多媒体：图像、视频、音频等多种媒体形态及其处理。",
     "AI for Science": "科学智能：用AI加速科学发现（材料、生物等）。",
     "Generative AI": "生成式AI：能创造新内容的人工智能。",
     "Biology / Life Sciences AI": "生命科学AI：把AI用于生物与医学科研问题。",
     "Foundation Models": "基础模型：大规模预训练后可适配很多下游任务的通用模型。",
-    "Computer Vision": "计算机视觉：让计算机看懂图像与视频。",
-    "Pattern Recognition": "模式识别：从数据中自动识别类别或规律。",
-    "Surveillance": "监控视觉：在监控视频里做检测、跟踪、行为分析。",
+    "Computer Vision": "计算机视觉：让机器理解图像与视频中的内容。",
+    "Pattern Recognition": "模式识别：从数据中识别类别与结构模式。",
+    "Surveillance": "视觉监控：用摄像头与算法做安防监测与行为分析。",
     "Visual Tracking": "视觉跟踪：在视频中持续跟上某个目标的位置。",
-    "Eye Gaze Analysis": "眼动分析：研究人看哪里、看多久。",
-    "Computer Audition": "计算机听觉：让机器理解声音/音乐内容。",
+    "Eye Gaze Analysis": "眼动分析：从注视点理解注意力与意图。",
+    "Computer Audition": "计算机听觉：让机器理解声音与音乐内容。",
     "Music Information Retrieval": "音乐信息检索：从音频中检索风格、旋律等信息。",
     "Cross-modal Learning": "跨模态学习：同时理解文本、图像、音频等多种信息。",
     "Mobile Computing": "移动计算：面向手机等移动设备的计算与服务。",
@@ -111,7 +290,293 @@
     "Natural Language Processing": "自然语言处理：让计算机理解与生成人类语言。",
     "Text Understanding": "文本理解：从文字中抽取语义与意图。",
     "Autonomous Agents": "自主智能体：能规划并采取行动完成目标的AI系统。",
-    "Language Agents": "语言智能体：以大语言模型为大脑、能调用工具完成任务的智能体。"
+    "Language Agents": "语言智能体：以大语言模型为大脑、能调用工具完成任务的智能体。",
+    "Real-Time Systems": "实时系统：必须在严格时间约束内完成计算的系统。",
+    "Cyber-Physical Systems": "信息物理系统：计算与物理过程紧密耦合的系统。",
+    "Multimedia Information Retrieval": "多媒体信息检索：从图像/视频/音频中检索内容。",
+    "Computer Graphics": "计算机图形学：用计算生成与处理图像与三维场景。",
+    "Bioinformatics": "生物信息学：用算法与AI分析生物/基因组数据。",
+    "Wireless Networks": "无线网络：不依赖有线链路的通信网络。",
+    "Mobile/Edge Computing": "移动/边缘计算：把算力放到靠近用户或设备的一侧。",
+    "Internet of Things": "物联网：把传感器与设备联网并协同工作。",
+    "Autonomous Driving": "自动驾驶：让车辆感知环境并自主决策行驶。",
+    "Algorithmic Game Theory": "算法博弈论：用算法分析多方策略互动与机制设计。",
+    "Blockchain": "区块链：用分布式账本记录交易、难篡改。",
+    "Distributed Systems": "分布式系统：多台机器协作完成同一服务。",
+    "Neural Computation": "神经计算：受神经网络启发的计算与优化方法。",
+    "Evolutionary Computation": "演化计算：用进化/种群搜索做优化与设计。",
+    "Multiobjective Optimization": "多目标优化：同时优化多个互相冲突的目标。",
+    "Software Security": "软件安全：防止程序被攻击利用或被植入恶意行为。",
+    "Program Analysis": "程序分析：自动分析代码行为、漏洞或性能。",
+    "Software Engineering": "软件工程：系统化地设计、构建与维护软件。",
+    "Recommender Systems": "推荐系统：根据用户兴趣推荐内容或商品。",
+    "Deep Learning": "深度学习：用多层神经网络学习复杂表示。",
+    "Human Computer Interaction": "人机交互：研究人与计算机如何高效自然地交互。",
+    "Reinforcement Learning": "强化学习：通过试错与奖励信号学习决策策略。",
+    "Embodied AI": "具身智能：让AI在物理/仿真环境中感知并行动。",
+    "AutoML": "自动机器学习：自动搜索模型结构与超参。",
+    "Model Compression": "模型压缩：缩小模型体积、加快推理。",
+    "Adversarial Robustness": "对抗鲁棒性：让模型在恶意扰动下仍可靠。",
+    "Multimodal Understanding": "多模态理解：同时理解文本、图像、音频等。",
+    "Mobile Security": "移动安全：保护手机等移动设备与应用不被攻击。",
+    "IoT Security": "物联网安全：保护联网设备与传感数据。",
+    "Reverse Engineering": "逆向工程：从成品反推实现细节，常用于安全分析。",
+    "Consensus": "共识：分布式系统就同一状态达成一致的机制。",
+    "Decentralized Finance": "去中心化金融：在链上运行的金融协议与市场。",
+    "Health Informatics": "健康信息学：用计算方法处理健康与医疗数据。",
+    "Representation Learning": "表示学习：自动学习适合下游任务的数据特征。",
+    "Continuous Learning": "持续学习：模型在新任务到来时持续更新且少遗忘。",
+    "Parallel Computing": "并行计算：同时使用多个计算单元加速任务。",
+    "Edge Computing": "边缘计算：在靠近数据源处完成计算。",
+    "Network Science": "网络科学：用图与网络模型研究复杂系统结构。",
+    "Information Theory": "信息论：研究信息度量、压缩与可靠传输的数学理论。",
+    "LPWAN": "低功耗广域网：适合远距离、低功耗物联网连接的网络技术。",
+    "SDN / NFV": "软件定义网络/网络功能虚拟化：用软件灵活编排网络功能。",
+    "Computational Photography": "计算摄影：用算法增强或扩展相机成像能力。",
+    "Multimedia Forensics": "多媒体取证：检测图像/视频是否被篡改或伪造。",
+    "VR/AR/MR": "虚实融合交互：虚拟/增强/混合现实中的人机交互。",
+    "Heads-up Computing": "合姿计算：面向抬头、可穿戴场景的交互与计算范式。",
+    "Cloud Computing": "云计算：通过网络按需使用远程算力与存储。",
+    "Data Science": "数据科学：用统计、计算与领域知识从数据中提取洞见。",
+    "Artificial Intelligence": "人工智能：让机器表现出感知、推理或学习能力。",
+    "Optimization": "优化：在约束下寻找目标函数的最优或近似最优解。",
+    "Algorithms": "算法：解决计算问题的有限步骤过程。",
+    "Graph Theory": "图论：研究点边结构的数学分支，广泛用于网络与算法。",
+    "FinTech": "金融科技：用技术改造金融服务与市场。",
+    "RFID and Smart Cards": "射频识别与智能卡：近场身份识别与安全载体技术。",
+    "Industrial Internet-of-Things": "工业物联网：面向工厂与工业设备的联网与控制。",
+    "Geometric Modeling": "几何建模：用数学描述与操作三维形状。",
+    "Applied Machine Learning": "应用机器学习：把ML方法落到具体领域问题。",
+    "Combinatorial Optimization": "组合优化：在离散结构上寻找最优配置。",
+    "Operations Research": "运筹学：用数学建模做决策与资源配置。",
+    "Intelligent Control": "智能控制：用AI/学习方法控制动态系统。",
+    "Signal Processing": "信号处理：分析、变换与提取信号中的信息。",
+    "Biomedical Engineering": "生物医学工程：工程方法解决医学与健康问题。",
+    "Modern Heuristics": "现代启发式：如遗传算法、模拟退火等近似搜索方法。",
+    "Explainable AI (XAI)": "可解释AI：让模型决策对人类更可理解。",
+    "Privacy Compliance": "隐私合规：让系统符合隐私法规与政策要求。",
+    "Trustworthy Systems": "可信系统：在安全、隐私与可靠性上可验证的系统。",
+    "System Security": "系统安全：保护操作系统与底层软件栈。",
+    "Big Data Software Infrastructure": "大数据软件基础设施：支撑大规模数据处理的软件栈。",
+    "Network Economics": "网络经济学：用经济学方法分析网络资源与激励。",
+    "Unmanned Aerial Vehicles (UAVs)": "无人机：无人驾驶飞行器及其协同应用。",
+    "Behavioral Economics": "行为经济学：结合心理学理解真实决策行为。",
+    "Software Metrics": "软件度量：用指标量化软件质量与开发过程。",
+    "Chinese Handwriting Education": "中文书法/手写教育智能工具：用计算辅助书写学习。",
+    "3D Human Motion Analysis": "三维人体动作分析：从数据理解人体运动。",
+    "Web-Based Learning": "网络学习技术：基于Web的教学与学习系统。",
+    "Digital Art": "数字艺术：用计算手段创作与处理艺术内容。",
+    "Social Computing": "社会计算：研究社交网络与群体在线行为。",
+    "Perceptual Image Processing": "感知图像处理：按人眼感知优化图像质量。",
+    "Natural Computing": "自然计算：受生物/自然过程启发的计算范式。",
+    "Wearable Devices": "可穿戴设备：穿戴在身上的传感与计算设备。",
+    "Mobile Gesture Interaction": "移动手势交互：用手机手势完成输入与控制。",
+    "Tangible/Wearable Interfaces": "实体/可穿戴界面：可触摸或穿戴的交互界面。",
+    "Interaction Design for Children": "儿童交互设计：面向儿童的可用性与体验设计。",
+    "Calibration": "模型校准：让预测置信度与真实正确率对齐。",
+    "Human Motion Analytics": "人体运动分析：量化与理解人体动作模式。",
+    "Neural Architecture Search": "神经架构搜索：自动搜索网络结构。",
+    "Efficient Neural Network": "高效神经网络：在精度与算力之间做权衡的网络设计。",
+    "Programming Language": "编程语言：表达程序的形式语言及其实现。",
+    "Software Security and Reliability": "软件安全与可靠性：既防攻击也保证稳定正确运行。",
+    "Cyber Security": "网络安全：保护网络与信息系统免受攻击。",
+    "Wireless Communications and Networking": "无线通信与组网：无线链路与网络协议设计。",
+    "Deep Neural Networks": "深度神经网络：多层可学习表示模型。",
+    "Robustness": "鲁棒性：在噪声、扰动或分布偏移下仍保持性能。",
+    "Distributed Computing/Cryptography": "分布式计算与密码学：多方协作计算与密码协议。",
+    "Order Fairness": "排序公平：交易/消息排序不被不公平抢跑操纵。",
+    "Personal Informatics": "个人信息学：帮助个人理解自身数据的系统。",
+    "Multi-Modal and Computer Vision": "多模态与视觉：跨模态视觉理解与学习。",
+    "AI Theory": "AI理论：机器学习与智能系统的数学基础。",
+    "Programming Systems": "编程系统：支撑程序编写、编译与运行的系统软件。",
+    "Runtime Support for Parallel Computing": "并行运行时：支持并行程序高效执行的运行时系统。",
+    "AI-driven Systems": "AI驱动系统：把AI能力嵌入系统软件与数据平台。",
+    "Distributed Data Management": "分布式数据管理：跨节点组织、存储与查询数据。",
+    "IoT and BLE Security": "物联网与蓝牙安全：保护IoT与低功耗蓝牙链路。",
+    "Networking": "计算机网络：主机互联、路由与传输协议。",
+    "Service-oriented Networking": "面向服务的网络：按服务需求编排网络资源。",
+    "Optical Networking": "光网络：用光纤与光交换承载高速通信。",
+    "Multicast": "组播：一次发送、多方接收的网络传输模式。",
+    "Data Privacy and Security": "数据隐私与安全：保护数据不被未授权访问或滥用。",
+    "Blockchain Technologies": "区块链技术：账本、共识与智能合约等相关技术。",
+    "Generative AI for Biology and Life Sciences": "面向生命科学的生成式AI：用生成模型辅助生物/医学发现。",
+    "Search and Data Mining": "搜索与数据挖掘：信息检索与大规模模式发现。",
+    "Data and Computation Outsourcing Security": "外包计算安全：数据交给云端处理时仍保护隐私与正确性。",
+    "Computer and Mobile Networks": "计算机与移动网络：有线/无线网络协议与系统。",
+    "AI-driven Algorithmic Game Theory": "AI驱动的算法博弈论：把学习与博弈机制结合。",
+    "LLM-Based Multiagent Systems": "基于大模型的多智能体系统：多个LLM智能体协作完成任务。",
+    "Verifiable Mechanism Design": "可验证机制设计：激励相容且可审计验证的机制。",
+    "Digital Markets": "数字市场：在线平台中的匹配、定价与交易机制。",
+    "Blockchain and FinTech": "区块链与金融科技：链上金融与相关技术应用。",
+    "Wireless AI / Federated Learning": "无线AI/联邦学习：在无线环境中做分布式智能学习。",
+    "5G/6G": "5G/6G：新一代移动通信网络技术。",
+    "Smart Health": "智慧健康：用传感与AI支持健康监测与医疗。",
+    "Security/Privacy": "安全与隐私：保护系统与个人数据。",
+    "Artificial Internet of Things (AIoT) and Smart Sensing": "AIoT与智能感知：AI与物联网感知结合。",
+    "Low-Power and battery-free IoT Systems": "低功耗/无电池物联网：极省电甚至无电池的传感系统。",
+    "Edge and Embedded AI Systems": "边缘与嵌入式AI系统：在端侧设备上部署AI。",
+    "Large Language Model (LLM) Systems": "大模型系统：围绕LLM的训练、推理与工程化。",
+    "Approximation Algorithms": "近似算法：在可证明近似比内高效求解难题。",
+    "Algorithms & Data Structures": "算法与数据结构：组织数据并高效解决问题的基础。",
+    "Bioinformatics and Computational Biology": "生物信息与计算生物学：用计算分析生物系统。",
+    "Internet Applications": "互联网应用：运行在网络上的应用系统。",
+    "Image/Video Compression": "图像/视频压缩：在保真与码率间权衡的编码。",
+    "Visual Quality-of-Experience": "视觉体验质量：用户感知到的视频/图像质量。",
+    "Multimedia Communications": "多媒体通信：传输图像、音视频等内容。",
+    "Image/Video Retrieval": "图像/视频检索：按内容或语义查找媒体。",
+    "Wearable Intelligent Assistant": "可穿戴智能助手：戴在身上、可对话/辅助的智能系统。",
+    "Interaction Techniques": "交互技术：人与系统交互的具体手法与控件。",
+    "Interactive Systems": "交互系统：面向人实时互动的软件/硬件系统。",
+    "Cognitive Modelling": "认知建模：用计算模型刻画人类认知过程。",
+    "Software Scalability and Concurrency": "软件可扩展与并发：让程序在多核/大规模下仍正确高效。",
+    "Computational Intelligence": "计算智能：用演化、模糊、神经网络等启发式方法解决复杂问题。",
+    "Optimization Methods": "优化方法：在约束下寻找目标函数最优或近似最优解的数学/算法工具。",
+    "Data Processing": "数据处理：清洗、转换、汇总数据，为分析或模型做准备。",
+    "Communication": "通信：在两端之间可靠地传递信息的技术与协议。",
+    "Information and System Security": "信息与系统安全：保护数据与系统不被未授权访问、篡改或破坏。",
+    "Multimedia Signal Processing": "多媒体信号处理：对音视频等内容信号做压缩、增强与分析。",
+    "Algorithms Design and Analysis": "算法设计与分析：设计解题步骤，并证明它快不快、对不对。",
+    "Wireless Sensor Networks": "无线传感网：大量低功耗传感器节点无线组网采集环境数据。",
+    "Internet of Things (IoT)": "物联网：把传感器与设备联网，实现采集、监控与控制。",
+    "Mobile Edge Computing": "移动边缘计算：把算力放到靠近手机/基站的一侧，降低时延。",
+    "Wireless Networking": "无线组网：设计无线链路与网络协议，让设备可靠互联。",
+    "Blockchain Systems": "区块链系统：用分布式账本记录交易，难篡改，常含共识与智能合约。",
+    "Mobile and Pervasive Computing": "移动与普适计算：计算随时随地发生，设备融入环境。",
+    "Real-time and Embedded Systems": "实时与嵌入式系统：嵌在设备里且必须在截止时间前完成任务的系统。",
+    "Multimedia and Image Processing": "多媒体与图像处理：处理图像及相关多媒体内容的技术。",
+    "Image/Video Processing": "图像/视频处理：对图像视频做增强、压缩、分割、识别等。",
+    "Computational Vision": "计算视觉：用算法让计算机理解图像与视频内容。",
+    "Multimodal Human Computer Interaction": "多模态人机交互：同时用语音、手势、视线等多种方式交互。",
+    "Multi-objective Optimization": "多目标优化：同时优化多个互相冲突的目标，找折中解集。",
+    "Human-Computer Interaction": "人机交互：研究人如何高效、自然地使用计算机与界面。",
+    "Parallelization for Data-intensive Applications": "数据密集型并行化：把大数据任务拆开并行跑，提高吞吐。",
+    "Programming Models for Irregular Applications": "不规则应用编程模型：为结构不规整、难并行的任务提供编程抽象。",
+    "Blockchains": "区块链：链式数据结构+共识机制组成的分布式可信账本。",
+    "nlp": "自然语言处理（Natural Language Processing）：让计算机理解、生成人类语言的技术，涵盖翻译、问答、对话与文本分类等。",
+    "agents": "智能体（Agents）：能感知环境、做决策并行动的软件/机器人实体；近年常指基于大模型的可规划、可调用工具的代理系统。",
+    "hci": "人机交互（Human-Computer Interaction）：研究人如何与计算系统交互，关注可用性、体验与交互技术本身。",
+    "交互": "人机交互方向的中文说法：做界面、手势、可穿戴、XR 等「人怎么用系统」的问题，而不只是后端算法。",
+    "区块链": "用加密与共识把交易/状态记在多方共享的账本上，强调去中心化与不可篡改；常见于加密货币、供应链与存证。",
+    "人工智能": "让机器表现出感知、学习、推理或决策能力的技术总称；包含机器学习、视觉、语音、规划等子领域。",
+    "优化": "在约束下找更好解的数学与算法问题；机器学习训练、资源调度、多目标权衡都大量用到优化。",
+    "低功耗": "在有限电量/散热下尽量少耗能仍完成计算或通信——物联网、可穿戴与端侧 AI 的核心约束。",
+    "可解释": "让模型决策过程可被人类理解或审计（可解释 AI）；不只看准确率，还要能说明「为什么这么判」。",
+    "云安全": "保护云上数据、身份与工作负载的安全实践与技术，涉及隔离、访问控制、加密与合规。",
+    "ai security": "针对 AI 系统的安全：对抗样本、模型窃取、提示注入、数据投毒、隐私泄漏与滥用防护等。",
+    "ai安全": "针对 AI 系统的安全：对抗样本、模型窃取、提示注入、数据投毒、隐私泄漏与滥用防护等。",
+    "machine learning": "机器学习：从数据中自动学规律，用来预测或决策，而不是纯手写规则。",
+    "机器学习": "从数据中自动学规律，用来预测或决策，而不是纯手写规则。",
+    "deep learning": "深度学习：用多层神经网络自动学特征，是现代视觉、语音与大模型的主干技术。",
+    "深度学习": "用多层神经网络自动学特征，是现代视觉、语音与大模型的主干技术。",
+    "reinforcement learning": "强化学习：智能体通过试错与奖励信号学策略，常见于控制、游戏与具身智能。",
+    "强化学习": "智能体通过试错与奖励信号学策略，常见于控制、游戏与具身智能。",
+    "computer vision": "计算机视觉：让机器理解图像/视频中的内容，如检测、分割、跟踪与三维重建。",
+    "计算机视觉": "让机器理解图像/视频中的内容，如检测、分割、跟踪与三维重建。",
+    "computer graphics": "计算机图形学：生成与渲染图像/三维内容，偏「怎么画出来」，常与视觉、交互交叉。",
+    "计算机图形": "生成与渲染图像/三维内容，偏「怎么画出来」，常与视觉、交互交叉。",
+    "edge computing": "边缘计算：把计算放到靠近数据产生处（手机、基站、网关），降低延迟与带宽压力。",
+    "边缘计算": "把计算放到靠近数据产生处（手机、基站、网关），降低延迟与带宽压力。",
+    "federated learning": "联邦学习：数据留在本地，只汇总模型更新，用来在隐私约束下协作训练。",
+    "联邦学习": "数据留在本地，只汇总模型更新，用来在隐私约束下协作训练。",
+    "program analysis": "程序分析：自动分析代码行为以找 bug、漏洞或做优化，是软件安全与编译器的基础工具。",
+    "程序分析": "自动分析代码行为以找 bug、漏洞或做优化，是软件安全与编译器的基础工具。",
+    "cyber-physical systems": "信息物理系统（CPS）：计算与物理过程深度耦合，如工控、自动驾驶与智能楼宇。",
+    "real-time systems": "实时系统：正确性不仅看结果对不对，还要求在截止时间前完成。",
+    "embedded systems": "嵌入式系统：嵌在设备里的专用计算系统，资源（算力/内存/电量）通常很紧。",
+    "bioinformatics": "生物信息学：用计算与算法分析生物数据（基因组、蛋白等）。",
+    "生物信息": "用计算与算法分析生物数据（基因组、蛋白等）。",
+    "recommender systems": "推荐系统：根据用户与物品数据预测偏好，决定「接下来给你看什么」。",
+    "推荐系统": "根据用户与物品数据预测偏好，决定「接下来给你看什么」。",
+    "automl": "自动机器学习：尽量自动选模型结构、超参与流水线，降低手工调参成本。",
+    "embodied ai": "具身智能：把感知-决策-行动放进机器人/智能体，在真实或仿真环境中交互。",
+    "具身智能": "把感知-决策-行动放进机器人/智能体，在真实或仿真环境中交互。",
+    "multimodal": "多模态：同时处理文本、图像、语音、视频等多种信号并建立对齐理解。",
+    "多模态": "同时处理文本、图像、语音、视频等多种信号并建立对齐理解。",
+    "model compression": "模型压缩：用剪枝、量化、蒸馏等手段把大模型变小变快，方便端侧部署。",
+    "模型压缩": "用剪枝、量化、蒸馏等手段把大模型变小变快，方便端侧部署。",
+    "consensus": "共识机制：分布式节点就账本状态达成一致的协议，是区块链可用性与安全的核心。",
+    "共识": "分布式节点就账本状态达成一致的协议，是区块链可用性与安全的核心。",
+    "decentralized finance": "去中心化金融（DeFi）：在链上用智能合约提供借贷、交易等金融服务。",
+    "defi": "去中心化金融：在链上用智能合约提供借贷、交易等金融服务。",
+    "wireless networks": "无线网络：用无线电波连接设备的通信网络，从 Wi-Fi/蜂窝到传感网都属此类。",
+    "无线网络": "用无线电波连接设备的通信网络，从 Wi-Fi/蜂窝到传感网都属此类。",
+    "iot security": "物联网安全：保护传感器、网关与云端链路，防窃听、伪造、劫持与固件攻击。",
+    "物联网安全": "保护传感器、网关与云端链路，防窃听、伪造、劫持与固件攻击。",
+    "software engineering": "软件工程：系统化地开发、测试、维护大规模软件的方法与工具。",
+    "软件工程": "系统化地开发、测试、维护大规模软件的方法与工具。",
+    "information theory": "信息论：用数学刻画信息量、信道容量与压缩极限，是通信与学习理论的底座之一。",
+    "信息论": "用数学刻画信息量、信道容量与压缩极限，是通信与学习理论的底座之一。",
+    "evolutionary computation": "进化计算：受生物进化启发的优化算法族（遗传算法、进化策略等），擅长黑盒与多目标问题。",
+    "进化计算": "受生物进化启发的优化算法族（遗传算法、进化策略等），擅长黑盒与多目标问题。",
+    "multiobjective optimization": "多目标优化：同时优化多个冲突目标，求的是权衡曲面（Pareto 前沿）而不只是单一最优。",
+    "多目标优化": "同时优化多个冲突目标，求的是权衡曲面（Pareto 前沿）而不只是单一最优。",
+    "algorithmic game theory": "算法博弈论：用算法视角研究策略互动、机制设计与均衡计算。",
+    "算法博弈论": "用算法视角研究策略互动、机制设计与均衡计算。",
+    "network economics": "网络经济学：用经济与博弈工具分析网络资源分配、定价与用户行为。",
+    "网络经济": "用经济与博弈工具分析网络资源分配、定价与用户行为。",
+    "heads-up computing": "抬头计算：在不打断主任务的前提下，用可穿戴/空间界面提供即时信息与助手能力。",
+    "perceptual image processing": "感知图像处理：按人眼/人脑感知来优化图像质量与压缩，而不只看像素误差。",
+    "multimedia forensics": "多媒体取证：判断图像/视频是否被篡改、来源何处，用于安全与内容真实性。",
+    "多媒体取证": "判断图像/视频是否被篡改、来源何处，用于安全与内容真实性。",
+    "lpwan": "低功耗广域网（LPWAN）：让物联网设备用很低功耗、较远距离上报数据的一类通信技术。",
+    "sdn": "软件定义网络（SDN）：把网络控制面集中可编程，便于灵活编排流量与策略。",
+    "nfv": "网络功能虚拟化（NFV）：把防火墙、网关等网络功能跑在通用服务器上，而不是专用盒。",
+    "vr/ar/mr": "虚拟/增强/混合现实：用头显或眼镜把数字内容叠进或替代现实场景的交互技术。",
+    "wearable": "可穿戴设备：戴在身上的计算设备（手表、眼镜、手环等），强调持续感知与低打扰交互。",
+    "可穿戴": "戴在身上的计算设备（手表、眼镜、手环等），强调持续感知与低打扰交互。",
+    "reverse engineering": "逆向工程：从成品（二进制/协议）反推结构与行为，常用于安全分析与兼容。",
+    "逆向工程": "从成品（二进制/协议）反推结构与行为，常用于安全分析与兼容。",
+    "ble": "低功耗蓝牙（Bluetooth Low Energy）：短距低功耗无线协议，广泛用于可穿戴与物联网外设。",
+    "calibration": "校准：让模型输出的置信度与真实正确率对齐，避免「很自信但经常错」。",
+    "校准": "让模型输出的置信度与真实正确率对齐，避免「很自信但经常错」。",
+    "adversarial robustness": "对抗鲁棒性：模型在受到精心构造的微小扰动时仍保持正确，是可信 AI 的重要指标。",
+    "对抗鲁棒": "模型在受到精心构造的微小扰动时仍保持正确，是可信 AI 的重要指标。",
+    "neural architecture search": "神经架构搜索（NAS）：自动搜索网络结构，减少手工设计模型的成本。",
+    "nas": "神经架构搜索：自动搜索网络结构，减少手工设计模型的成本。",
+    "continuous learning": "持续/终身学习：模型在新任务到来时持续更新，同时尽量不忘旧知识。",
+    "持续学习": "模型在新任务到来时持续更新，同时尽量不忘旧知识。",
+    "representation learning": "表征学习：自动学出适合下游任务的特征表示，是现代深度学习的核心思想之一。",
+    "表征学习": "自动学出适合下游任务的特征表示，是现代深度学习的核心思想之一。",
+    "distributed systems": "分布式系统：多台机器协作完成计算与存储，要处理一致性、故障与延迟。",
+    "分布式系统": "多台机器协作完成计算与存储，要处理一致性、故障与延迟。",
+    "cloud computing": "云计算：按需使用远程计算与存储资源，强调弹性、多租户与服务化。",
+    "云计算": "按需使用远程计算与存储资源，强调弹性、多租户与服务化。",
+    "data mining": "数据挖掘：从大规模数据中发现模式、关联与异常，常服务于决策与推荐。",
+    "数据挖掘": "从大规模数据中发现模式、关联与异常，常服务于决策与推荐。",
+    "privacy": "隐私：控制个人/敏感数据被谁收集、用于何处；技术上常涉及脱敏、加密与差分隐私等。",
+    "隐私": "控制个人/敏感数据被谁收集、用于何处；技术上常涉及脱敏、加密与差分隐私等。",
+    "security": "安全：防止未授权访问、篡改与破坏；涵盖密码、系统加固、漏洞与威胁建模等。",
+    "安全": "防止未授权访问、篡改与破坏；涵盖密码、系统加固、漏洞与威胁建模等。",
+    "chip design": "芯片设计：从架构到电路/版图把计算功能落到硅片上的工程过程。",
+    "soc": "片上系统（System-on-Chip）：把 CPU、加速器、存储与接口集成在一颗芯片里。",
+    "hardware accelerator": "硬件加速器：为特定计算（如矩阵乘、编解码）定制的电路，比通用 CPU 更高效。",
+    "硬件加速": "为特定计算（如矩阵乘、编解码）定制的电路，比通用 CPU 更高效。",
+    "neuromorphic": "神经形态计算：用类似生物神经的事件驱动电路做高效感知与学习。",
+    "神经形态": "用类似生物神经的事件驱动电路做高效感知与学习。",
+    "wireless charging": "无线充电：用磁场/电场耦合传能，设备无需插线即可充电。",
+    "无线充电": "用磁场/电场耦合传能，设备无需插线即可充电。",
+    "medical imaging": "医学成像：用 CT/MRI/超声等产生人体内部图像，并做重建、增强与辅助诊断。",
+    "医学成像": "用 CT/MRI/超声等产生人体内部图像，并做重建、增强与辅助诊断。",
+    "face recognition": "人脸识别：从图像/视频中识别或验证身份；涉及检测、特征与防伪。",
+    "人脸识别": "从图像/视频中识别或验证身份；涉及检测、特征与防伪。",
+    "quality assessment": "质量评估：自动或主观地给图像/视频/语音打「好不好看/好不好听」的分，服务压缩与增强。",
+    "质量评估": "自动或主观地给图像/视频/语音打「好不好看/好不好听」的分，服务压缩与增强。",
+    "cybersecurity": "网络安全：保护网络与信息系统免受攻击、入侵与数据泄露。",
+    "网络安全": "保护网络与信息系统免受攻击、入侵与数据泄露。",
+    "communication theory": "通信理论：用信息论与信号处理描述信道、编码与可靠传输的极限与方法。",
+    "通信理论": "用信息论与信号处理描述信道、编码与可靠传输的极限与方法。",
+    "networking": "网络：研究如何把计算节点互联并可靠、高效地传数据（协议、路由、拥塞等）。",
+    "网络": "研究如何把计算节点互联并可靠、高效地传数据（协议、路由、拥塞等）。",
+    "data science": "数据科学：用统计、机器学习与工程手段从数据中提取洞见并支持决策。",
+    "数据科学": "用统计、机器学习与工程手段从数据中提取洞见并支持决策。",
+    "humanoid": "人形机器人：形态接近人类的机器人，强调双足/双手操作与人机共处场景。",
+    "人形机器人": "形态接近人类的机器人，强调双足/双手操作与人机共处场景。",
+    "alignment": "对齐：让 AI 系统的目标与行为符合人类意图与价值观，减少失控与有害输出。",
+    "对齐": "让 AI 系统的目标与行为符合人类意图与价值观，减少失控与有害输出。",
+    "video": "视频相关方向：覆盖编码、理解、生成、检索与质量评估等与时序影像有关的研究。",
+    "视频": "覆盖编码、理解、生成、检索与质量评估等与时序影像有关的研究。",
+    "low power": "低功耗设计：在性能达标前提下尽量减少能耗，是移动与物联网硬件的关键约束。",
+    "artificial intelligence": "人工智能：让机器表现出感知、学习、推理或决策能力的技术总称。"
   },
   "professors": [
     {
@@ -170,7 +635,333 @@
         "密码",
         "cloud",
         "云安全"
-      ]
+      ],
+      "industryProfile": {
+        "collaboratingLabs": [
+          {
+            "name": "Cong's Group（安全与隐私）",
+            "kind": "university",
+            "note": "组网主页公开招募 PDF/RA/研究生；方向含加密系统、AI 安全、区块链等。",
+            "url": "https://cyber.cs.cityu.edu.hk/en/home/index.html",
+            "source": "homepage",
+            "textFragment": "Cong's Group"
+          },
+          {
+            "name": "Laboratory for AI-Powered Financial Technologies (AIFT)",
+            "kind": "joint",
+            "note": "Scholars 简介写明担任 AIFT Senior Scientist（金融科技×AI 联合实验室语境）。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/congwang/",
+            "source": "scholars",
+            "textFragment": "AI-Powered Financial Technologies"
+          }
+        ],
+        "industryLinks": [
+          {
+            "org": "Amazon Web Services / Microsoft Azure",
+            "relation": "joint project",
+            "note": "CityU 职员简介写明研究获 AWS、Microsoft Azure 等支持（云资源/研究支持）。",
+            "url": "https://www.cityu.edu.hk/stfprofile/congwang.htm",
+            "source": "homepage",
+            "textFragment": "Amazon Web Services"
+          },
+          {
+            "org": "香港金融管理局 CBDC Expert Group",
+            "relation": "advisor",
+            "note": "Scholars 简介写明为 HKMA 数字货币专家组成员（公开顾问角色）。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/congwang/",
+            "source": "scholars",
+            "textFragment": "Central Bank Digital Currency"
+          }
+        ],
+        "linkedinUrl": null,
+        "internshipHint": "possible",
+        "verifiedAt": "2026-07-16",
+        "quality": "curated"
+      },
+      "recruiting": {
+        "status": "open",
+        "note": "组主页写明招 PDF / RA / postgraduate。",
+        "sourceUrl": "https://cyber.cs.cityu.edu.hk/en/home/index.html",
+        "updatedAt": "2026-07-16",
+        "textFragment": "looking for self-motivated individuals"
+      },
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "guan-nan",
+      "tier": "stable",
+      "name": "GUAN, Nan 關楠",
+      "role": "Associate Head (Research) · Professor · Department of Computer Science",
+      "email": "nanguan@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=3C7SPAgAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~nanguan/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/nanguan/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "实时/嵌入式与 cyber-physical——系统约束很硬的一条线，不是纯算法刷榜型。",
+      "selfDeclared": [
+        "Real-Time Systems",
+        "Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "classicTags": [
+        "Real-Time Systems",
+        "Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "emergingTags": [
+        "Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "recentPapers": [
+        "公开主线：实时/嵌入式与 cyber-physical",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/nanguan/"
+      ],
+      "narrative": "關楠教授长期做<b>实时系统、嵌入式与 cyber-physical systems</b>，关心任务能否在截止期内可靠跑完、如何与物理世界耦合。适合喜欢操作系统/调度/嵌入式，而不是纯视觉或纯 LLM 应用的人。联系前请核近作与招生。",
+      "matchTags": [
+        "real-time systems",
+        "embedded systems",
+        "cyber-physical systems",
+        "guan"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wong-hau-san",
+      "tier": "stable",
+      "name": "WONG, Hau San Raymond 黃厚生",
+      "role": "Associate Head (Education) · Professor · Department of Computer Science",
+      "email": "cshswong@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=i9Dh1OkAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~hswong/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/cshswong/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "多媒体检索 × 图形 × 模式识别；也有生物信息交叉，偏「视觉与检索」经典组画像。",
+      "selfDeclared": [
+        "Multimedia Information Retrieval",
+        "Computer Graphics",
+        "Pattern Recognition",
+        "Bioinformatics"
+      ],
+      "classicTags": [
+        "Multimedia Information Retrieval",
+        "Computer Graphics",
+        "Pattern Recognition",
+        "Bioinformatics"
+      ],
+      "emergingTags": [
+        "Pattern Recognition",
+        "Bioinformatics"
+      ],
+      "recentPapers": [
+        "公开主线：多媒体检索 × 图形 × 模式识别",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/cshswong/"
+      ],
+      "narrative": "黃厚生教授公开方向覆盖<b>多媒体信息检索、计算机图形与模式识别</b>，并延伸到生物信息。更偏多媒体/视觉与检索长线，而不是安全或系统方向。适合把「视觉/检索/图形」放进短名单的人；近作与是否在招请再核主页。",
+      "matchTags": [
+        "multimedia information retrieval",
+        "computer graphics",
+        "pattern recognition",
+        "bioinformatics",
+        "wong",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形",
+        "bio",
+        "生物",
+        "生物信息"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "fang-yuguang",
+      "tier": "evolve",
+      "name": "FANG, Yuguang Michael 方玉光",
+      "role": "Global STEM Scholar · Chair Professor of Internet of Things · Department of Computer Science",
+      "email": "my.fang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=cs45mqMAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~yugufang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/yugufang/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "无线网络与边缘计算大佬；近年把安全/隐私接到 Wireless AI 与联邦学习。",
+      "selfDeclared": [
+        "Wireless Networks",
+        "Mobile/Edge Computing",
+        "Security/Privacy",
+        "Wireless AI / Federated Learning",
+        "Internet of Things",
+        "5G/6G",
+        "Autonomous Driving",
+        "Smart Health"
+      ],
+      "classicTags": [
+        "Wireless Networks",
+        "Mobile/Edge Computing",
+        "Security/Privacy",
+        "Internet of Things",
+        "Smart Health"
+      ],
+      "emergingTags": [
+        "Wireless AI / Federated Learning",
+        "5G/6G",
+        "Autonomous Driving"
+      ],
+      "recentPapers": [
+        "公开主线：无线网络与边缘计算大佬",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/yugufang/"
+      ],
+      "narrative": "方玉光教授是 Global STEM Scholar / 讲座教授，公开兴趣从<b>无线网络、移动/边缘计算</b>延伸到安全隐私、Wireless AI、联邦学习与物联网。适合想做「网络 × 边缘 × 安全/AI」交叉的人；大组通常更挑匹配度，邮件写清技能栈与问题。",
+      "matchTags": [
+        "wireless networks",
+        "mobile/edge computing",
+        "security/privacy",
+        "wireless ai / federated learning",
+        "internet of things",
+        "5g/6g",
+        "autonomous driving",
+        "smart health",
+        "fang",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "deng-xiaotie",
+      "tier": "pivot",
+      "name": "DENG, Xiaotie 鄧小鐵",
+      "role": "Chair Professor of Multi-Agent Economics · Department of Computer Science",
+      "email": "xiaotie@pku.edu.cn",
+      "scholarUrl": "https://scholar.google.com/citations?user=OBUwP_oAAAAJ",
+      "personalUrl": "https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm",
+      "scholarsUrl": null,
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "多智能体经济与机制设计旗帜；近年接到 LLM multi-agent 与区块链/FinTech。",
+      "selfDeclared": [
+        "AI-driven Algorithmic Game Theory",
+        "LLM-Based Multiagent Systems",
+        "Verifiable Mechanism Design",
+        "Blockchain and FinTech",
+        "Digital Markets"
+      ],
+      "classicTags": [
+        "AI-driven Algorithmic Game Theory",
+        "Verifiable Mechanism Design",
+        "Digital Markets"
+      ],
+      "emergingTags": [
+        "LLM-Based Multiagent Systems",
+        "Blockchain and FinTech"
+      ],
+      "recentPapers": [
+        "公开主线：多智能体经济与机制设计旗帜",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/"
+      ],
+      "narrative": "邓小铁教授做<b>算法博弈论、可验证机制设计与数字市场</b>，公开兴趣已写上 LLM-based multi-agent 与区块链/FinTech。适合背景偏理论/博弈/经济计算、想做智能体激励与市场机制的人——不是纯工程刷模型组。联系前请核近作。",
+      "matchTags": [
+        "ai-driven algorithmic game theory",
+        "llm-based multiagent systems",
+        "verifiable mechanism design",
+        "blockchain and fintech",
+        "digital markets",
+        "deng",
+        "nlp",
+        "language",
+        "自然语言",
+        "agent",
+        "智能体",
+        "blockchain",
+        "区块链",
+        "llm",
+        "大模型",
+        "language model",
+        "agents",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "jia-xiaohua",
+      "tier": "evolve",
+      "name": "JIA, Xiaohua 賈小華",
+      "role": "Chair Professor of Computer Science · Department of Computer Science",
+      "email": "csjia@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=L5iEhq0AAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~jia/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/csjia/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "隐私安全 × 区块链 × 云与分布式——系统安全与基础设施交叉很强。",
+      "selfDeclared": [
+        "Data Privacy and Security",
+        "Blockchain Technologies",
+        "Cloud Computing",
+        "Distributed Systems",
+        "Networking",
+        "Mobile Computing"
+      ],
+      "classicTags": [
+        "Data Privacy and Security",
+        "Cloud Computing",
+        "Distributed Systems",
+        "Networking",
+        "Mobile Computing"
+      ],
+      "emergingTags": [
+        "Blockchain Technologies"
+      ],
+      "recentPapers": [
+        "公开主线：隐私安全 × 区块链 × 云与分布式",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/csjia/"
+      ],
+      "narrative": "贾小华教授长期做<b>数据隐私与安全、区块链、云计算与分布式系统</b>，并覆盖网络方向。适合想做云/分布式基础设施上的安全与隐私，而不是纯视觉或纯推荐的人。近作与招生请再核个人主页。",
+      "matchTags": [
+        "data privacy and security",
+        "blockchain technologies",
+        "cloud computing",
+        "distributed systems",
+        "networking",
+        "mobile computing",
+        "jia",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "blockchain",
+        "区块链",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "ma-weiying",
@@ -179,7 +970,7 @@
       "role": "Chair Professor of Artificial Intelligence for Science · CityUHK Chief of AI · Department of Computer Science",
       "email": "ma.wei-ying@cityu.edu.hk",
       "scholarUrl": "https://scholar.google.com/citations?user=SXkgK-EAAAAJ",
-      "personalUrl": null,
+      "personalUrl": "https://www.cityu.edu.hk/hkai-sci/members/ma-wei-ying/?lang=en",
       "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/weiyma/",
       "scopusCitations": 50000,
       "hIndex": 100,
@@ -227,7 +1018,271 @@
         "检索",
         "data mining",
         "数据挖掘"
-      ]
+      ],
+      "industryProfile": {
+        "collaboratingLabs": [
+          {
+            "name": "CityUHK AI for Science / 大学 AI 战略岗位语境",
+            "kind": "university",
+            "note": "Chair Professor of AI for Science；公开职务偏战略与科学智能，独立组网主页本批未收录。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/weiyma/",
+            "source": "scholars",
+            "textFragment": "Artificial Intelligence for Science"
+          }
+        ],
+        "industryLinks": [
+          {
+            "org": "微软亚洲研究院（履历背景）",
+            "relation": "unknown",
+            "note": "公开履历长期与微软亚洲研究院相关；此处仅作文革背景线索，当前 CityU 岗位合作细节需再核。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/weiyma/",
+            "source": "scholars",
+            "textFragment": "Microsoft"
+          }
+        ],
+        "linkedinUrl": null,
+        "internshipHint": "unknown",
+        "verifiedAt": "2026-07-16",
+        "quality": "curated"
+      },
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wang-jianping",
+      "tier": "evolve",
+      "name": "WANG, Jianping 汪建平",
+      "role": "Chair Professor of Smart Mobility · Department of Computer Science",
+      "email": "jianwang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=bow_liAAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~jianwang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jianwang/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "智能出行/自动驾驶与网络服务——「车路云」味道，不是纯感知视觉组。",
+      "selfDeclared": [
+        "Autonomous Driving",
+        "Service-oriented Networking",
+        "Cloud Computing",
+        "Multicast",
+        "Optical Networking"
+      ],
+      "classicTags": [
+        "Service-oriented Networking",
+        "Cloud Computing",
+        "Multicast",
+        "Optical Networking"
+      ],
+      "emergingTags": [
+        "Autonomous Driving"
+      ],
+      "recentPapers": [
+        "公开主线：智能出行/自动驾驶与网络服务",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jianwang/"
+      ],
+      "narrative": "王建平教授是 Smart Mobility 讲座教授，方向覆盖<b>自动驾驶、面向服务的网络、云计算与组播/光网络</b>。更偏智能交通与网络系统交叉，和纯做视觉检测的组画像不同。联系前请核近作与是否在招。",
+      "matchTags": [
+        "autonomous driving",
+        "service-oriented networking",
+        "cloud computing",
+        "multicast",
+        "optical networking",
+        "wang",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1",
+      "industryProfile": {
+        "collaboratingLabs": [
+          {
+            "name": "NTT CROSS LAB Hong Kong（Private 5G / Edge AI 试验环境）",
+            "kind": "industry",
+            "note": "NTT 公开案例写明与 CityU 合作探索 Edge AI + P5G；汪建平教授在公告中被引述。",
+            "url": "https://www.ntt.com.hk/announcements/ntt-drives-hong-kong-smart-city-innovation-with-private-5g-for-new-use-cases",
+            "source": "news",
+            "textFragment": "CROSS LAB"
+          }
+        ],
+        "industryLinks": [
+          {
+            "org": "NTT Hong Kong",
+            "relation": "joint project",
+            "note": "公开合作涉及 Edge AI、Private 5G、智慧城市/V2X 等场景验证；。",
+            "url": "https://www.ntt.com.hk/case/city-university-of-hong-kong",
+            "source": "news",
+            "textFragment": "City University of Hong Kong"
+          }
+        ],
+        "linkedinUrl": null,
+        "internshipHint": "possible",
+        "verifiedAt": "2026-07-16",
+        "quality": "curated"
+      }
+    },
+    {
+      "id": "wang-jun",
+      "tier": "stable",
+      "name": "WANG, Jun 王鈞",
+      "role": "Chair Professor of Computational Intelligence · Department of Computer Science",
+      "email": "jwang.cs@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=TBcb-1kAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~jwang358/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jwang358/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "计算智能与神经计算长线——优化、数据处理与智能控制底子很厚。",
+      "selfDeclared": [
+        "Computational Intelligence",
+        "Neural Computation",
+        "Optimization Methods",
+        "Data Processing",
+        "Intelligent Control"
+      ],
+      "classicTags": [
+        "Computational Intelligence",
+        "Neural Computation",
+        "Optimization Methods",
+        "Data Processing",
+        "Intelligent Control"
+      ],
+      "emergingTags": [
+        "Data Processing",
+        "Intelligent Control"
+      ],
+      "recentPapers": [
+        "公开主线：计算智能与神经计算长线",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jwang358/"
+      ],
+      "narrative": "王钧教授公开方向聚焦<b>计算智能、神经计算、优化方法与智能控制</b>。适合喜欢神经网络理论/优化与智能计算、想做扎实长线课题的人。近作标题与招生以主页/Scholar 为准。",
+      "matchTags": [
+        "computational intelligence",
+        "neural computation",
+        "optimization methods",
+        "data processing",
+        "intelligent control",
+        "wang",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wu-dapeng",
+      "tier": "evolve",
+      "name": "WU, Dapeng 吳大鵬",
+      "role": "Yeung Kin Man Chair Professor in Network Science · Department of Computer Science",
+      "email": "dapengwu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=sDRLr8gAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~dapengwu/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/dapengwu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "AI × 数据科学 × 网络科学交叉；信号与通信底子，偏「智能+网络」大图景。",
+      "selfDeclared": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Signal Processing",
+        "Communication",
+        "Network Science",
+        "Biomedical Engineering"
+      ],
+      "classicTags": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Signal Processing",
+        "Communication",
+        "Network Science"
+      ],
+      "emergingTags": [
+        "Network Science",
+        "Biomedical Engineering"
+      ],
+      "recentPapers": [
+        "公开主线：AI × 数据科学 × 网络科学交叉",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/dapengwu/"
+      ],
+      "narrative": "吴大鹏教授公开兴趣覆盖<b>人工智能、数据科学、信号处理、通信与网络科学</b>。适合想做 AI 与网络/信号交叉、而不是单一窄方向刷榜的人。大组申请务必写清你的匹配点；近作请再核。",
+      "matchTags": [
+        "artificial intelligence",
+        "data science",
+        "signal processing",
+        "communication",
+        "network science",
+        "biomedical engineering",
+        "wu",
+        "bio",
+        "生物",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "bioinformatics",
+        "生物信息"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "zhang-qingfu",
+      "tier": "stable",
+      "name": "ZHANG, Qingfu 張青富",
+      "role": "Chair Professor of Computational Intelligence · Department of Computer Science",
+      "email": "qingfu.zhang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=nhL9PHwAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~qzhan7/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/qzhan7/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "进化计算与多目标优化名家——想做优化/启发式/计算智能的人很对口。",
+      "selfDeclared": [
+        "Evolutionary Computation",
+        "Multiobjective Optimization",
+        "Computational Intelligence",
+        "Modern Heuristics",
+        "Machine Learning"
+      ],
+      "classicTags": [
+        "Evolutionary Computation",
+        "Multiobjective Optimization",
+        "Computational Intelligence",
+        "Modern Heuristics",
+        "Machine Learning"
+      ],
+      "emergingTags": [
+        "Modern Heuristics",
+        "Machine Learning"
+      ],
+      "recentPapers": [
+        "公开主线：进化计算与多目标优化名家",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/qzhan7/"
+      ],
+      "narrative": "张青富教授深耕<b>进化计算、多目标优化与现代启发式</b>，并接到机器学习。适合对优化算法、多目标与计算智能有兴趣的人；和纯做大模型应用的组气质不同。联系前请核近作与招生。",
+      "matchTags": [
+        "evolutionary computation",
+        "multiobjective optimization",
+        "computational intelligence",
+        "modern heuristics",
+        "machine learning",
+        "zhang",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "chan-antoni",
@@ -285,7 +1340,212 @@
         "模式识别",
         "machine learning",
         "机器学习"
-      ]
+      ],
+      "industryProfile": {
+        "collaboratingLabs": [],
+        "industryLinks": [],
+        "linkedinUrl": null,
+        "internshipHint": "unknown",
+        "verifiedAt": "2026-07-16",
+        "quality": "empty"
+      },
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "hancke-gerhard",
+      "tier": "stable",
+      "name": "HANCKE, Gerhard Petrus",
+      "role": "Professor · Department of Computer Science",
+      "email": "gp.hancke@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=C2iR3xUAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/pghancke/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "工控/物联网安全与 RFID——偏系统与硬件接口的安全，不是纯密码理论。",
+      "selfDeclared": [
+        "Information and System Security",
+        "RFID and Smart Cards",
+        "Industrial Internet-of-Things"
+      ],
+      "classicTags": [
+        "Information and System Security",
+        "RFID and Smart Cards",
+        "Industrial Internet-of-Things"
+      ],
+      "emergingTags": [
+        "RFID and Smart Cards",
+        "Industrial Internet-of-Things"
+      ],
+      "recentPapers": [
+        "公开主线：工控/物联网安全与 RFID",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/pghancke/"
+      ],
+      "narrative": "Hancke 教授做<b>信息与系统安全、RFID/智能卡与工业物联网</b>。适合想做 IoT/工控侧安全与可信系统的人。近作与招生请再核主页。",
+      "matchTags": [
+        "information and system security",
+        "rfid and smart cards",
+        "industrial internet-of-things",
+        "hancke",
+        "security",
+        "安全",
+        "privacy",
+        "隐私"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "hou-junhui",
+      "tier": "evolve",
+      "name": "HOU, Junhui David 侯軍輝",
+      "role": "Professor · Department of Computer Science",
+      "email": "jh.hou@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=j6eefhwAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/junhuhou/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "多媒体与几何建模 × 视觉与应用机器学习——视觉多媒体组画像清晰。",
+      "selfDeclared": [
+        "Multimedia Signal Processing",
+        "Geometric Modeling",
+        "Computer Vision",
+        "Applied Machine Learning"
+      ],
+      "classicTags": [
+        "Multimedia Signal Processing",
+        "Geometric Modeling",
+        "Computer Vision",
+        "Applied Machine Learning"
+      ],
+      "emergingTags": [
+        "Computer Vision",
+        "Applied Machine Learning"
+      ],
+      "recentPapers": [
+        "公开主线：多媒体与几何建模 × 视觉与应用机器学习",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/junhuhou/"
+      ],
+      "narrative": "侯军辉教授方向覆盖<b>多媒体信号处理、几何建模、计算机视觉与应用机器学习</b>。适合想做视觉/三维/多媒体，而不是安全或理论优化的人。联系前请核近作。",
+      "matchTags": [
+        "multimedia signal processing",
+        "geometric modeling",
+        "computer vision",
+        "applied machine learning",
+        "hou",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形",
+        "machine learning",
+        "机器学习",
+        "deep learning",
+        "深度学习"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "li-minming",
+      "tier": "stable",
+      "name": "LI, Minming 李閩溟",
+      "role": "Professor · Department of Computer Science",
+      "email": "minming.li@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=7XT5sH4AAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~minmli/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/mli000/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "算法设计与组合优化/博弈——理论味重，适合喜欢证明与算法分析的人。",
+      "selfDeclared": [
+        "Algorithms Design and Analysis",
+        "Combinatorial Optimization",
+        "Algorithmic Game Theory",
+        "Operations Research"
+      ],
+      "classicTags": [
+        "Algorithms Design and Analysis",
+        "Combinatorial Optimization",
+        "Algorithmic Game Theory",
+        "Operations Research"
+      ],
+      "emergingTags": [
+        "Algorithmic Game Theory",
+        "Operations Research"
+      ],
+      "recentPapers": [
+        "公开主线：算法设计与组合优化/博弈",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/mli000/"
+      ],
+      "narrative": "李明明教授做<b>算法设计与分析、组合优化、算法博弈论与运筹</b>。更偏理论与算法，而不是工程落地大模型。适合数学/算法功底好、想做可证明方法的人。近作请再核。",
+      "matchTags": [
+        "algorithms design and analysis",
+        "combinatorial optimization",
+        "algorithmic game theory",
+        "operations research",
+        "li",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "li-shuaicheng",
+      "tier": "evolve",
+      "name": "LI, Shuaicheng 李帥成",
+      "role": "Professor · Department of Computer Science",
+      "email": "shuaicli@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=HycDtOMAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~shuaicli/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/shuaicli/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "生物信息 × 机器学习与算法——「AI for Bio」交叉，不是纯视觉组。",
+      "selfDeclared": [
+        "Bioinformatics",
+        "Machine Learning",
+        "Algorithms"
+      ],
+      "classicTags": [
+        "Bioinformatics",
+        "Machine Learning",
+        "Algorithms"
+      ],
+      "emergingTags": [
+        "Machine Learning",
+        "Algorithms"
+      ],
+      "recentPapers": [
+        "公开主线：生物信息 × 机器学习与算法",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/shuaicli/"
+      ],
+      "narrative": "李帅成教授公开方向是<b>生物信息学、机器学习与算法</b>。适合有计算生物学/数据与算法兴趣、想做生信交叉的人。联系前请核近作与招生方向匹配度。",
+      "matchTags": [
+        "bioinformatics",
+        "machine learning",
+        "algorithms",
+        "li",
+        "bio",
+        "生物",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化",
+        "生物信息"
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "li-zhenjiang",
@@ -341,7 +1601,1636 @@
         "mobile computing",
         "低功耗",
         "on-device"
-      ]
+      ],
+      "industryProfile": {
+        "collaboratingLabs": [
+          {
+            "name": "DamsonSys Group",
+            "kind": "university",
+            "note": "Distributed and Mobile Sensing Computing & Learning Systems；主页写明持续招 PhD/RA。",
+            "url": "https://www.cs.cityu.edu.hk/~zhenjili/",
+            "source": "homepage",
+            "textFragment": "DamsonSys"
+          }
+        ],
+        "industryLinks": [
+          {
+            "org": "Samsung Research America / Huawei / Tencent AI Lab 等（毕业生去向）",
+            "relation": "alumni pipeline",
+            "note": "个人主页 Alumni 栏公开：如 Samsung Research America、Huawei、Tencent AI Lab 等就业去向——是「组内出口信号」，不是教授本人在该公司任职。",
+            "url": "https://www.cs.cityu.edu.hk/~zhenjili/",
+            "source": "homepage",
+            "textFragment": "Samsung Research America"
+          },
+          {
+            "org": "AIoT / Industry 4.0 公开报告",
+            "relation": "unknown",
+            "note": "主页 Recent Talks 含 AIoT for Industry 4.0 Workshop 等产业向交流；具体公司合作未在页上逐条列出。",
+            "url": "https://www.cs.cityu.edu.hk/~zhenjili/",
+            "source": "homepage"
+          }
+        ],
+        "linkedinUrl": null,
+        "internshipHint": "possible",
+        "verifiedAt": "2026-07-16",
+        "quality": "curated"
+      },
+      "recruiting": {
+        "status": "open",
+        "note": "个人主页写明持续招 self-motivated PhD / RA。",
+        "sourceUrl": "https://www.cs.cityu.edu.hk/~zhenjili/",
+        "updatedAt": "2026-07-16",
+        "textFragment": "looking for self-motivated PhD students"
+      },
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "liang-weifa",
+      "tier": "stable",
+      "name": "LIANG, Weifa 梁維發",
+      "role": "Professor · Department of Computer Science",
+      "email": "weifa.liang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=X1aZEfwAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~weliang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/weliang/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "传感网/物联网 × 边缘与云、SDN/NFV——网络系统基础设施长线。",
+      "selfDeclared": [
+        "Wireless Sensor Networks",
+        "Internet of Things (IoT)",
+        "Mobile Edge Computing",
+        "Cloud Computing",
+        "SDN / NFV",
+        "Approximation Algorithms",
+        "Graph Theory"
+      ],
+      "classicTags": [
+        "Wireless Sensor Networks",
+        "Internet of Things (IoT)",
+        "Mobile Edge Computing",
+        "Cloud Computing",
+        "SDN / NFV"
+      ],
+      "emergingTags": [
+        "Approximation Algorithms",
+        "Graph Theory"
+      ],
+      "recentPapers": [
+        "公开主线：传感网/物联网 × 边缘与云、SDN/NFV",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/weliang/"
+      ],
+      "narrative": "梁伟发教授做<b>无线传感网、物联网、移动边缘计算、云计算与 SDN/NFV</b>。适合想做网络与边缘系统、资源调度与基础设施的人。近作与是否在招请再核。",
+      "matchTags": [
+        "wireless sensor networks",
+        "internet of things (iot)",
+        "mobile edge computing",
+        "cloud computing",
+        "sdn / nfv",
+        "approximation algorithms",
+        "graph theory",
+        "liang",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wang-lusheng",
+      "tier": "stable",
+      "name": "WANG, Lusheng 王魯生",
+      "role": "Professor · Department of Computer Science",
+      "email": "cswangl@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=rb0Rzp8AAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~lwang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/cswangl/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "算法与数据结构 × 生信/检索——经典算法组，也覆盖 AI 与互联网应用。",
+      "selfDeclared": [
+        "Algorithms & Data Structures",
+        "Bioinformatics and Computational Biology",
+        "Information Retrieval",
+        "Internet Applications",
+        "Artificial Intelligence"
+      ],
+      "classicTags": [
+        "Algorithms & Data Structures",
+        "Bioinformatics and Computational Biology",
+        "Information Retrieval",
+        "Internet Applications",
+        "Artificial Intelligence"
+      ],
+      "emergingTags": [
+        "Internet Applications",
+        "Artificial Intelligence"
+      ],
+      "recentPapers": [
+        "公开主线：算法与数据结构 × 生信/检索",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/cswangl/"
+      ],
+      "narrative": "王陆生教授方向包括<b>算法与数据结构、生物信息与计算生物学、信息检索与 AI</b>。适合算法功底好、可接受生信或检索交叉的人。联系前请核近作。",
+      "matchTags": [
+        "algorithms & data structures",
+        "bioinformatics and computational biology",
+        "information retrieval",
+        "internet applications",
+        "artificial intelligence",
+        "wang",
+        "bio",
+        "生物",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化",
+        "bioinformatics",
+        "生物信息"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wang-shiqi",
+      "tier": "evolve",
+      "name": "WANG, Shiqi 王詩淇",
+      "role": "Professor · Department of Computer Science",
+      "email": "shiqwang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=Pr7s2VUAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~shiqwang/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/shiqwang/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "图像/视频压缩与 QoE——多媒体通信与取证，视觉系统「编码侧」很强。",
+      "selfDeclared": [
+        "Image/Video Compression",
+        "Visual Quality-of-Experience",
+        "Multimedia Communications",
+        "Image/Video Retrieval",
+        "Multimedia Forensics"
+      ],
+      "classicTags": [
+        "Image/Video Compression",
+        "Visual Quality-of-Experience",
+        "Multimedia Communications",
+        "Image/Video Retrieval",
+        "Multimedia Forensics"
+      ],
+      "emergingTags": [
+        "Image/Video Retrieval",
+        "Multimedia Forensics"
+      ],
+      "recentPapers": [
+        "公开主线：图像/视频压缩与 QoE",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/shiqwang/"
+      ],
+      "narrative": "王诗淇教授聚焦<b>图像/视频压缩、视觉体验质量、多媒体通信与取证/检索</b>。适合想做编解码、感知质量与多媒体系统的人——和纯做生成模型刷榜不完全同一条线。近作请再核。",
+      "matchTags": [
+        "image/video compression",
+        "visual quality-of-experience",
+        "multimedia communications",
+        "image/video retrieval",
+        "multimedia forensics",
+        "wang",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "zhao-shengdong",
+      "tier": "evolve",
+      "name": "ZHAO, Shengdong 趙盛東",
+      "role": "Professor · Department of Computer Science (Home: Creative Media)",
+      "email": "shezhao@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=HQupC7wAAAAJ",
+      "personalUrl": "https://www.shengdongzhao.com/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/shezhao/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "HCI / Heads-up Computing 与可穿戴助手——交互与智能助理，不是后端系统组。",
+      "selfDeclared": [
+        "Human Computer Interaction",
+        "Heads-up Computing",
+        "Wearable Intelligent Assistant",
+        "Interaction Techniques",
+        "Interactive Systems",
+        "Cognitive Modelling"
+      ],
+      "classicTags": [
+        "Human Computer Interaction",
+        "Wearable Intelligent Assistant",
+        "Interaction Techniques",
+        "Interactive Systems",
+        "Cognitive Modelling"
+      ],
+      "emergingTags": [
+        "Heads-up Computing"
+      ],
+      "recentPapers": [
+        "公开主线：HCI / Heads-up Computing 与可穿戴助手",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/shezhao/"
+      ],
+      "narrative": "赵盛东教授做<b>人机交互、抬头计算、可穿戴智能助理与交互系统</b>。适合喜欢交互设计、可穿戴与智能助理体验研究的人。联系前请核近作与招生。",
+      "matchTags": [
+        "human computer interaction",
+        "heads-up computing",
+        "wearable intelligent assistant",
+        "interaction techniques",
+        "interactive systems",
+        "cognitive modelling",
+        "zhao",
+        "hci",
+        "interaction",
+        "交互"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "bai-guangdong",
+      "tier": "evolve",
+      "name": "BAI, Guangdong 白光冬",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "g.bai@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=4TjSSaUAAAAJ",
+      "personalUrl": "https://baigd.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/guangbai/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "软件/系统安全与可信系统——偏程序分析与合规隐私，工程安全味道重。",
+      "selfDeclared": [
+        "Software Security",
+        "System Security",
+        "Trustworthy Systems",
+        "Privacy Compliance"
+      ],
+      "classicTags": [
+        "Software Security",
+        "System Security",
+        "Trustworthy Systems",
+        "Privacy Compliance"
+      ],
+      "emergingTags": [
+        "Trustworthy Systems",
+        "Privacy Compliance"
+      ],
+      "recentPapers": [
+        "公开主线：软件/系统安全与可信系统",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/guangbai/"
+      ],
+      "narrative": "白广东教授公开方向是<b>软件安全、系统安全、可信系统与隐私合规</b>。适合想做程序分析、漏洞与可信软件栈的人。近作与是否在招请再核主页。",
+      "matchTags": [
+        "software security",
+        "system security",
+        "trustworthy systems",
+        "privacy compliance",
+        "bai",
+        "security",
+        "安全",
+        "privacy",
+        "隐私"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "chan-ricky",
+      "tier": "stable",
+      "name": "CHAN, Wing Kwong Ricky 陳榮光",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "wkchan@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=-GAmIvsAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~wkchan/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/wkchan/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "软件工程与程序分析——可扩展/并发与大数据软件基础设施。",
+      "selfDeclared": [
+        "Software Engineering",
+        "Program Analysis",
+        "Software Scalability and Concurrency",
+        "Big Data Software Infrastructure"
+      ],
+      "classicTags": [
+        "Software Engineering",
+        "Program Analysis",
+        "Software Scalability and Concurrency",
+        "Big Data Software Infrastructure"
+      ],
+      "emergingTags": [
+        "Software Scalability and Concurrency",
+        "Big Data Software Infrastructure"
+      ],
+      "recentPapers": [
+        "公开主线：软件工程与程序分析",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/wkchan/"
+      ],
+      "narrative": "Chan 教授做<b>软件工程、程序分析、软件可扩展与并发，以及大数据软件基础设施</b>。适合想做 SE/程序分析与大规模软件系统的人。联系前请核近作。",
+      "matchTags": [
+        "software engineering",
+        "program analysis",
+        "software scalability and concurrency",
+        "big data software infrastructure",
+        "chan"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "cheung-man-hon",
+      "tier": "evolve",
+      "name": "CHEUNG, Man Hon Michael 張文翰",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "mhcheung@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=7QUOWlwAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~mhcheung/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/mhcheung/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "网络经济 × 无线/区块链/无人机——带行为与机制味道的网络研究。",
+      "selfDeclared": [
+        "Network Economics",
+        "Wireless Networking",
+        "Blockchain Systems",
+        "Unmanned Aerial Vehicles (UAVs)",
+        "Behavioral Economics"
+      ],
+      "classicTags": [
+        "Network Economics",
+        "Wireless Networking",
+        "Unmanned Aerial Vehicles (UAVs)",
+        "Behavioral Economics"
+      ],
+      "emergingTags": [
+        "Blockchain Systems"
+      ],
+      "recentPapers": [
+        "公开主线：网络经济 × 无线/区块链/无人机",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/mhcheung/"
+      ],
+      "narrative": "張文翰教授方向覆盖<b>网络经济学、无线网络、区块链系统、无人机与行为经济</b>。适合对激励机制、网络资源与新兴网络应用感兴趣的人。近作请再核。",
+      "matchTags": [
+        "network economics",
+        "wireless networking",
+        "blockchain systems",
+        "unmanned aerial vehicles (uavs)",
+        "behavioral economics",
+        "cheung",
+        "blockchain",
+        "区块链",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "keung-jacky",
+      "tier": "evolve",
+      "name": "KEUNG, Wai Jacky 姜煒",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "jacky.keung@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=UpuYcQoAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jwkeung/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "软件工程 × 度量与 ML/DL——把数据科学接到 SE 问题里。",
+      "selfDeclared": [
+        "Software Engineering",
+        "Software Metrics",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Science",
+        "Cloud Computing",
+        "Blockchain",
+        "FinTech"
+      ],
+      "classicTags": [
+        "Software Engineering",
+        "Software Metrics",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Science"
+      ],
+      "emergingTags": [
+        "Blockchain"
+      ],
+      "recentPapers": [
+        "公开主线：软件工程 × 度量与 ML/DL",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jwkeung/"
+      ],
+      "narrative": "姜嘉伟教授做<b>软件工程、软件度量，并接到机器学习/深度学习与数据科学</b>。适合想做 SE × AI、缺陷预测/度量与数据驱动软件质量的人。联系前请核近作与招生。",
+      "matchTags": [
+        "software engineering",
+        "software metrics",
+        "machine learning",
+        "deep learning",
+        "data science",
+        "cloud computing",
+        "blockchain",
+        "fintech",
+        "keung",
+        "区块链",
+        "机器学习",
+        "深度学习"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "lam-kam-yiu",
+      "tier": "stable",
+      "name": "LAM, Kam Yiu 林金耀",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "cskylam@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=s3zqPMYAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~kylam/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/cskylam/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "移动普适计算 × 实时嵌入式与 CPS——系统实时性与物理耦合。",
+      "selfDeclared": [
+        "Mobile and Pervasive Computing",
+        "Real-time and Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "classicTags": [
+        "Mobile and Pervasive Computing",
+        "Real-time and Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "emergingTags": [
+        "Real-time and Embedded Systems",
+        "Cyber-Physical Systems"
+      ],
+      "recentPapers": [
+        "公开主线：移动普适计算 × 实时嵌入式与 CPS",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/cskylam/"
+      ],
+      "narrative": "林锦耀教授方向是<b>移动与普适计算、实时/嵌入式系统与 cyber-physical systems</b>。适合喜欢嵌入式与实时约束、想做 CPS 的人。近作请再核。",
+      "matchTags": [
+        "mobile and pervasive computing",
+        "real-time and embedded systems",
+        "cyber-physical systems",
+        "lam"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "leung-howard",
+      "tier": "stable",
+      "name": "LEUNG, Wing Ho Howard 梁永豪",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "howard@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=EPaaCOgAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~howard/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/howard/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "模式识别与多媒体；中文手写教育、三维人体运动——应用视觉很具体。",
+      "selfDeclared": [
+        "Pattern Recognition",
+        "Multimedia and Image Processing",
+        "Chinese Handwriting Education",
+        "3D Human Motion Analysis",
+        "Web-Based Learning"
+      ],
+      "classicTags": [
+        "Pattern Recognition",
+        "Multimedia and Image Processing",
+        "Chinese Handwriting Education",
+        "3D Human Motion Analysis",
+        "Web-Based Learning"
+      ],
+      "emergingTags": [
+        "3D Human Motion Analysis",
+        "Web-Based Learning"
+      ],
+      "recentPapers": [
+        "公开主线：模式识别与多媒体",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/howard/"
+      ],
+      "narrative": "梁浩华教授做<b>模式识别、多媒体图像处理</b>，并有中文手写教育、三维人体运动分析与网络学习等应用线。适合想做应用视觉/教育多媒体的人。联系前请核近作。",
+      "matchTags": [
+        "pattern recognition",
+        "multimedia and image processing",
+        "chinese handwriting education",
+        "3d human motion analysis",
+        "web-based learning",
+        "leung"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "liao-jing",
+      "tier": "evolve",
+      "name": "LIAO, Jing 廖菁",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "jingliao@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=3s9f9VIAAAAJ",
+      "personalUrl": null,
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jingliao/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "图形 × 视觉 × 计算摄影与数字艺术——创作向视觉计算。",
+      "selfDeclared": [
+        "Computer Graphics",
+        "Computer Vision",
+        "Image/Video Processing",
+        "Digital Art",
+        "Computational Photography"
+      ],
+      "classicTags": [
+        "Computer Graphics",
+        "Computer Vision",
+        "Image/Video Processing",
+        "Digital Art",
+        "Computational Photography"
+      ],
+      "emergingTags": [
+        "Digital Art",
+        "Computational Photography"
+      ],
+      "recentPapers": [
+        "公开主线：图形 × 视觉 × 计算摄影与数字艺术",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jingliao/"
+      ],
+      "narrative": "廖菁教授方向覆盖<b>计算机图形、视觉、图像/视频处理、数字艺术与计算摄影</b>。适合想做视觉内容生成/编辑与图形交叉的人。近作与招生请再核。",
+      "matchTags": [
+        "computer graphics",
+        "computer vision",
+        "image/video processing",
+        "digital art",
+        "computational photography",
+        "liao",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "ma-chen",
+      "tier": "pivot",
+      "name": "MA, Chen",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "chenma@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=sSy7nvsAAAAJ",
+      "personalUrl": "https://allenjack.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/chenma/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "推荐系统 × 数据挖掘/NLP/社交计算——用户与内容匹配的数据智能线。",
+      "selfDeclared": [
+        "Recommender Systems",
+        "Data Mining",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Social Computing"
+      ],
+      "classicTags": [
+        "Recommender Systems",
+        "Data Mining",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Social Computing"
+      ],
+      "emergingTags": [
+        "Natural Language Processing",
+        "Social Computing"
+      ],
+      "recentPapers": [
+        "公开主线：推荐系统 × 数据挖掘/NLP/社交计算",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/chenma/"
+      ],
+      "narrative": "马辰教授公开方向是<b>推荐系统、数据挖掘、深度学习、NLP 与社交计算</b>。适合想做推荐/用户建模与数据智能，而不是纯系统安全的人。联系前请核近作。",
+      "matchTags": [
+        "recommender systems",
+        "data mining",
+        "deep learning",
+        "natural language processing",
+        "social computing",
+        "ma",
+        "nlp",
+        "language",
+        "自然语言",
+        "agent",
+        "智能体",
+        "machine learning",
+        "机器学习",
+        "深度学习",
+        "agents",
+        "llm"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "ma-kede",
+      "tier": "evolve",
+      "name": "MA, Kede 馬柯德",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "kede.ma@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=sfzOyFoAAAAJ",
+      "personalUrl": "https://kedema.org/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/kedema/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "感知图像处理与计算视觉/摄影——质量与感知，多媒体取证也在列。",
+      "selfDeclared": [
+        "Perceptual Image Processing",
+        "Computational Vision",
+        "Computational Photography",
+        "Multimedia Forensics"
+      ],
+      "classicTags": [
+        "Perceptual Image Processing",
+        "Computational Vision",
+        "Computational Photography",
+        "Multimedia Forensics"
+      ],
+      "emergingTags": [
+        "Computational Photography",
+        "Multimedia Forensics"
+      ],
+      "recentPapers": [
+        "公开主线：感知图像处理与计算视觉/摄影",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/kedema/"
+      ],
+      "narrative": "马柯得教授聚焦<b>感知图像处理、计算视觉、计算摄影与多媒体取证</b>。适合对图像质量、感知建模与视觉计算感兴趣的人。近作请再核。",
+      "matchTags": [
+        "perceptual image processing",
+        "computational vision",
+        "computational photography",
+        "multimedia forensics",
+        "ma",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "song-linqi",
+      "tier": "evolve",
+      "name": "SONG, Linqi 宋林琦",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "linqi.song@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=UcGN3MoAAAAJ",
+      "personalUrl": "https://sites.google.com/site/aisquaredlab/home",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/linqsong/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "数据科学 × 推荐与信息论/算法——学习与信息系统交叉。",
+      "selfDeclared": [
+        "Data Science",
+        "Machine Learning",
+        "Recommender Systems",
+        "Information Theory",
+        "Algorithms"
+      ],
+      "classicTags": [
+        "Data Science",
+        "Machine Learning",
+        "Recommender Systems",
+        "Information Theory",
+        "Algorithms"
+      ],
+      "emergingTags": [
+        "Information Theory",
+        "Algorithms"
+      ],
+      "recentPapers": [
+        "公开主线：数据科学 × 推荐与信息论/算法",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/linqsong/"
+      ],
+      "narrative": "宋林琦教授方向覆盖<b>数据科学、机器学习、推荐系统、信息论与算法</b>。适合想做推荐/学习理论与信息论交叉的人。联系前请核近作与招生。",
+      "matchTags": [
+        "data science",
+        "machine learning",
+        "recommender systems",
+        "information theory",
+        "algorithms",
+        "song",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wong-ka-chun",
+      "tier": "evolve",
+      "name": "WONG, Ka Chun 黃家駿",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "kc.w@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=nZH_Ws8AAAAJ",
+      "personalUrl": "http://bioinfo.cs.cityu.edu.hk/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/ka-chun-wong-2/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "数据科学 × 生信与进化计算——自然计算味道的应用机器学习。",
+      "selfDeclared": [
+        "Data Science",
+        "Bioinformatics",
+        "Evolutionary Computation",
+        "Applied Machine Learning",
+        "Natural Computing"
+      ],
+      "classicTags": [
+        "Data Science",
+        "Bioinformatics",
+        "Evolutionary Computation",
+        "Applied Machine Learning",
+        "Natural Computing"
+      ],
+      "emergingTags": [
+        "Applied Machine Learning",
+        "Natural Computing"
+      ],
+      "recentPapers": [
+        "公开主线：数据科学 × 生信与进化计算",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/ka-chun-wong-2/"
+      ],
+      "narrative": "黃家駿教授做<b>数据科学、生物信息、进化计算、应用机器学习与自然计算</b>。适合想做生信或进化/自然计算交叉的人。近作请再核。",
+      "matchTags": [
+        "data science",
+        "bioinformatics",
+        "evolutionary computation",
+        "applied machine learning",
+        "natural computing",
+        "wong",
+        "bio",
+        "生物",
+        "machine learning",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "生物信息"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "xu-weitao",
+      "tier": "evolve",
+      "name": "XU, Weitao 徐偉濤",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "weitaoxu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=-RbADtgAAAAJ",
+      "personalUrl": "https://www.weitaoxu.com/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/weitaoxu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "物联网与移动计算；IoT 安全与可穿戴/LPWAN——端侧系统安全很实。",
+      "selfDeclared": [
+        "Internet of Things (IoT)",
+        "Mobile Computing",
+        "IoT Security",
+        "Wearable Devices",
+        "LPWAN"
+      ],
+      "classicTags": [
+        "Internet of Things (IoT)",
+        "Mobile Computing",
+        "IoT Security",
+        "Wearable Devices",
+        "LPWAN"
+      ],
+      "emergingTags": [
+        "Wearable Devices",
+        "LPWAN"
+      ],
+      "recentPapers": [
+        "公开主线：物联网与移动计算",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/weitaoxu/"
+      ],
+      "narrative": "徐伟涛教授方向是<b>物联网、移动计算、IoT 安全、可穿戴与 LPWAN</b>。适合想做端侧 IoT 系统与安全落地的人。联系前请核近作与是否在招。",
+      "matchTags": [
+        "internet of things (iot)",
+        "mobile computing",
+        "iot security",
+        "wearable devices",
+        "lpwan",
+        "xu",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "yin-zhimeng",
+      "tier": "evolve",
+      "name": "YIN, Zhimeng 尹知萌",
+      "role": "Associate Professor · Department of Computer Science",
+      "email": "zhimeyin@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=T89V0RAAAAAJ",
+      "personalUrl": "https://zhimengyin.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/zhimeyin/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "物联网/移动与无线；IoT 安全与 LPWAN——和传感网安全很贴近。",
+      "selfDeclared": [
+        "Internet of Things (IoT)",
+        "Mobile Computing",
+        "Wireless Networking",
+        "IoT Security",
+        "LPWAN",
+        "Edge Computing"
+      ],
+      "classicTags": [
+        "Internet of Things (IoT)",
+        "Mobile Computing",
+        "Wireless Networking",
+        "IoT Security",
+        "LPWAN"
+      ],
+      "emergingTags": [
+        "LPWAN",
+        "Edge Computing"
+      ],
+      "recentPapers": [
+        "公开主线：物联网/移动与无线",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/zhimeyin/"
+      ],
+      "narrative": "尹智盟教授公开兴趣覆盖<b>物联网、移动计算、无线网络、IoT 安全与 LPWAN</b>。适合想做 IoT 网络与安全的人。近作请再核主页。",
+      "matchTags": [
+        "internet of things (iot)",
+        "mobile computing",
+        "wireless networking",
+        "iot security",
+        "lpwan",
+        "edge computing",
+        "yin",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "zhu-kening",
+      "tier": "evolve",
+      "name": "ZHU, Kening 朱克宁",
+      "role": "Associate Professor · Department of Computer Science (Home: Creative Media)",
+      "email": "keninzhu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=VbajcAMAAAAJ",
+      "personalUrl": "https://zhukening.wixsite.com/aboutme",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/keninzhu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "多模态 HCI × 手势/可穿戴与 VR/AR——交互设计与儿童交互也在列。",
+      "selfDeclared": [
+        "Multimodal Human Computer Interaction",
+        "Mobile Gesture Interaction",
+        "Tangible/Wearable Interfaces",
+        "VR/AR/MR",
+        "Interaction Design for Children"
+      ],
+      "classicTags": [
+        "Mobile Gesture Interaction",
+        "Tangible/Wearable Interfaces",
+        "Interaction Design for Children"
+      ],
+      "emergingTags": [
+        "Multimodal Human Computer Interaction",
+        "VR/AR/MR"
+      ],
+      "recentPapers": [
+        "公开主线：多模态 HCI × 手势/可穿戴与 VR/AR",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/keninzhu/"
+      ],
+      "narrative": "朱克宁教授做<b>多模态人机交互、移动手势、可穿戴界面与 VR/AR/MR</b>，并有儿童交互设计线。适合喜欢 HCI/XR 体验研究的人。联系前请核近作。",
+      "matchTags": [
+        "multimodal human computer interaction",
+        "mobile gesture interaction",
+        "tangible/wearable interfaces",
+        "vr/ar/mr",
+        "interaction design for children",
+        "zhu",
+        "hci",
+        "interaction",
+        "交互"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "dong-minjing",
+      "tier": "pivot",
+      "name": "DONG, Minjing 董旻京",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "minjdong@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=gJJRqlsAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~minjdong/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/minjdong/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "视觉 × 对抗鲁棒/校准与 NAS——年轻 PI，偏可信与高效视觉模型。",
+      "selfDeclared": [
+        "Computer Vision",
+        "Adversarial Robustness",
+        "Calibration",
+        "Human Motion Analytics",
+        "Neural Architecture Search",
+        "Efficient Neural Network"
+      ],
+      "classicTags": [
+        "Computer Vision",
+        "Adversarial Robustness",
+        "Calibration",
+        "Human Motion Analytics",
+        "Neural Architecture Search"
+      ],
+      "emergingTags": [
+        "Neural Architecture Search",
+        "Efficient Neural Network"
+      ],
+      "recentPapers": [
+        "公开主线：视觉 × 对抗鲁棒/校准与 NAS",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/minjdong/"
+      ],
+      "narrative": "董旻菁助理教授方向覆盖<b>计算机视觉、对抗鲁棒、校准、人体运动分析与神经架构搜索</b>。适合想做可信/高效视觉、可跟年轻 PI 的人。近作与招生节奏请再核。",
+      "matchTags": [
+        "computer vision",
+        "adversarial robustness",
+        "calibration",
+        "human motion analytics",
+        "neural architecture search",
+        "efficient neural network",
+        "dong",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "guo-jianyuan",
+      "tier": "pivot",
+      "name": "GUO, Jianyuan 郭健元",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "jianyguo@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=UnAbd4gAAAAJ",
+      "personalUrl": "https://ggjy.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jianyguo/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "视觉 × NLP 多模态；高效网络与模型压缩——端侧多模态很对口。",
+      "selfDeclared": [
+        "Computer Vision",
+        "Natural Language Processing",
+        "Multimodal Understanding",
+        "Efficient Neural Network",
+        "Model Compression"
+      ],
+      "classicTags": [
+        "Computer Vision",
+        "Natural Language Processing",
+        "Efficient Neural Network",
+        "Model Compression"
+      ],
+      "emergingTags": [
+        "Multimodal Understanding"
+      ],
+      "recentPapers": [
+        "公开主线：视觉 × NLP 多模态",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jianyguo/"
+      ],
+      "narrative": "郭建元助理教授做<b>计算机视觉、NLP、多模态理解，以及高效神经网络与模型压缩</b>。适合想做多模态与模型效率的人。联系前请核近作。",
+      "matchTags": [
+        "computer vision",
+        "natural language processing",
+        "multimodal understanding",
+        "efficient neural network",
+        "model compression",
+        "guo",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形",
+        "nlp",
+        "language",
+        "自然语言",
+        "agent",
+        "智能体",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "agents",
+        "llm"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "huang-heqing",
+      "tier": "evolve",
+      "name": "HUANG, Heqing 黄河清",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "heqhuang@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=iRH8F4sAAAAJ",
+      "personalUrl": "https://5hadowblad3.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/heqhuang/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "软件安全可靠性 × 程序分析与编程语言——偏语言/分析工具链。",
+      "selfDeclared": [
+        "Software Security and Reliability",
+        "Program Analysis",
+        "Programming Language"
+      ],
+      "classicTags": [
+        "Software Security and Reliability",
+        "Program Analysis",
+        "Programming Language"
+      ],
+      "emergingTags": [
+        "Program Analysis",
+        "Programming Language"
+      ],
+      "recentPapers": [
+        "公开主线：软件安全可靠性 × 程序分析与编程语言",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/heqhuang/"
+      ],
+      "narrative": "黄鹤清助理教授方向是<b>软件安全与可靠性、程序分析与编程语言</b>。适合想做 PL/程序分析与软件可信的人。近作请再核。",
+      "matchTags": [
+        "software security and reliability",
+        "program analysis",
+        "programming language",
+        "huang",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "nlp",
+        "language",
+        "自然语言",
+        "agent",
+        "智能体",
+        "agents",
+        "llm"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "huang-jun",
+      "tier": "evolve",
+      "name": "HUANG, Jun 黃駿",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "jhuan9@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=qT7OIRoAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~jhuan9/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jhuan9/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "CPS/物联网 × 无线与网络安全——系统与安全交叉的年轻组。",
+      "selfDeclared": [
+        "Cyber-Physical Systems",
+        "Internet of Things",
+        "Wireless Communications and Networking",
+        "Cyber Security"
+      ],
+      "classicTags": [
+        "Cyber-Physical Systems",
+        "Internet of Things",
+        "Wireless Communications and Networking",
+        "Cyber Security"
+      ],
+      "emergingTags": [
+        "Wireless Communications and Networking",
+        "Cyber Security"
+      ],
+      "recentPapers": [
+        "公开主线：CPS/物联网 × 无线与网络安全",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jhuan9/"
+      ],
+      "narrative": "黄骏助理教授做<b>cyber-physical systems、物联网、无线通信网络与网络安全</b>。适合想做 CPS/IoT 与安全交叉的人。联系前请核近作与招生。",
+      "matchTags": [
+        "cyber-physical systems",
+        "internet of things",
+        "wireless communications and networking",
+        "cyber security",
+        "huang",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "network",
+        "网络",
+        "wireless",
+        "无线"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "liu-chen",
+      "tier": "pivot",
+      "name": "LIU, Chen 劉晨",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "chen.liu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=48PsswEAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~cliu644/HomePage/index.html",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/cliu644/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "机器学习 × 优化与深度网络鲁棒性——偏学习理论/优化的年轻 PI。",
+      "selfDeclared": [
+        "Machine Learning",
+        "Optimization",
+        "Deep Neural Networks",
+        "Robustness"
+      ],
+      "classicTags": [
+        "Machine Learning",
+        "Optimization",
+        "Deep Neural Networks",
+        "Robustness"
+      ],
+      "emergingTags": [
+        "Deep Neural Networks",
+        "Robustness"
+      ],
+      "recentPapers": [
+        "公开主线：机器学习 × 优化与深度网络鲁棒性",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/cliu644/"
+      ],
+      "narrative": "刘晨助理教授方向覆盖<b>机器学习、优化、深度网络与鲁棒性</b>。适合数学/优化功底好、想做可靠机器学习的人。近作请再核。",
+      "matchTags": [
+        "machine learning",
+        "optimization",
+        "deep neural networks",
+        "robustness",
+        "liu",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "lu-zhenliang",
+      "tier": "pivot",
+      "name": "LU, Zhenliang 盧振亮",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "zhenlilu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=TUIQe5kAAAAJ",
+      "personalUrl": "https://zhenlianglu.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/zhenlilu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "区块链共识 × 分布式密码与 DeFi/公平排序——加密经济系统向。",
+      "selfDeclared": [
+        "Blockchain",
+        "Consensus",
+        "Distributed Computing/Cryptography",
+        "Decentralized Finance",
+        "Order Fairness"
+      ],
+      "classicTags": [
+        "Consensus",
+        "Distributed Computing/Cryptography",
+        "Decentralized Finance",
+        "Order Fairness"
+      ],
+      "emergingTags": [
+        "Blockchain"
+      ],
+      "recentPapers": [
+        "公开主线：区块链共识 × 分布式密码与 DeFi/公平排序",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/zhenlilu/"
+      ],
+      "narrative": "卢振亮助理教授做<b>区块链、共识、分布式计算/密码，以及 DeFi 与交易排序公平性</b>。适合想做链上系统与密码经济的人。联系前请核近作。",
+      "matchTags": [
+        "blockchain",
+        "consensus",
+        "distributed computing/cryptography",
+        "decentralized finance",
+        "order fairness",
+        "lu",
+        "区块链"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "lu-zhichao",
+      "tier": "pivot",
+      "name": "LU, Zhichao 陸智超",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "zhichalu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=tIFWBcQAAAAJ",
+      "personalUrl": "https://www.cs.cityu.edu.hk/~zhichalu/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/zhichalu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "进化计算 × 多目标/AutoML——优化遇见深度学习的自动机器学习线。",
+      "selfDeclared": [
+        "Evolutionary Computation",
+        "Multi-objective Optimization",
+        "Deep Learning",
+        "AutoML",
+        "Computational Intelligence"
+      ],
+      "classicTags": [
+        "Evolutionary Computation",
+        "Multi-objective Optimization",
+        "Deep Learning",
+        "Computational Intelligence"
+      ],
+      "emergingTags": [
+        "AutoML"
+      ],
+      "recentPapers": [
+        "公开主线：进化计算 × 多目标/AutoML",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/zhichalu/"
+      ],
+      "narrative": "卢志超助理教授方向是<b>进化计算、多目标优化、深度学习、AutoML 与计算智能</b>。适合想做 AutoML/优化与学习交叉的人。近作请再核。",
+      "matchTags": [
+        "evolutionary computation",
+        "multi-objective optimization",
+        "deep learning",
+        "automl",
+        "computational intelligence",
+        "lu",
+        "machine learning",
+        "机器学习",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "luo-yuhan",
+      "tier": "evolve",
+      "name": "LUO, Yuhan 羅雨菡",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "yuhanluo@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=TyPGkP8AAAAJ",
+      "personalUrl": "https://yuhanlolo.github.io/me/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/yuhanluo/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "HCI × 健康/个人信息系统——交互接到健康数据与自我追踪。",
+      "selfDeclared": [
+        "Human-Computer Interaction",
+        "Health Informatics",
+        "Personal Informatics"
+      ],
+      "classicTags": [
+        "Human-Computer Interaction",
+        "Health Informatics",
+        "Personal Informatics"
+      ],
+      "emergingTags": [
+        "Health Informatics",
+        "Personal Informatics"
+      ],
+      "recentPapers": [
+        "公开主线：HCI × 健康/个人信息系统",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/yuhanluo/"
+      ],
+      "narrative": "罗雨涵助理教授做<b>人机交互、健康信息学与个人信息系统</b>。适合想做健康 HCI、自我追踪与健康数据体验的人。联系前请核近作与招生。",
+      "matchTags": [
+        "human-computer interaction",
+        "health informatics",
+        "personal informatics",
+        "luo",
+        "hci",
+        "interaction",
+        "交互"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "ma-jiawei",
+      "tier": "pivot",
+      "name": "MA, Jiawei Phoenix 馬佳葳",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "phoenix.jma@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=kXbWREkAAAAJ",
+      "personalUrl": "https://smile.cs.cityu.edu.hk/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jiaweima/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "表征学习 × 多模态视觉与持续学习——表示与终身学习向。",
+      "selfDeclared": [
+        "Representation Learning",
+        "Multi-Modal and Computer Vision",
+        "Continuous Learning"
+      ],
+      "classicTags": [
+        "Representation Learning",
+        "Multi-Modal and Computer Vision",
+        "Continuous Learning"
+      ],
+      "emergingTags": [
+        "Multi-Modal and Computer Vision",
+        "Continuous Learning"
+      ],
+      "recentPapers": [
+        "公开主线：表征学习 × 多模态视觉与持续学习",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jiaweima/"
+      ],
+      "narrative": "马佳伟助理教授方向覆盖<b>表征学习、多模态与计算机视觉、持续学习</b>。适合想做表示学习与多模态视觉的人。近作请再核。",
+      "matchTags": [
+        "representation learning",
+        "multi-modal and computer vision",
+        "continuous learning",
+        "ma",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "ma-ziye",
+      "tier": "pivot",
+      "name": "MA, Ziye 馬梓業",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "ziyema@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=MJ7X-bAAAAAJ",
+      "personalUrl": "https://gavenma.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/ziyema/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "机器学习理论 × 优化——偏 AI theory，不是工程刷应用组。",
+      "selfDeclared": [
+        "Machine Learning",
+        "AI Theory",
+        "Optimization"
+      ],
+      "classicTags": [
+        "Machine Learning",
+        "AI Theory",
+        "Optimization"
+      ],
+      "emergingTags": [
+        "AI Theory",
+        "Optimization"
+      ],
+      "recentPapers": [
+        "公开主线：机器学习理论 × 优化",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/ziyema/"
+      ],
+      "narrative": "马子晔助理教授公开方向是<b>机器学习、AI 理论与优化</b>。适合理论兴趣强、想做可证明/优化视角学习问题的人。联系前请核近作。",
+      "matchTags": [
+        "machine learning",
+        "ai theory",
+        "optimization",
+        "ma",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "qiu-junqiao",
+      "tier": "evolve",
+      "name": "QIU, Junqiao 邱俊喬",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "junqiqiu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=ftIjnJkAAAAJ",
+      "personalUrl": "https://junqiaoqiu.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/junqiqiu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "编程系统 × 并行运行时与数据密集应用——系统编译/并行味道重。",
+      "selfDeclared": [
+        "Programming Systems",
+        "Runtime Support for Parallel Computing",
+        "Parallelization for Data-intensive Applications",
+        "Programming Models for Irregular Applications"
+      ],
+      "classicTags": [
+        "Programming Systems",
+        "Runtime Support for Parallel Computing",
+        "Parallelization for Data-intensive Applications",
+        "Programming Models for Irregular Applications"
+      ],
+      "emergingTags": [
+        "Parallelization for Data-intensive Applications",
+        "Programming Models for Irregular Applications"
+      ],
+      "recentPapers": [
+        "公开主线：编程系统 × 并行运行时与数据密集应用",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/junqiqiu/"
+      ],
+      "narrative": "邱骏桥助理教授做<b>编程系统、并行计算运行时支持，以及数据密集/不规则应用的并行化与编程模型</b>。适合想做系统/并行与编程基础设施的人。近作请再核。",
+      "matchTags": [
+        "programming systems",
+        "runtime support for parallel computing",
+        "parallelization for data-intensive applications",
+        "programming models for irregular applications",
+        "qiu"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "qiu-shuang",
+      "tier": "pivot",
+      "name": "QIU, Shuang 邱爽",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "shuanqiu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=-Z7fY00AAAAJ",
+      "personalUrl": "https://shq-ml.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/shuanqiu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "强化学习 × LLM 与具身智能——学习算法接到智能体与机器人侧。",
+      "selfDeclared": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Large Language Model",
+        "Embodied AI",
+        "Optimization"
+      ],
+      "classicTags": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Optimization"
+      ],
+      "emergingTags": [
+        "Large Language Model",
+        "Embodied AI"
+      ],
+      "recentPapers": [
+        "公开主线：强化学习 × LLM 与具身智能",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/shuanqiu/"
+      ],
+      "narrative": "邱爽助理教授方向覆盖<b>机器学习、强化学习、大模型、具身智能与优化</b>。适合想做 RL/LLM agents 或具身 AI 的人。联系前请核近作与招生。",
+      "matchTags": [
+        "machine learning",
+        "reinforcement learning",
+        "large language model",
+        "embodied ai",
+        "optimization",
+        "qiu",
+        "nlp",
+        "language",
+        "自然语言",
+        "agent",
+        "智能体",
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "llm",
+        "大模型",
+        "language model",
+        "agents",
+        "algorithm",
+        "算法",
+        "优化"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "wu-chenyuan",
+      "tier": "pivot",
+      "name": "WU, Chenyuan 吴晨源",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "chenyuan.wu@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=6Y2jMHUAAAAJ",
+      "personalUrl": "https://chenyuanwu.com/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/chenyuwu/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "区块链 × AI-driven 系统与分布式数据管理——链与数据系统交叉。",
+      "selfDeclared": [
+        "Blockchains",
+        "AI-driven Systems",
+        "Distributed Data Management"
+      ],
+      "classicTags": [
+        "AI-driven Systems",
+        "Distributed Data Management"
+      ],
+      "emergingTags": [
+        "Blockchains"
+      ],
+      "recentPapers": [
+        "公开主线：区块链 × AI-driven 系统与分布式数据管理",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/chenyuwu/"
+      ],
+      "narrative": "吴晨远助理教授做<b>区块链、AI-driven systems 与分布式数据管理</b>。适合想做链上/分布式数据系统与 AI 交叉的人。近作请再核。",
+      "matchTags": [
+        "blockchains",
+        "ai-driven systems",
+        "distributed data management",
+        "wu",
+        "blockchain",
+        "区块链"
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "zhang-zhisong",
@@ -349,9 +3238,9 @@
       "name": "ZHANG, Zhisong 張智松",
       "role": "Assistant Professor · Department of Computer Science",
       "email": "zhisong.zhang@cityu.edu.hk",
-      "scholarUrl": null,
-      "personalUrl": null,
-      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/",
+      "scholarUrl": "https://scholar.google.com/citations?user=373vlUEAAAAJ",
+      "personalUrl": "https://zzsfornlp.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/zzhan36/",
       "scopusCitations": 1500,
       "hIndex": 15,
       "metricsNote": "年轻教师；引用数字为占位，Scholar链接待补，请用姓名+CityU检索核实",
@@ -390,6 +3279,177 @@
         "人工智能",
         "language model",
         "multi-agent"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "zhao-qingchuan",
+      "tier": "evolve",
+      "name": "ZHAO, Qingchuan 趙晴川",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "qizhao@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=XOtjYGIAAAAJ",
+      "personalUrl": "https://bruceqczhao.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/qizhao/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "移动/IoT/BLE 安全 × 程序分析与逆向——端侧安全工程很实。",
+      "selfDeclared": [
+        "Mobile Security",
+        "IoT and BLE Security",
+        "Program Analysis",
+        "Reverse Engineering"
+      ],
+      "classicTags": [
+        "Mobile Security",
+        "IoT and BLE Security",
+        "Program Analysis",
+        "Reverse Engineering"
+      ],
+      "emergingTags": [
+        "Program Analysis",
+        "Reverse Engineering"
+      ],
+      "recentPapers": [
+        "公开主线：移动/IoT/BLE 安全 × 程序分析与逆向",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/qizhao/"
+      ],
+      "narrative": "赵庆川助理教授方向是<b>移动安全、IoT 与 BLE 安全、程序分析与逆向工程</b>。适合想做移动与物联网安全落地的人。联系前请核近作。",
+      "matchTags": [
+        "mobile security",
+        "iot and ble security",
+        "program analysis",
+        "reverse engineering",
+        "zhao",
+        "security",
+        "安全",
+        "privacy",
+        "隐私",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘"
+      ],
+      "dataQuality": "curated-v1"
+    },
+    {
+      "id": "zuo-jinhang",
+      "tier": "pivot",
+      "name": "ZUO, Jinhang 左金航",
+      "role": "Assistant Professor · Department of Computer Science",
+      "email": "jinhazuo@cityu.edu.hk",
+      "scholarUrl": "https://scholar.google.com/citations?user=W3YHD10AAAAJ",
+      "personalUrl": "https://jhzuo.github.io/",
+      "scholarsUrl": "https://scholars.cityu.edu.hk/en/persons/jinhang-zuo/",
+      "scopusCitations": null,
+      "hIndex": null,
+      "metricsNote": "叙事/标签已精修；Scopus 与 h-index 未逐条核，请用 Scholar/Scopus 自行核实",
+      "oneLiner": "机器学习 × 网络与分布式/边缘——「学习算法遇上系统部署」。",
+      "selfDeclared": [
+        "Machine Learning",
+        "Networking",
+        "Distributed Systems",
+        "Edge Computing"
+      ],
+      "classicTags": [
+        "Machine Learning",
+        "Networking",
+        "Distributed Systems",
+        "Edge Computing"
+      ],
+      "emergingTags": [
+        "Distributed Systems",
+        "Edge Computing"
+      ],
+      "recentPapers": [
+        "公开主线：机器学习 × 网络与分布式/边缘",
+        "近作标题以 Google Scholar / CityUHK Scholars 最新列表为准",
+        "学者页入口：https://scholars.cityu.edu.hk/en/persons/jinhang-zuo/"
+      ],
+      "narrative": "左金航助理教授公开方向覆盖<b>机器学习、网络、分布式系统与边缘计算</b>。适合想做 ML × 系统/边缘部署交叉的人。近作与招生请再核主页。",
+      "matchTags": [
+        "machine learning",
+        "networking",
+        "distributed systems",
+        "edge computing",
+        "zuo",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "机器学习",
+        "deep learning",
+        "深度学习"
+      ],
+      "dataQuality": "curated-v1"
+    }
+  ],
+  "themeContinents": [
+    {
+      "id": "ai-core",
+      "nameZh": "AI 主干",
+      "nameEn": "AI Core",
+      "blurb": "机器学习、视觉、NLP/智能体与科学智能——本院最大的方向大陆",
+      "themeIds": [
+        "ai-systems",
+        "nlp-agents",
+        "vision",
+        "ai-science"
+      ]
+    },
+    {
+      "id": "sys-net",
+      "nameZh": "系统与网络",
+      "nameEn": "Systems & Networks",
+      "blurb": "系统软件、网络与边缘物联网——把算力落地的主干",
+      "themeIds": [
+        "systems",
+        "networks",
+        "edge-iot"
+      ]
+    },
+    {
+      "id": "trust",
+      "nameZh": "安全与信任",
+      "nameEn": "Security & Trust",
+      "blurb": "安全隐私与区块链——可信计算主干",
+      "themeIds": [
+        "security",
+        "blockchain"
+      ]
+    },
+    {
+      "id": "theory",
+      "nameZh": "理论与算法",
+      "nameEn": "Theory & Algorithms",
+      "blurb": "算法与理论基础——支撑各方向的底层主干",
+      "themeIds": [
+        "theory"
+      ]
+    },
+    {
+      "id": "human-media",
+      "nameZh": "人机与多媒体",
+      "nameEn": "HCI & Multimedia",
+      "blurb": "交互与多媒体——面向人的体验分支",
+      "themeIds": [
+        "hci",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "life-x",
+      "nameZh": "生命交叉",
+      "nameEn": "Life Sciences Cross",
+      "blurb": "生物信息——计算向生命科学的交叉区",
+      "themeIds": [
+        "bioinformatics"
       ]
     }
   ]

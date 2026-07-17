@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20260717-guide5">
 </head>
 <body>
 <div class="wrap">
@@ -23,12 +23,19 @@
       <span class="pill" id="profCountPill">50 位全职教职</span>
       <span class="pill" id="storageStatusNote">检测存储环境中…</span>
     </div>
-    <nav class="dept-switch" aria-label="院系切换">
-      <a class="active" href="./index.html">EE</a>
-      <a href="./cs/index.html">CS</a>
+    <nav class="dept-switch" id="sectionDept" aria-label="院系切换">
+      <div class="dept-switch-bar">
+        <a class="active" href="./index.html"><span class="dept-switch-label">EE</span><span class="dept-switch-sub">电气工程</span></a>
+        <a href="./cs/index.html"><span class="dept-switch-label">CS</span><span class="dept-switch-sub">计算机</span></a>
+      </div>
     </nav>
 
-    <div class="bubble-section">
+    <details class="quality-board report-board" id="qualityBoard">
+      <summary id="qualityBoardSummary">发现信息有误？点这里纠错</summary>
+      <div class="quality-board-body" id="qualityBoardBody"></div>
+    </details>
+
+    <div class="bubble-section" id="sectionBubble">
       <p class="panel-title" style="margin-bottom:8px;">按研究方向总览</p>
       <div class="bubble-legend" id="bubbleSub">
         <div class="bubble-legend-item">
@@ -39,13 +46,15 @@
           <span class="bubble-legend-grad" aria-hidden="true"></span>
           <span><em class="c-teal">青绿</em>经典稳定 · <em class="c-amber">琥珀</em>快速转向</span>
         </div>
-        <div class="bubble-legend-note">一人可进多个泡泡 · 点泡泡看名单</div>
+        <div class="bubble-legend-note">每个虚线框 = 一块「学科大陆」· 名字在框底 · 大泡居中、小泡环绕（人数打包，不是套死模板）· 悬停看全名 · 点泡看名单</div>
       </div>
-      <div class="bubble-field" id="bubbleField"></div>
+      <div class="bubble-field-viewport" id="bubbleFieldViewport">
+        <div class="bubble-field" id="bubbleField"></div>
+      </div>
       <div class="theme-expand" id="themeExpand"></div>
     </div>
 
-    <details class="methodology">
+    <details class="methodology" id="sectionMethodology">
       <summary>数据是怎么来的、有什么局限(建议先看一下)</summary>
       <div class="m-body">
         <ul>
@@ -58,14 +67,14 @@
     </details>
   </div>
 
-  <div class="panel">
+  <div class="panel" id="sectionFilter">
     <p class="panel-title">筛选 / 打分器</p>
 
-    <div class="search-engines">
+    <div class="search-engines" id="sectionSearch">
       <div class="tag-input-row search-engine">
         <div class="search-engine-head">
           <span class="search-engine-num">01</span>
-          <label for="nameInput">按姓名找人</label>
+          <label for="nameInput">按姓名搜索</label>
           <span class="search-engine-tag">即时过滤</span>
         </div>
         <input id="nameInput" type="text" placeholder="例如：Po、布禮文、Lai-Man" autocomplete="off">
@@ -75,7 +84,7 @@
       <div class="tag-input-row search-engine">
         <div class="search-engine-head">
           <span class="search-engine-num">02</span>
-          <label for="interestInput">按方向关键词打分</label>
+          <label for="interestInput">按方向关键词搜索</label>
           <span class="search-engine-tag">有历史</span>
         </div>
         <input id="interestInput" type="text" placeholder="例如：机器人, 深度学习, 芯片" autocomplete="off">
@@ -93,7 +102,7 @@
       <div class="quick-chips" id="historyChips"></div>
     </div>
 
-    <div class="sliders">
+    <div class="sliders" id="sectionWeights">
       <div class="slider-block">
         <label>关键词匹配度权重 <span class="val" id="wMatchVal">50</span></label>
         <input type="range" id="wMatch" min="0" max="100" value="50">
@@ -114,7 +123,7 @@
     <button class="reset-btn" id="resetBtn" type="button">重置筛选条件</button>
   </div>
 
-  <div class="results-head">
+  <div class="results-head" id="sectionResults">
     <h2 style="font-family:var(--mono);font-size:1rem;margin:0;color:var(--ink);">// 按方向类型分类浏览</h2>
     <span class="results-count" id="resultsCount"></span>
   </div>
@@ -180,57 +189,91 @@
 <div class="overlay" id="guideOverlay">
   <div class="overlay-panel overlay-panel-guide">
     <div class="overlay-head">
-      <h3>// 使用教程</h3>
+      <h3>// 怎么用</h3>
       <button class="overlay-close" data-close="guideOverlay" type="button">✕ 关闭</button>
     </div>
-    <div class="guide-body">
-      <section class="guide-sec">
-        <h4><span class="guide-num">01</span> 关键词标签 · 点一下看解释</h4>
-        <p>卡片上的「经典方向 / 新兴活跃」彩色词条<b>可以点</b>：点开大白话解释，再点同一词收起。不会跳转页面。</p>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">02</span> 打分功能 · 原理</h4>
-        <p>综合得分 = 你设的三个权重加权：</p>
-        <ul>
-          <li><b>匹配度</b>：你输入的方向关键词，和老师标签重合越多越高（探索工具，不代表对方愿不愿意带你）</li>
-          <li><b>活跃度</b>：是否偏新兴/转向新热点</li>
-          <li><b>影响力</b>：Scopus 被引的固定对数刻度（0–100）</li>
+    <div class="guide-lead">
+      <p><b>点下面任一条，会关闭教程并跳到页面对应区域</b>，该区域会短暂高亮。</p>
+    </div>
+    <div class="guide-body" id="guideBody">
+      <button type="button" class="guide-sec" data-guide-target="#sectionDept">
+        <h4><span class="guide-num">01</span> 先选 EE 还是 CS</h4>
+        <p>头顶两个院系按钮。电气与计算机是两套名单，标记互不串用。</p>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#qualityBoard">
+        <h4><span class="guide-num">02</span> 看到写错了？</h4>
+        <ul class="guide-dots">
+          <li>把出错原文贴上来</li>
+          <li>再写你认为正确的内容</li>
+          <li>记录保存在本机，可导出给维护者修改</li>
         </ul>
-        <p>拖动滑条会立刻重排卡片。</p>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">03</span> 对比功能</h4>
-        <p>在卡片上勾选「对比」（最多 3 位）→ 底部出现对比条 →「查看对比」并排看标签、引用、方向类型。</p>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">04</span> 分类功能</h4>
-        <p>结果区 Tab：全部 / 稳健经典 / 稳中拓新 / 快速转向。这是对「方向有没有在变」的定性归类，说明在 Tab 下方的漂移仪图例里。</p>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">05</span> 展开完整画像</h4>
-        <p>卡片底部醒目按钮「展开完整画像」→ 四个内页：联系方式 / 自述 / 解读 / 论文。内容区可上下滚动。</p>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">06</span> 方向泡泡 · 功能与原理</h4>
-        <ul>
-          <li><b>大小</b>：该方向当前已录入老师人数</li>
-          <li><b>颜色</b>：青绿偏经典稳定 → 琥珀偏快速转向（按泡泡内老师类型汇总）</li>
-          <li><b>点击</b>：展开该方向老师名单，再点可跳到对应卡片</li>
-          <li><b>重叠</b>：跨方向老师会出现在多个泡泡里</li>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#sectionBubble">
+        <h4><span class="guide-num">03</span> 上面那张方向地图</h4>
+        <ul class="guide-dots">
+          <li>一个虚线框 = 一类相近方向</li>
+          <li>泡越大，该方向老师越多</li>
+          <li>绿偏稳定，黄偏转向新热点</li>
+          <li>鼠标悬停看全名，点击展开名单</li>
         </ul>
-      </section>
-      <section class="guide-sec">
-        <h4><span class="guide-num">07</span> 搜索与清单</h4>
-        <ul>
-          <li><b>按姓名</b>：即时过滤，不记历史</li>
-          <li><b>按关键词</b>：参与打分；Enter / 失焦后写入「最近搜索」（本机最多 5 条）</li>
-          <li><b>清单</b>（右上角）：把标记为感兴趣/已联系/放弃的老师汇总，可导出 CSV</li>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#sectionMethodology">
+        <h4><span class="guide-num">04</span> 数据靠谱吗？</h4>
+        <p>这里写了数据来源与局限。适合当参考图使用；正式联系导师前，请再核对近两年论文。</p>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#sectionSearch">
+        <h4><span class="guide-num">05</span> 搜人 / 搜方向</h4>
+        <ul class="guide-dots">
+          <li>按姓名：输入即过滤卡片</li>
+          <li>按关键词：参与匹配打分</li>
+          <li>关键词回车后，会写入「最近搜索」</li>
         </ul>
-      </section>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#sectionWeights">
+        <h4><span class="guide-num">06</span> 三个滑条怎么排</h4>
+        <ul class="guide-dots">
+          <li>匹配：和你关键词像不像</li>
+          <li>活跃：方向新不新、是否在转向</li>
+          <li>影响力：被引大致高低</li>
+          <li>拖动后，下方卡片顺序立刻更新</li>
+        </ul>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#sectionResults">
+        <h4><span class="guide-num">07</span> 稳 / 拓新 / 转向</h4>
+        <ul class="guide-dots">
+          <li>用上方 Tab 只看某一类老师</li>
+          <li>下方色带说明三类分别是什么意思</li>
+        </ul>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#cardGrid">
+        <h4><span class="guide-num">08</span> 老师卡片</h4>
+        <ul class="guide-dots">
+          <li>点彩色词，看白话解释</li>
+          <li>「展开完整画像」：联系方式、自述、论文等</li>
+          <li>可标记：感兴趣 / 已联系 / 放弃</li>
+          <li>勾选「对比」最多 3 位</li>
+        </ul>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#compareBar" data-guide-fallback="#cardGrid">
+        <h4><span class="guide-num">09</span> 对比</h4>
+        <ul class="guide-dots">
+          <li>在卡片上勾选「对比」</li>
+          <li>页面底部出现对比条</li>
+          <li>点进去可并排查看</li>
+        </ul>
+      </button>
+      <button type="button" class="guide-sec" data-guide-target="#myListBtn">
+        <h4><span class="guide-num">10</span> 我的清单</h4>
+        <ul class="guide-dots">
+          <li>入口在右上角「我的清单」</li>
+          <li>汇总你标记过的老师</li>
+          <li>可导出为表格</li>
+        </ul>
+      </button>
     </div>
   </div>
 </div>
 
-<script src="js/app.js"></script>
+<script src="js/app.js?v=20260717-guide5"></script>
 </body>
 </html>

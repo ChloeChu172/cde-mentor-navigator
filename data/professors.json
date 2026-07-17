@@ -39,7 +39,7 @@
         "《RMP-adapter: A region-based Multiple Prompt Adapter for multi-concept customization in text-to-image diffusion model》 — <i>Expert Systems with Applications</i>, 274, 2025",
         "《AesBiasBench: Evaluating Bias and Alignment in Multimodal Language Models for Personalized Image Aesthetic Assessment》 — arXiv:2509.11620, 2025"
       ],
-      "narrative": "Po教授是视频编码领域的老牌学者(博士1991年毕业于CityU,执教三十余年),职业生涯大部分时间专注于运动估计、向量量化这类<b>经典视频压缩技术</b>。但近1-2年他的论文列表几乎被「扩散模型」「文生图」「多模态大模型」占据——说明即使资深教授,也可能因为带新学生、追新方向而大幅转型。如果你想做<b>生成式AI/扩散模型</b>相关研究,这个组反而可能是个「老树发新芽」的隐藏选项。但要注意:他官网自述的研究方向(视频编码、活体检测)<b>还没更新</b>,完全没体现这次转型——提醒你联系前务必先翻一下他最近的论文确认方向是否真的吻合。",
+      "narrative": "Po教授是视频编码领域的老牌学者(博士1991年毕业于CityU,执教三十余年),职业生涯大部分时间专注于运动估计、向量量化这类<b>经典视频压缩技术</b>。但近1-2年他的论文列表几乎被「扩散模型」「文生图」「多模态大模型」占据——说明即使资深教授,也可能因为带新学生、追新方向而大幅转型。如果你想做<b>生成式AI/扩散模型</b>相关研究,这个组反而可能是个「老树发新芽」的隐藏选项。但要注意:他官网自述的研究方向(视频编码、活体检测)<b>还没更新</b>,完全没体现这次转型——提醒你联系前务必先翻一下他最近的论文确认方向是否真的吻合。联系前请再核近作与招生信息。",
       "matchTags": [
         "video",
         "视频",
@@ -65,7 +65,49 @@
         "大模型",
         "multimodal",
         "多模态"
-      ]
+      ],
+      "industryProfile": {
+        "collaboratingLabs": [
+          {
+            "name": "Texas Instruments Educational Training Centre（CityU EE）",
+            "kind": "university",
+            "note": "个人 Scholars 简介写明担任该培训中心 Lab Director（教学/培训向实验室）。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/eelmpo/",
+            "source": "scholars",
+            "textFragment": "Texas Instruments Educational Training Centre"
+          }
+        ],
+        "industryLinks": [
+          {
+            "org": "香港创新科技署 ITF 项目",
+            "relation": "joint project",
+            "note": "公开项目如指静脉识别、视频拷贝检测等 ITF 资助课题（产学/应用导向资助，不代表特定公司实习通道）。",
+            "url": "https://scholars.cityu.edu.hk/en/persons/eelmpo/",
+            "source": "scholars",
+            "textFragment": "Finger Vein Recognition"
+          },
+          {
+            "org": "学术–企业合作产出（计量信号）",
+            "relation": "unknown",
+            "note": "CityU 影响力页显示近五年 Scopus Academic-corporate collaboration 约三成；仅说明有企业共著/合作痕迹，未列出具体公司。",
+            "url": "https://app3.lib.cityu.edu.hk/lbsystem/scholars/bm/impact.php?scival=528",
+            "source": "scholars",
+            "textFragment": "Academic-corporate collaboration"
+          }
+        ],
+        "linkedinUrl": null,
+        "internshipHint": "possible",
+        "verifiedAt": "2026-07-16",
+        "quality": "curated"
+      },
+      "recruiting": {
+        "status": "open",
+        "note": "个人主页公开 MSc 课题项目列表，欢迎感兴趣同学邮件联系讨论。",
+        "sourceUrl": "https://www.ee.cityu.edu.hk/~lmpo/index.html",
+        "updatedAt": "2026-07-16",
+        "textFragment": "MSc Dissertation Project"
+      },
+      "dataQuality": "curated-v1"
     },
     {
       "id": "hui",
@@ -107,7 +149,7 @@
         "《Dynamic Response and Stability Margin Improvement of Wireless Power Receiver Systems via Right-Half-Plane Zero Elimination》(与同系Kerui Li、Siew-Chong Tan合作)",
         "2025年起任CityU「电力电子学」讲座教授;此前曾在港大/帝国理工兼任讲座教授,长期围绕无线充电标准Qi持续产出"
       ],
-      "narrative": "Hui教授是无线充电技术的奠基人之一——现在手机背后的<b>Qi无线充电标准</b>,核心专利就来自他的实验室。他的研究版图非常稳固:从经典的逆变器、功率变换器,到他本人开创的无线电能传输,再延伸到智能电网/微电网,十几年方向高度一致。这是一个「地基特别扎实、且仍在原方向深耕」的老牌强组。如果你想做<b>电力电子/无线充电/智能电网</b>这类偏硬件应用的方向,这是行业里数一数二的选择;但相对来说不太会涉及AI/机器人方向。",
+      "narrative": "Hui教授是无线充电技术的奠基人之一——现在手机背后的<b>Qi无线充电标准</b>,核心专利就来自他的实验室。他的研究版图非常稳固:从经典的逆变器、功率变换器,到他本人开创的无线电能传输,再延伸到智能电网/微电网,十几年方向高度一致。这是一个「地基特别扎实、且仍在原方向深耕」的老牌强组。如果你想做<b>电力电子/无线充电/智能电网</b>这类偏硬件应用的方向,这是行业里数一数二的选择;但相对来说不太会涉及AI/机器人方向。联系前请再核近作与招生信息。",
       "matchTags": [
         "power electronics",
         "电力电子",
@@ -125,7 +167,8 @@
         "可再生能源",
         "inverter",
         "逆变器"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "luk",
@@ -161,7 +204,7 @@
         "《An Antenna Array Based on Radar Operation with High Detection Capability and Implementability for Three-Dimensional Head Imaging》 — <i>IEEE Transactions on Antennas and Propagation</i>, 72(6), 4729-4743, 2024",
         "《A Dual-Polarized Folded Transmitarray Antenna with Low-Profile and Wide Bandwidth》 — 2024 IEEE AP-S/INC-USNC-URSI Symposium"
       ],
-      "narrative": "Luk教授是天线设计领域的灯塔级人物(Croucher高级研究学者,数十年深耕贴片天线/介质谐振器天线),h-index高达80,引用超2万次。他的方向非常「经典电磁学」——但并不是原地踏步:近两年开始把天线技术用到<b>医学成像</b>上(比如用天线阵列雷达检测中风、做头部三维成像),把传统天线设计延伸到了生物医学交叉应用。如果你对硬核电磁场理论、天线设计感兴趣,这是教科书级别的导师;如果对「天线+医疗」交叉感兴趣,他最近的工作也值得关注。",
+      "narrative": "Luk教授是天线设计领域的灯塔级人物(Croucher高级研究学者,数十年深耕贴片天线/介质谐振器天线),h-index高达80,引用超2万次。他的方向非常「经典电磁学」——但并不是原地踏步:近两年开始把天线技术用到<b>医学成像</b>上(比如用天线阵列雷达检测中风、做头部三维成像),把传统天线设计延伸到了生物医学交叉应用。如果你对硬核电磁场理论、天线设计感兴趣,这是教科书级别的导师;如果对「天线+医疗」交叉感兴趣,他最近的工作也值得关注。联系前请再核近作与招生信息。",
       "matchTags": [
         "antenna",
         "天线",
@@ -177,7 +220,8 @@
         "医学成像",
         "5g",
         "6g"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "basu",
@@ -217,7 +261,7 @@
         "《The neurobench framework for benchmarking neuromorphic computing algorithms and systems》 — <i>Nature Communications</i>, 16(1), Article 1545, 2025(近100位作者跨50+机构合作,Basu教授为共同作者)",
         "2026年当选IEEE Fellow,官方介绍其研究已扩展到「存内计算的类脑架构、事件驱动处理、生物医学边缘安全处理」"
       ],
-      "narrative": "Basu教授做的是「类脑芯片」——不是用软件模拟神经网络,而是直接用电路硬件去模仿大脑神经元的工作方式,目标是让AI芯片更省电、更适合塞进<b>机器人/可穿戴设备</b>。他的引用量这几年涨得非常快(从早期每年几十次到近两年六七百次),说明这个方向正在变热。2026年刚当选IEEE Fellow,官方介绍明确提到他在向「存内计算、边缘安全处理、机器人/IoT用AI硬件」扩展——正好踩在「AI+机器人硬件」的交叉点上。如果你对人形机器人感兴趣,但想从芯片/硬件角度切入(而不是纯算法),这个组是非常对口的隐藏选项。",
+      "narrative": "Basu教授做的是「类脑芯片」——不是用软件模拟神经网络,而是直接用电路硬件去模仿大脑神经元的工作方式,目标是让AI芯片更省电、更适合塞进<b>机器人/可穿戴设备</b>。他的引用量这几年涨得非常快(从早期每年几十次到近两年六七百次),说明这个方向正在变热。2026年刚当选IEEE Fellow,官方介绍明确提到他在向「存内计算、边缘安全处理、机器人/IoT用AI硬件」扩展——正好踩在「AI+机器人硬件」的交叉点上。如果你对人形机器人感兴趣,但想从芯片/硬件角度切入(而不是纯算法),这个组是非常对口的隐藏选项。联系前请再核近作与招生信息。",
       "matchTags": [
         "neuromorphic",
         "类脑",
@@ -239,7 +283,8 @@
         "低功耗",
         "memristor",
         "忆阻器"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "dai",
@@ -273,7 +318,7 @@
         "受邀学术报告摘要(CityU Scholars,2024-2025):提出用「队首(Head-of-Line)分组行为建模」统一分析Aloha与CSMA两种随机接入网络的吞吐量、延迟与稳定性",
         "我没能精确核实她最近1-2年单篇论文的确切标题,建议直接打开她的CityU Scholars发表列表页核对:<br><span class=\"paper-url\">https://scholars.cityu.edu.hk/en/persons/lindai/publications/</span>"
       ],
-      "narrative": "Dai教授做的是无线通信的「数学理论」那一面——不是设计芯片或天线,而是用概率论、排队论去分析「当很多设备同时抢着接入网络时,系统能撑住多少流量、要等多久」这类问题(这正是5G/6G里大规模物联网接入要解决的核心问题)。她的研究方向十几年来高度一致、稳扎稳打,没有大幅转向的迹象。适合喜欢扎实数理推导、想做<b>通信理论</b>而不是软件应用的同学。",
+      "narrative": "Dai教授做的是无线通信的「数学理论」那一面——不是设计芯片或天线,而是用概率论、排队论去分析「当很多设备同时抢着接入网络时,系统能撑住多少流量、要等多久」这类问题(这正是5G/6G里大规模物联网接入要解决的核心问题)。她的研究方向十几年来高度一致、稳扎稳打,没有大幅转向的迹象。适合喜欢扎实数理推导、想做<b>通信理论</b>而不是软件应用的同学。联系前请再核近作与招生信息。",
       "matchTags": [
         "wireless communication",
         "无线通信",
@@ -291,7 +336,8 @@
         "数学",
         "theory",
         "理论"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "cheung",
@@ -331,7 +377,7 @@
         "《PQNTRU: Acceleration of NTRU-Based Schemes via Customized Post-Quantum Processor》 — <i>IEEE Transactions on Computers</i>, 2025",
         "2026年6月因抗量子密码学方向研究获国家级创新奖(第四届国家级创新创业大赛优秀奖)"
       ],
-      "narrative": "Cheung教授的底子是FPGA(可编程芯片)与可重构计算,这几年明显往两个新热点扩展:一是<b>抗量子密码学</b>——因为未来量子计算机可能破解现在用的加密算法,各国都在抢着研发「抗量子」的新一代加密硬件,他2026年6月刚因为这个方向拿了国家级创新奖;二是<b>AI加速器</b>——把深度学习模型(包括最新的Vision Mamba)塞进FPGA芯片里跑得更快更省电。如果你对「芯片+网络安全」或「芯片+AI」的交叉感兴趣,这个组目前正踩在两个风口上。",
+      "narrative": "Cheung教授的底子是FPGA(可编程芯片)与可重构计算,这几年明显往两个新热点扩展:一是<b>抗量子密码学</b>——因为未来量子计算机可能破解现在用的加密算法,各国都在抢着研发「抗量子」的新一代加密硬件,他2026年6月刚因为这个方向拿了国家级创新奖;二是<b>AI加速器</b>——把深度学习模型(包括最新的Vision Mamba)塞进FPGA芯片里跑得更快更省电。如果你对「芯片+网络安全」或「芯片+AI」的交叉感兴趣,这个组目前正踩在两个风口上。联系前请再核近作与招生信息。",
       "matchTags": [
         "fpga",
         "芯片",
@@ -349,7 +395,8 @@
         "ai加速",
         "ai accelerator",
         "soc"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "li",
@@ -386,7 +433,7 @@
         "《Clean-Label Attack on Face Authentication Systems Through Rolling Shutter Mechanism》 — 与Alex C. Kot等合作, 2024",
         "CityU特邀讲座(2026):专题讨论大语言模型幻觉检测,以及自主智能体(AI Agent)的沙盒隔离/人工监督/目标对齐等责任部署问题——目前还没查到他本人在这个子方向上发表的具体论文标题,建议直接问他"
       ],
-      "narrative": "Li教授2018年博士毕业,是7位里最年轻的一位,但从一开始研究方向就很「AI」——最早做<b>人脸活体检测/深度伪造检测</b>(判断一张脸是不是AI造的假脸),现在已经把研究范围扩展到大语言模型本身的可信度问题,比如怎么检测大模型「一本正经地编故事」(幻觉),以及怎么让自主运行的<b>AI Agent</b>不闯祸(沙盒隔离、人工监督、目标对齐)。这正是当下AI圈最热的安全/对齐话题之一,而且他目前在招PhD学生,是这7位里方向最贴近「前沿AI」的一位。",
+      "narrative": "Li教授2018年博士毕业,是7位里最年轻的一位,但从一开始研究方向就很「AI」——最早做<b>人脸活体检测/深度伪造检测</b>(判断一张脸是不是AI造的假脸),现在已经把研究范围扩展到大语言模型本身的可信度问题,比如怎么检测大模型「一本正经地编故事」(幻觉),以及怎么让自主运行的<b>AI Agent</b>不闯祸(沙盒隔离、人工监督、目标对齐)。这正是当下AI圈最热的安全/对齐话题之一,而且他目前在招PhD学生,是这7位里方向最贴近「前沿AI」的一位。联系前请再核近作与招生信息。",
       "matchTags": [
         "trustworthy ai",
         "可信ai",
@@ -407,7 +454,8 @@
         "ai对齐",
         "alignment",
         "对齐"
-      ]
+      ],
+      "dataQuality": "curated-v1"
     },
     {
       "id": "dong",
@@ -438,9 +486,9 @@
         "Microgrid Control"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表: https://scholars.cityu.edu.hk/en/persons/eedong/publications/"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eedong/publications/"
       ],
-      "narrative": "DONG教授是电力系统领域的资深学者，现任EE系主任。他的研究聚焦于电力系统规划、稳定性分析以及可再生能源并网。随着全球能源转型加速，他的工作对智能电网和储能技术的发展具有重要意义。",
+      "narrative": "DONG教授是电力系统领域的资深学者，现任EE系主任。他的研究聚焦于电力系统规划、稳定性分析以及可再生能源并网。随着全球能源转型加速，他的工作对智能电网和储能技术的发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "power system",
         "电力系统",
@@ -451,8 +499,11 @@
         "energy storage",
         "储能",
         "microgrid",
-        "微电网"
-      ]
+        "微电网",
+        "dong"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chiang",
@@ -480,9 +531,9 @@
         "Optical Signal Processing"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechiang/"
       ],
-      "narrative": "CHIANG教授是光电子学领域的资深学者，长期致力于光纤器件和非线性光学的研究。他的工作为高速光通信系统的发展奠定了重要基础。",
+      "narrative": "CHIANG教授是光电子学领域的资深学者，长期致力于光纤器件和非线性光学的研究。他的工作为高速光通信系统的发展奠定了重要基础。联系前请再核近作与招生信息。",
       "matchTags": [
         "optics",
         "光学",
@@ -493,8 +544,11 @@
         "nonlinear",
         "非线性",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "chiang"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "sun_yanni",
@@ -524,9 +578,9 @@
         "Precision Medicine"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eesunyanni/"
       ],
-      "narrative": "SUN教授是生物信息学领域的领军学者，近年来积极将深度学习技术引入基因组学研究。她的工作旨在通过AI方法解析复杂疾病机制，推动精准医疗发展。",
+      "narrative": "SUN教授是生物信息学领域的领军学者，近年来积极将深度学习技术引入基因组学研究。她的工作旨在通过AI方法解析复杂疾病机制，推动精准医疗发展。联系前请再核近作与招生信息。",
       "matchTags": [
         "bioinformatics",
         "生物信息学",
@@ -538,8 +592,14 @@
         "healthcare",
         "医疗",
         "biology",
-        "生物学"
-      ]
+        "生物学",
+        "machine learning",
+        "机器学习",
+        "生物信息",
+        "sun"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "yan",
@@ -569,9 +629,9 @@
         "Big Data Analytics"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeyan/"
       ],
-      "narrative": "YAN教授是AI与数据科学领域的资深学者，研究涵盖图像处理、模式识别和生物信息学。他的工作致力于开发智能算法解决复杂的科学和工程问题。",
+      "narrative": "YAN教授是AI与数据科学领域的资深学者，研究涵盖图像处理、模式识别和生物信息学。他的工作致力于开发智能算法解决复杂的科学和工程问题。联系前请再核近作与招生信息。",
       "matchTags": [
         "AI",
         "artificial intelligence",
@@ -583,8 +643,14 @@
         "bioinformatics",
         "生物信息学",
         "machine learning",
-        "机器学习"
-      ]
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "生物信息",
+        "yan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_ch",
@@ -614,9 +680,9 @@
         "Wearable Electronics"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechan/"
       ],
-      "narrative": "CHAN教授是微波与太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统微波天线延伸到太赫兹成像和集成电路，在通信和医疗成像领域有重要应用。",
+      "narrative": "CHAN教授是微波与太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统微波天线延伸到太赫兹成像和集成电路，在通信和医疗成像领域有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "microwave",
         "微波",
@@ -629,8 +695,11 @@
         "imaging",
         "成像",
         "5g",
-        "6g"
-      ]
+        "6g",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chen_gr",
@@ -660,9 +729,9 @@
         "Networked Control"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eegchen/"
       ],
-      "narrative": "CHEN教授是非线性系统和复杂网络领域的国际知名学者，在混沌理论和动力学控制方面做出了奠基性贡献。他的研究对理解复杂系统行为和设计智能控制系统具有深远影响。",
+      "narrative": "CHEN教授是非线性系统和复杂网络领域的国际知名学者，在混沌理论和动力学控制方面做出了奠基性贡献。他的研究对理解复杂系统行为和设计智能控制系统具有深远影响。联系前请再核近作与招生信息。",
       "matchTags": [
         "nonlinear",
         "非线性",
@@ -675,8 +744,20 @@
         "chaos",
         "混沌",
         "system",
-        "系统"
-      ]
+        "系统",
+        "nlp",
+        "自然语言",
+        "agents",
+        "智能体",
+        "llm",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "chen"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chen_jie",
@@ -706,9 +787,9 @@
         "Cyber-physical Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eejchen/"
       ],
-      "narrative": "CHEN教授是控制理论领域的资深学者，专注于网络控制系统、多智能体协同和时滞系统分析。他的研究为现代分布式系统和智能集群控制提供了理论基础。",
+      "narrative": "CHEN教授是控制理论领域的资深学者，专注于网络控制系统、多智能体协同和时滞系统分析。他的研究为现代分布式系统和智能集群控制提供了理论基础。联系前请再核近作与招生信息。",
       "matchTags": [
         "control",
         "控制",
@@ -721,8 +802,19 @@
         "robust",
         "鲁棒",
         "distributed",
-        "分布式"
-      ]
+        "分布式",
+        "nlp",
+        "自然语言",
+        "agents",
+        "智能体",
+        "llm",
+        "network",
+        "wireless",
+        "无线",
+        "chen"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chung_hsh",
@@ -751,9 +843,9 @@
         "Energy Efficiency"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechung/"
       ],
-      "narrative": "CHUNG教授是电力电子领域的资深学者，研究涵盖电力变换器设计、LED照明系统和智能电网技术。他的工作对提高能源转换效率和推动绿色照明技术发展具有重要意义。",
+      "narrative": "CHUNG教授是电力电子领域的资深学者，研究涵盖电力变换器设计、LED照明系统和智能电网技术。他的工作对提高能源转换效率和推动绿色照明技术发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "power electronics",
         "电力电子",
@@ -765,8 +857,11 @@
         "energy",
         "能源",
         "conversion",
-        "转换"
-      ]
+        "转换",
+        "chung"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "guo",
@@ -796,9 +891,9 @@
         "5G/6G Communications"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeguoyx/"
       ],
-      "narrative": "GUO教授是天线和射频技术领域的资深学者，Global STEM Chair Professor。他的研究从传统天线设计延伸到生物医学电磁学和无线电能传输，在医疗植入设备和可穿戴技术方面有重要应用。",
+      "narrative": "GUO教授是天线和射频技术领域的资深学者，Global STEM Chair Professor。他的研究从传统天线设计延伸到生物医学电磁学和无线电能传输，在医疗植入设备和可穿戴技术方面有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "antenna",
         "天线",
@@ -813,8 +908,17 @@
         "5g",
         "6g",
         "wearable",
-        "可穿戴"
-      ]
+        "可穿戴",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "bioinformatics",
+        "生物信息",
+        "guo"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "leung_kw",
@@ -842,9 +946,9 @@
         "Reconfigurable Antennas"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeleungkw/"
       ],
-      "narrative": "LEUNG教授是天线设计领域的资深学者，专注于电磁学理论和微波工程。他的研究为现代无线通信系统的天线设计提供了重要理论基础。",
+      "narrative": "LEUNG教授是天线设计领域的资深学者，专注于电磁学理论和微波工程。他的研究为现代无线通信系统的天线设计提供了重要理论基础。联系前请再核近作与招生信息。",
       "matchTags": [
         "antenna",
         "天线",
@@ -857,8 +961,11 @@
         "5g",
         "6g",
         "metamaterial",
-        "超材料"
-      ]
+        "超材料",
+        "leung"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "pang",
@@ -887,9 +994,9 @@
         "Lab-on-chip"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eepang/"
       ],
-      "narrative": "PANG教授是生物医学传感器和纳米制造领域的资深学者，现任CityU大学图书馆馆长。她的研究将纳米制造技术应用于生物医学传感器和太赫兹器件开发。",
+      "narrative": "PANG教授是生物医学传感器和纳米制造领域的资深学者，现任CityU大学图书馆馆长。她的研究将纳米制造技术应用于生物医学传感器和太赫兹器件开发。联系前请再核近作与招生信息。",
       "matchTags": [
         "biomedical",
         "生物医学",
@@ -903,8 +1010,17 @@
         "太赫兹",
         "metamaterial",
         "超材料",
-        "MEMS"
-      ]
+        "MEMS",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "bioinformatics",
+        "生物信息",
+        "pang"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "pou",
@@ -935,9 +1051,9 @@
         "Energy Storage"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eepou/"
       ],
-      "narrative": "POU教授是电力电子领域的国际知名学者，专注于可再生能源并网、高压直流输电和交通电气化。他的研究对全球能源转型和电动汽车发展具有重要意义。",
+      "narrative": "POU教授是电力电子领域的国际知名学者，专注于可再生能源并网、高压直流输电和交通电气化。他的研究对全球能源转型和电动汽车发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "power electronics",
         "电力电子",
@@ -952,8 +1068,11 @@
         "EV",
         "电动车",
         "energy storage",
-        "储能"
-      ]
+        "储能",
+        "pou"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "tan_sc",
@@ -982,9 +1101,9 @@
         "Grid-forming Inverters"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eetan/"
       ],
-      "narrative": "TAN教授是电力电子控制领域的资深学者，专注于先进控制策略在电力变换器和电动汽车充电系统中的应用。他的研究对智能电网和清洁能源发展具有重要价值。",
+      "narrative": "TAN教授是电力电子控制领域的资深学者，专注于先进控制策略在电力变换器和电动汽车充电系统中的应用。他的研究对智能电网和清洁能源发展具有重要价值。联系前请再核近作与招生信息。",
       "matchTags": [
         "power electronics",
         "电力电子",
@@ -999,8 +1118,11 @@
         "grid",
         "电网",
         "inverter",
-        "逆变器"
-      ]
+        "逆变器",
+        "tan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "tsai",
@@ -1029,9 +1151,9 @@
         "Flat Optics"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eetsai/"
       ],
-      "narrative": "TSAI教授是超材料和纳米光子学领域的国际知名学者。他的研究从传统微纳制造延伸到量子纳米光子学和拓扑光学，在下一代光电子器件和量子技术方面有重要应用。",
+      "narrative": "TSAI教授是超材料和纳米光子学领域的国际知名学者。他的研究从传统微纳制造延伸到量子纳米光子学和拓扑光学，在下一代光电子器件和量子技术方面有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "metamaterial",
         "超材料",
@@ -1046,8 +1168,11 @@
         "optics",
         "光学",
         "nano",
-        "纳米"
-      ]
+        "纳米",
+        "tsai"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "tse",
@@ -1076,9 +1201,9 @@
         "Wireless Power"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eemike/"
       ],
-      "narrative": "TSE教授是模拟电路和电力电子领域的资深学者，现任CityU副校长（创新）。他的研究涵盖模拟集成电路设计、电力电子变换器和非线性系统分析。",
+      "narrative": "TSE教授是模拟电路和电力电子领域的资深学者，现任CityU副校长（创新）。他的研究涵盖模拟集成电路设计、电力电子变换器和非线性系统分析。联系前请再核近作与招生信息。",
       "matchTags": [
         "analog",
         "模拟",
@@ -1091,8 +1216,15 @@
         "power management",
         "电源管理",
         "energy harvesting",
-        "能量收集"
-      ]
+        "能量收集",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "tse"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_nelson",
@@ -1119,9 +1251,9 @@
         "Photonic Integrated Circuits"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechan/"
       ],
-      "narrative": "CHAN教授是半导体激光动力学领域的资深学者，专注于混沌系统在随机数生成中的应用。他的研究对密码学和量子通信中的随机数源开发具有重要意义。",
+      "narrative": "CHAN教授是半导体激光动力学领域的资深学者，专注于混沌系统在随机数生成中的应用。他的研究对密码学和量子通信中的随机数源开发具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "laser",
         "激光",
@@ -1134,8 +1266,11 @@
         "photonics",
         "光子学",
         "nonlinear",
-        "非线性"
-      ]
+        "非线性",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_rosa",
@@ -1164,9 +1299,9 @@
         "Neurorehabilitation"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechanr/"
       ],
-      "narrative": "CHAN教授是计算神经科学和脑机接口领域的资深学者。她的研究从神经信号处理延伸到神经假体开发，致力于帮助瘫痪患者恢复运动功能。",
+      "narrative": "CHAN教授是计算神经科学和脑机接口领域的资深学者。她的研究从神经信号处理延伸到神经假体开发，致力于帮助瘫痪患者恢复运动功能。联系前请再核近作与招生信息。",
       "matchTags": [
         "neuroscience",
         "神经科学",
@@ -1177,8 +1312,11 @@
         "prosthetics",
         "假体",
         "signal processing",
-        "信号处理"
-      ]
+        "信号处理",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "leung_acs",
@@ -1208,9 +1346,9 @@
         "Computer Vision"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeleung/"
       ],
-      "narrative": "LEUNG教授是多媒体和信号处理领域的资深学者，近年来积极将机器学习技术引入计算机图形学和多媒体分析。他的研究在虚拟现实和智能媒体处理方面有重要应用。",
+      "narrative": "LEUNG教授是多媒体和信号处理领域的资深学者，近年来积极将机器学习技术引入计算机图形学和多媒体分析。他的研究在虚拟现实和智能媒体处理方面有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "multimedia",
         "多媒体",
@@ -1221,8 +1359,17 @@
         "signal processing",
         "信号处理",
         "computer vision",
-        "计算机视觉"
-      ]
+        "计算机视觉",
+        "vision",
+        "视觉",
+        "graphics",
+        "图形",
+        "deep learning",
+        "深度学习",
+        "leung"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "so",
@@ -1250,9 +1397,9 @@
         "Sparse Signal Recovery"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeso/"
       ],
-      "narrative": "SO教授是信号处理领域的资深学者，专注于参数估计和阵列信号处理。他的研究为雷达、通信和音频处理系统提供了重要的理论基础。",
+      "narrative": "SO教授是信号处理领域的资深学者，专注于参数估计和阵列信号处理。他的研究为雷达、通信和音频处理系统提供了重要的理论基础。联系前请再核近作与招生信息。",
       "matchTags": [
         "signal processing",
         "信号处理",
@@ -1263,8 +1410,11 @@
         "radar",
         "雷达",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "so"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wong_hei",
@@ -1293,9 +1443,9 @@
         "Power Devices"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewong/"
       ],
-      "narrative": "WONG教授是电子器件和固态电路领域的资深学者，专注于半导体器件物理和集成电路设计。他的研究对提高芯片性能和可靠性具有重要意义。",
+      "narrative": "WONG教授是电子器件和固态电路领域的资深学者，专注于半导体器件物理和集成电路设计。他的研究对提高芯片性能和可靠性具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "device",
         "器件",
@@ -1308,8 +1458,11 @@
         "solid-state",
         "固态",
         "physics",
-        "物理"
-      ]
+        "物理",
+        "wong"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wong_steve",
@@ -1339,9 +1492,9 @@
         "mmWave Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewongs/"
       ],
-      "narrative": "WONG教授是天线和太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统天线设计延伸到超表面和可重构智能表面，在5G/6G通信系统中有重要应用。",
+      "narrative": "WONG教授是天线和太赫兹技术领域的资深学者，现任CityU副校长（社区关系）。他的研究从传统天线设计延伸到超表面和可重构智能表面，在5G/6G通信系统中有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "antenna",
         "天线",
@@ -1354,8 +1507,11 @@
         "5g",
         "6g",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "wong"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_andy",
@@ -1383,9 +1539,9 @@
         "Optical Communication Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechanandy/"
       ],
-      "narrative": "CHAN副教授是集成光学和光子传感器领域的学者，专注于光纤器件和太赫兹技术开发。他的研究在光通信和传感系统中有重要应用。",
+      "narrative": "CHAN副教授是集成光学和光子传感器领域的学者，专注于光纤器件和太赫兹技术开发。他的研究在光通信和传感系统中有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "optics",
         "光学",
@@ -1398,8 +1554,15 @@
         "THz",
         "太赫兹",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_katie",
@@ -1428,9 +1591,9 @@
         "Systems Biology"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechankatie/"
       ],
-      "narrative": "CHAN副教授是生物信息学领域的学者，专注于计算生物学和基因组大数据分析。她的工作致力于通过计算方法解析复杂生物系统。",
+      "narrative": "CHAN副教授是生物信息学领域的学者，专注于计算生物学和基因组大数据分析。她的工作致力于通过计算方法解析复杂生物系统。联系前请再核近作与招生信息。",
       "matchTags": [
         "bioinformatics",
         "生物信息学",
@@ -1441,8 +1604,14 @@
         "genomics",
         "基因组学",
         "machine learning",
-        "机器学习"
-      ]
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "生物信息",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_leanne",
@@ -1472,9 +1641,9 @@
         "Neurorehabilitation"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechanleanne/"
       ],
-      "narrative": "CHAN副教授是神经工程领域的学者，专注于视觉假体和神经调控技术。她的研究旨在帮助视觉障碍患者恢复视力，在生物医学工程领域有重要应用。",
+      "narrative": "CHAN副教授是神经工程领域的学者，专注于视觉假体和神经调控技术。她的研究旨在帮助视觉障碍患者恢复视力，在生物医学工程领域有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "neural",
         "神经",
@@ -1487,8 +1656,16 @@
         "bio-signal",
         "生物信号",
         "brain-computer",
-        "脑机"
-      ]
+        "脑机",
+        "vision",
+        "graphics",
+        "图形",
+        "bioinformatics",
+        "生物信息",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_sammy",
@@ -1517,9 +1694,9 @@
         "Distributed Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechansammy/"
       ],
-      "narrative": "CHAN副教授是无线网络领域的学者，专注于网络性能评估和安全研究。他的工作对设计高效可靠的通信系统具有重要意义。",
+      "narrative": "CHAN副教授是无线网络领域的学者，专注于网络性能评估和安全研究。他的工作对设计高效可靠的通信系统具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "wireless",
         "无线",
@@ -1530,8 +1707,17 @@
         "performance",
         "性能",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "privacy",
+        "隐私",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chan_ws",
@@ -1559,9 +1745,9 @@
         "Satellite Communication"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechanws/"
       ],
-      "narrative": "CHAN副教授是射频微波领域的学者，专注于高功率放大器和微波系统设计。他的研究在通信基站和雷达系统中有重要应用。",
+      "narrative": "CHAN副教授是射频微波领域的学者，专注于高功率放大器和微波系统设计。他的研究在通信基站和雷达系统中有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "RF",
         "射频",
@@ -1574,8 +1760,11 @@
         "communication",
         "通信",
         "radar",
-        "雷达"
-      ]
+        "雷达",
+        "chan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "jiang",
@@ -1604,9 +1793,9 @@
         "Charging Infrastructure"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eejiang/"
       ],
-      "narrative": "JIANG副教授是电动汽车和电力电子领域的学者，专注于EV动力系统和无线电能传输技术。他的研究对推动交通电气化和智能充电网络发展具有重要意义。",
+      "narrative": "JIANG副教授是电动汽车和电力电子领域的学者，专注于EV动力系统和无线电能传输技术。他的研究对推动交通电气化和智能充电网络发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "EV",
         "电动车",
@@ -1619,8 +1808,15 @@
         "charging",
         "充电",
         "motor",
-        "电机"
-      ]
+        "电机",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "jiang"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "nekoei",
@@ -1651,9 +1847,9 @@
         "Distributed Optimization"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eenekoei/"
       ],
-      "narrative": "NEKOUEI副教授是控制理论和网络安全领域的学者，专注于将AI/ML技术应用于控制系统和通信网络。他的研究在智能系统的安全性和可靠性方面具有重要意义。",
+      "narrative": "NEKOUEI副教授是控制理论和网络安全领域的学者，专注于将AI/ML技术应用于控制系统和通信网络。他的研究在智能系统的安全性和可靠性方面具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "control",
         "控制",
@@ -1666,8 +1862,19 @@
         "AI",
         "artificial intelligence",
         "machine learning",
-        "机器学习"
-      ]
+        "机器学习",
+        "wireless",
+        "无线",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化",
+        "nekouei"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "sung",
@@ -1696,9 +1903,9 @@
         "5G/6G Networks"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eesung/"
       ],
-      "narrative": "SUNG副教授是无线通信领域的学者，专注于网络资源分配和分布式机器学习。他的研究对设计高效智能的无线通信系统具有重要意义。",
+      "narrative": "SUNG副教授是无线通信领域的学者，专注于网络资源分配和分布式机器学习。他的研究对设计高效智能的无线通信系统具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "wireless",
         "无线",
@@ -1711,8 +1918,17 @@
         "distributed",
         "分布式",
         "machine learning",
-        "机器学习"
-      ]
+        "机器学习",
+        "deep learning",
+        "深度学习",
+        "algorithm",
+        "算法",
+        "optimization",
+        "优化",
+        "sung"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "tan_chaoliang",
@@ -1742,9 +1958,9 @@
         "Flexible Electronics"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eetancl/"
       ],
-      "narrative": "TAN副教授是二维材料和纳米技术领域的学者，专注于新型电子材料和光电器件开发。他的研究在纳米医学和柔性电子方面有重要应用前景。",
+      "narrative": "TAN副教授是二维材料和纳米技术领域的学者，专注于新型电子材料和光电器件开发。他的研究在纳米医学和柔性电子方面有重要应用前景。联系前请再核近作与招生信息。",
       "matchTags": [
         "2D materials",
         "二维材料",
@@ -1755,8 +1971,11 @@
         "nanomedicine",
         "纳米医学",
         "optoelectronics",
-        "光电子"
-      ]
+        "光电子",
+        "tan"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wang_cheng",
@@ -1785,9 +2004,9 @@
         "High-speed Optical Networks"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewangc/"
       ],
-      "narrative": "WANG副教授是纳米制造和光子学领域的学者，专注于光子集成电路和光通信系统。他的研究对高速光网络和量子通信技术发展具有重要意义。",
+      "narrative": "WANG副教授是纳米制造和光子学领域的学者，专注于光子集成电路和光通信系统。他的研究对高速光网络和量子通信技术发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "nanofabrication",
         "纳米制造",
@@ -1798,8 +2017,15 @@
         "optical",
         "光",
         "communication",
-        "通信"
-      ]
+        "通信",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "wang"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wong_amh",
@@ -1829,9 +2055,9 @@
         "Imaging Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewongamh/"
       ],
-      "narrative": "WONG副教授是超材料领域的学者，专注于超表面设计和超分辨率成像技术。他的研究在先进天线和成像系统中有重要应用。",
+      "narrative": "WONG副教授是超材料领域的学者，专注于超表面设计和超分辨率成像技术。他的研究在先进天线和成像系统中有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "metamaterial",
         "超材料",
@@ -1842,8 +2068,11 @@
         "antenna",
         "天线",
         "imaging",
-        "成像"
-      ]
+        "成像",
+        "wong"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wong_ewm",
@@ -1873,9 +2102,9 @@
         "5G/6G Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewongewm/"
       ],
-      "narrative": "WONG副教授是电信网络领域的学者，专注于绿色通信网络和医疗信息系统。他的研究对可持续通信和智能医疗发展具有重要意义。",
+      "narrative": "WONG副教授是电信网络领域的学者，专注于绿色通信网络和医疗信息系统。他的研究对可持续通信和智能医疗发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "telecom",
         "电信",
@@ -1890,8 +2119,17 @@
         "optical",
         "光",
         "switching",
-        "交换"
-      ]
+        "交换",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "wireless",
+        "无线",
+        "wong"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "yuen",
@@ -1919,9 +2157,9 @@
         "Neural Architecture Search"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeyuen/"
       ],
-      "narrative": "YUEN副教授是优化算法和AI领域的学者，专注于黑盒优化和自动机器学习。他的研究对设计高效智能的优化系统具有重要意义。",
+      "narrative": "YUEN副教授是优化算法和AI领域的学者，专注于黑盒优化和自动机器学习。他的研究对设计高效智能的优化系统具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "optimization",
         "优化",
@@ -1932,8 +2170,11 @@
         "evolutionary",
         "进化",
         "algorithm",
-        "算法"
-      ]
+        "算法",
+        "yuen"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "chen_muku",
@@ -1962,9 +2203,9 @@
         "Flat Optics"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eechenmk/"
       ],
-      "narrative": "CHEN助理教授是超材料和纳米光子学领域的青年学者，专注于微纳制造技术和新型光电器件开发。他的研究在量子技术和下一代光电子器件方面有重要应用前景。",
+      "narrative": "CHEN助理教授是超材料和纳米光子学领域的青年学者，专注于微纳制造技术和新型光电器件开发。他的研究在量子技术和下一代光电子器件方面有重要应用前景。联系前请再核近作与招生信息。",
       "matchTags": [
         "metamaterial",
         "超材料",
@@ -1977,8 +2218,11 @@
         "quantum",
         "量子",
         "optics",
-        "光学"
-      ]
+        "光学",
+        "chen"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "feng",
@@ -2007,9 +2251,9 @@
         "Quantum Sensing"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eefeng/"
       ],
-      "narrative": "FENG助理教授是光子学领域的青年学者，专注于光子集成电路和微波光子学技术。他的研究在集成传感和光通信系统中有重要应用。",
+      "narrative": "FENG助理教授是光子学领域的青年学者，专注于光子集成电路和微波光子学技术。他的研究在集成传感和光通信系统中有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "photonic",
         "光子",
@@ -2022,8 +2266,15 @@
         "LiDAR",
         "激光雷达",
         "optical",
-        "光"
-      ]
+        "光",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "feng"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "li_chaojie",
@@ -2052,9 +2303,9 @@
         "Energy Management"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eelicj/"
       ],
-      "narrative": "LI助理教授是AI和能源系统交叉领域的青年学者，专注于将AI技术应用于可再生能源集成和电池管理。他的研究对智能电网和分布式能源系统发展具有重要意义。",
+      "narrative": "LI助理教授是AI和能源系统交叉领域的青年学者，专注于将AI技术应用于可再生能源集成和电池管理。他的研究对智能电网和分布式能源系统发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "AI",
         "renewable",
@@ -2069,8 +2320,15 @@
         "grid",
         "电网",
         "control",
-        "控制"
-      ]
+        "控制",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "li"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "li_kerui",
@@ -2099,9 +2357,9 @@
         "Grid Integration"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eelikerui/"
       ],
-      "narrative": "LI助理教授是无线电能传输领域的青年学者，专注于功率变换器建模和控制策略。他的研究对电动汽车充电和智能电网技术发展具有重要意义。",
+      "narrative": "LI助理教授是无线电能传输领域的青年学者，专注于功率变换器建模和控制策略。他的研究对电动汽车充电和智能电网技术发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "wireless power",
         "无线电能",
@@ -2116,8 +2374,15 @@
         "EV",
         "电动车",
         "charging",
-        "充电"
-      ]
+        "充电",
+        "network",
+        "网络",
+        "wireless",
+        "无线",
+        "li"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "song",
@@ -2147,9 +2412,9 @@
         "Digital Twins"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eesong/"
       ],
-      "narrative": "SONG助理教授是物联网领域的青年学者，专注于信息物理系统和智能传感技术。他的研究在智慧城市和工业物联网方面有重要应用。",
+      "narrative": "SONG助理教授是物联网领域的青年学者，专注于信息物理系统和智能传感技术。他的研究在智慧城市和工业物联网方面有重要应用。联系前请再核近作与招生信息。",
       "matchTags": [
         "cyber-physical",
         "信息物理",
@@ -2164,8 +2429,12 @@
         "edge",
         "边缘",
         "smart",
-        "智能"
-      ]
+        "智能",
+        "iot",
+        "song"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "tao",
@@ -2195,9 +2464,9 @@
         "Energy Trading"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eetaoyc/"
       ],
-      "narrative": "TAO助理教授是电力系统领域的青年学者，专注于电力市场设计和智能电网规划。他的研究对电力系统经济性和可靠性优化具有重要意义。",
+      "narrative": "TAO助理教授是电力系统领域的青年学者，专注于电力市场设计和智能电网规划。他的研究对电力系统经济性和可靠性优化具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "power system",
         "电力系统",
@@ -2208,8 +2477,11 @@
         "EV",
         "电动车",
         "planning",
-        "规划"
-      ]
+        "规划",
+        "tao"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "wu_gengbo",
@@ -2238,9 +2510,9 @@
         "Holographic MIMO"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eewugb/"
       ],
-      "narrative": "WU助理教授是太赫兹技术领域的青年学者，专注于可重构智能表面和集成传感通信系统。他的研究对6G通信技术发展具有重要意义。",
+      "narrative": "WU助理教授是太赫兹技术领域的青年学者，专注于可重构智能表面和集成传感通信系统。他的研究对6G通信技术发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "THz",
         "太赫兹",
@@ -2254,8 +2526,15 @@
         "通信",
         "6g",
         "integrated",
-        "集成"
-      ]
+        "集成",
+        "iot",
+        "物联网",
+        "edge",
+        "边缘",
+        "wu"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "yu_alex",
@@ -2284,9 +2563,9 @@
         " mmWave Communications"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eeyualex/"
       ],
-      "narrative": "YU助理教授是无线通信领域的青年学者，专注于移动通信系统和信号处理技术。他的研究对5G/6G通信系统发展具有重要意义。",
+      "narrative": "YU助理教授是无线通信领域的青年学者，专注于移动通信系统和信号处理技术。他的研究对5G/6G通信系统发展具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "mobile",
         "移动",
@@ -2300,8 +2579,13 @@
         "信号处理",
         "5g",
         "6g",
-        "MIMO"
-      ]
+        "MIMO",
+        "network",
+        "网络",
+        "yu"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     },
     {
       "id": "zhu_yue",
@@ -2329,9 +2613,9 @@
         "AI for Power Systems"
       ],
       "recentPapers": [
-        "待核实 - 建议直接查看CityU Scholars发表列表"
+        "近作请核 CityUHK Scholars：https://scholars.cityu.edu.hk/en/persons/eezhuyue/"
       ],
-      "narrative": "ZHU助理教授是电力系统领域的青年学者（Presidential Assistant Professor），专注于逆变器主导电网的稳定性分析和数据驱动建模。她的研究对高比例可再生能源电网的安全运行具有重要意义。",
+      "narrative": "ZHU助理教授是电力系统领域的青年学者（Presidential Assistant Professor），专注于逆变器主导电网的稳定性分析和数据驱动建模。她的研究对高比例可再生能源电网的安全运行具有重要意义。联系前请再核近作与招生信息。",
       "matchTags": [
         "power system",
         "电力系统",
@@ -2346,8 +2630,11 @@
         "renewable",
         "可再生",
         "grid",
-        "电网"
-      ]
+        "电网",
+        "zhu"
+      ],
+      "dataQuality": "curated-v1",
+      "metricsNote": "叙事已精修；Scopus/h-index 建议对照 CityU Scholars / Scopus 再核"
     }
   ],
   "themes": [
@@ -2671,123 +2958,322 @@
     "Lab-on-chip": "芯片实验室：把化验流程微缩到芯片上，实现快速、少量样本检测。",
     "HVDC": "高压直流输电：用直流高压远距离送电，损耗小、适合跨海互联。",
     "Transport Electrification": "交通电气化：汽车、船舶等用电力驱动替代燃油。",
-    " mmWave Communications": " mmWave Communications：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "2D Materials": "2D Materials：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "5G Base Stations": "5G Base Stations：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "5G/6G": "5G/6G：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "5G/6G Systems": "5G/6G Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "6G Communications": "6G Communications：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "AI for Power Systems": "AI for Power Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "AI-driven Optimization": "AI-driven Optimization：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "AI/ML": "AI/ML：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "AIoT": "AIoT：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Analog Circuits": "Analog Circuits：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Array Processing": "Array Processing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "AutoML": "AutoML：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Battery Systems": "Battery Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Bio-signal Processing": "Bio-signal Processing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Black-box Optimization": "Black-box Optimization：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Cellular Networks": "Cellular Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Chaotic Systems": "Chaotic Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Charging Infrastructure": "Charging Infrastructure：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Communication Networks": "Communication Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Compressive Sensing": "Compressive Sensing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Computational Neuroscience": "Computational Neuroscience：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Computer Graphics": "Computer Graphics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Computer Vision": "Computer Vision：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Control Systems": "Control Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Cortical Implants": "Cortical Implants：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Data-driven Modeling": "Data-driven Modeling：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Demand Response": "Demand Response：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Digital Twins": "Digital Twins：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Distributed ML": "Distributed ML：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Distributed Optimization": "Distributed Optimization：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Distributed Systems": "Distributed Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "EV Integration": "EV Integration：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Electric Vehicles": "Electric Vehicles：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Electricity Market": "Electricity Market：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Electronic Devices": "Electronic Devices：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Energy Harvesting": "Energy Harvesting：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Energy Management": "Energy Management：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Energy Trading": "Energy Trading：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Evolutionary Algorithms": "Evolutionary Algorithms：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Federated Learning": "Federated Learning：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Green Networks": "Green Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Grid Integration": "Grid Integration：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Healthcare IoT": "Healthcare IoT：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "High-power RF": "High-power RF：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "High-speed Optical Networks": "High-speed Optical Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Holographic MIMO": "Holographic MIMO：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Imaging Systems": "Imaging Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Integrated Optics": "Integrated Optics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Inverter-dominated Grids": "Inverter-dominated Grids：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "IoT": "IoT：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "IoT Security": "IoT Security：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Joint Sensing-Communication": "Joint Sensing-Communication：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "LiDAR Systems": "LiDAR Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Massive MIMO": "Massive MIMO：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Metaheuristics": "Metaheuristics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Microelectronics": "Microelectronics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Microwave Amplifiers": "Microwave Amplifiers：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Microwave Photonics": "Microwave Photonics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Mobile Communications": "Mobile Communications：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Mobile Computing": "Mobile Computing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Multimedia Systems": "Multimedia Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Nanoelectronics": "Nanoelectronics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Nanomedicine": "Nanomedicine：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Network Optimization": "Network Optimization：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Neural Architecture Search": "Neural Architecture Search：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Neural Engineering": "Neural Engineering：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Neural Prosthetics": "Neural Prosthetics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Neural Signal Processing": "Neural Signal Processing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Neuromodulation": "Neuromodulation：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Optical Communication Systems": "Optical Communication Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Optical Communications": "Optical Communications：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Optical Switching": "Optical Switching：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Optoelectronics": "Optoelectronics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Parameter Estimation": "Parameter Estimation：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Performance Evaluation": "Performance Evaluation：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Photonic Sensors": "Photonic Sensors：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Photonics": "Photonics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Power Converters": "Power Converters：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Power Devices": "Power Devices：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Power Electronics Control": "Power Electronics Control：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Power Management IC": "Power Management IC：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Privacy-preserving Computing": "Privacy-preserving Computing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Quantum Communication": "Quantum Communication：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Quantum Random Number Generation": "Quantum Random Number Generation：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Quantum Sensing": "Quantum Sensing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Radar Systems": "Radar Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Resource Allocation": "Resource Allocation：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Satellite Communication": "Satellite Communication：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Semiconductor Lasers": "Semiconductor Lasers：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Semiconductor Physics": "Semiconductor Physics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Smart Sensing": "Smart Sensing：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Solid-state Circuits": "Solid-state Circuits：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Sparse Signal Recovery": "Sparse Signal Recovery：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Super-resolution": "Super-resolution：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Systems Biology": "Systems Biology：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "THz Antennas": "THz Antennas：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "THz Devices": "THz Devices：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Telecom Networks": "Telecom Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Visual Prosthetics": "Visual Prosthetics：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Wireless Communications": "Wireless Communications：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Wireless Networks": "Wireless Networks：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Wireless Power": "Wireless Power：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "Wireless Systems": "Wireless Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。",
-    "mmWave Systems": "mmWave Systems：该方向常用术语。可结合该老师近期论文标题理解；更白话的解释会在后续批次继续补全。"
+    " mmWave Communications": "毫米波通信：用极高频无线电波传数据，带宽大，适合5G/6G等高速率场景。",
+    "2D Materials": "二维材料：厚度只有原子级薄层的材料（如石墨烯），常用于新一代电子/光电器件。",
+    "5G Base Stations": "5G基站：部署5G网络的无线接入设备，负责手机与核心网之间的无线连接。",
+    "5G/6G": "5G/6G：第五/六代移动通信标准，追求更高速率、更低时延、更大规模连接。",
+    "5G/6G Systems": "5G/6G系统：围绕新一代移动通信的整套网络、协议与设备技术。",
+    "6G Communications": "6G通信：比5G更下一代的无线通信研究，常探索太赫兹、智能超表面等。",
+    "AI for Power Systems": "电力AI：用机器学习做电网预测、调度、故障诊断等，让电力系统更智能。",
+    "AI-driven Optimization": "AI驱动优化：用机器学习/智能算法去求解复杂优化问题，而不是只靠传统手工建模。",
+    "AI/ML": "人工智能/机器学习：让计算机从数据中学习规律，用来预测、分类或做决策。",
+    "AIoT": "AIoT：人工智能+物联网，让联网设备不只采集数据，还能本地或云端做智能判断。",
+    "Analog Circuits": "模拟电路：处理连续变化电信号的电路，是传感器、射频、电源等的基础。",
+    "Array Processing": "阵列信号处理：用多天线/多传感器阵列一起处理信号，提高探测与通信性能。",
+    "AutoML": "自动机器学习：自动帮你选模型结构、超参数，减少手工调参。",
+    "Battery Systems": "电池系统：电池单体到电池包的设计、管理与安全控制技术。",
+    "Bio-signal Processing": "生物信号处理：分析心电、脑电、肌电等人体信号，用于监测或诊断。",
+    "Black-box Optimization": "黑盒优化：目标函数像黑箱（难求导或不透明）时，用采样/启发式方法找最优解。",
+    "Cellular Networks": "蜂窝网络：把覆盖区分成蜂窝小区、由基站接力服务的移动通信网络。",
+    "Chaotic Systems": "混沌系统：对初始条件极度敏感的非线性系统，常用于建模复杂动态行为。",
+    "Charging Infrastructure": "充电基础设施：电动车充电桩、充电站与配套电网接入设施。",
+    "Communication Networks": "通信网络：把多台设备连起来传信息的系统与协议总称。",
+    "Compressive Sensing": "压缩感知：用远少于传统采样的测量重建信号，适合稀疏信号。",
+    "Computational Neuroscience": "计算神经科学：用数学模型与计算模拟大脑如何处理信息。",
+    "Computer Graphics": "计算机图形学：用计算生成、渲染与处理图像和三维场景。",
+    "Computer Vision": "计算机视觉：让机器从图像/视频里识别物体、场景与动作。",
+    "Control Systems": "控制系统：让机械、电路或过程按设定目标稳定运行的反馈控制技术。",
+    "Cortical Implants": "皮层植入：把电极等器件植入大脑皮层，用于神经接口或修复。",
+    "Data-driven Modeling": "数据驱动建模：主要靠数据学习系统规律，而不是先写完整物理方程。",
+    "Demand Response": "需求响应：用电高峰时引导用户少用电或改时段用电，缓解电网压力。",
+    "Digital Twins": "数字孪生：给真实设备/系统做一个可同步更新的数字化副本，用来仿真与优化。",
+    "Distributed ML": "分布式机器学习：把训练拆到多台机器上并行完成，加快或扩大规模。",
+    "Distributed Optimization": "分布式优化：多个节点各自算一部分，协作求解全局优化问题。",
+    "Distributed Systems": "分布式系统：多台计算机协作完成同一服务，如云计算后台。",
+    "EV Integration": "电动车并网：把电动汽车接入电网，涉及充电调度与对电网的影响。",
+    "Electric Vehicles": "电动汽车：以电能为主要动力的车辆及相关电气系统。",
+    "Electricity Market": "电力市场：电量与电力服务的买卖与定价机制。",
+    "Electronic Devices": "电子器件：晶体管、二极管等构成电路的基本元件。",
+    "Energy Harvesting": "能量采集：从环境（光、振动、射频等）收集微弱能量给设备供电。",
+    "Energy Management": "能量管理：优化发/储/用电，让系统更省电、更稳定。",
+    "Energy Trading": "能量交易：在用户、微网或市场之间买卖电能。",
+    "Evolutionary Algorithms": "演化算法：受生物进化启发的搜索算法（如遗传算法），用于难优化问题。",
+    "Federated Learning": "联邦学习：数据留在本地，只交换模型更新，多方协作训练。",
+    "Green Networks": "绿色网络：以节能降碳为目标的通信网络设计与运行。",
+    "Grid Integration": "并网：把新能源、储能等设备安全接入大电网并协同运行。",
+    "Healthcare IoT": "医疗物联网：用联网传感设备采集健康数据并支持远程医疗。",
+    "High-power RF": "高功率射频：产生或处理较大功率无线电波的技术，用于雷达、加速器等。",
+    "High-speed Optical Networks": "高速光网络：用光纤与光器件承载超高速率数据传输。",
+    "Holographic MIMO": "全息MIMO：用超密集天线/智能表面更精细地操控电磁波，提升通信容量。",
+    "Imaging Systems": "成像系统：把物理场景变成图像的传感器与信号处理链路。",
+    "Integrated Optics": "集成光学：把光路做在芯片上，实现更小、更稳的光器件。",
+    "Inverter-dominated Grids": "逆变器主导电网：大量新能源通过逆变器并网后，电网动态特性发生改变的场景。",
+    "IoT": "物联网：把传感器、设备连上网，实现采集、监控与远程控制。",
+    "IoT Security": "物联网安全：保护联网设备与传感数据不被攻击或篡改。",
+    "Joint Sensing-Communication": "通感一体：同一套无线系统同时做通信和感知（如测距、成像）。",
+    "LiDAR Systems": "激光雷达：用激光测距成像，常见于自动驾驶与三维测绘。",
+    "Massive MIMO": "大规模MIMO：基站用大量天线同时服务多用户，提升频谱效率。",
+    "Metaheuristics": "元启发式算法：一类通用搜索策略（如遗传算法、粒子群），适合难解的优化问题，不保证全局最优但常很有效。",
+    "Microelectronics": "微电子：在微小尺度上设计制造集成电路与半导体器件。",
+    "Microwave Amplifiers": "微波放大器：放大微波频段信号的电路，用于通信与雷达前端。",
+    "Microwave Photonics": "微波光子学：用光学方法产生、传输或处理微波信号。",
+    "Mobile Communications": "移动通信：手机等移动终端与网络之间的无线通信。",
+    "Mobile Computing": "移动计算：面向手机、可穿戴等移动设备的计算与服务。",
+    "Multimedia Systems": "多媒体系统：处理图像、音视频等内容的采集、压缩、传输与播放系统。",
+    "Nanoelectronics": "纳电子学：在纳米尺度研究电子器件与电路。",
+    "Nanomedicine": "纳米医学：用纳米材料/器件做诊断、给药或治疗。",
+    "Network Optimization": "网络优化：在网络资源有限时，优化路由、调度、功率等以提升性能。",
+    "Neural Architecture Search": "神经架构搜索：自动搜索神经网络该用什么结构，而不是全靠人手设计。",
+    "Neural Engineering": "神经工程：用工程方法连接、刺激或解读神经系统。",
+    "Neural Prosthetics": "神经假体：用电子装置替代或辅助受损神经功能（如脑机接口假肢）。",
+    "Neural Signal Processing": "神经信号处理：从脑电/神经放电等信号中提取有用信息。",
+    "Neuromodulation": "神经调控：用电/磁/光等方式调节神经活动，常用于治疗或研究。",
+    "Optical Communication Systems": "光通信系统：用光在光纤或自由空间中传信息的完整系统。",
+    "Optical Communications": "光通信：用光作为载体传输数据，主流载体是光纤。",
+    "Optical Switching": "光交换：在光域直接切换光路/光信号，减少光电转换。",
+    "Optoelectronics": "光电子学：研究光与电相互转换的器件与技术（如激光器、探测器）。",
+    "Parameter Estimation": "参数估计：从观测数据推断模型未知参数的方法。",
+    "Performance Evaluation": "性能评估：用指标与实验衡量系统快不快、稳不稳、好不好用。",
+    "Photonic Sensors": "光子传感器：用光信号感知温度、压力、化学量等。",
+    "Photonics": "光子学：研究光的产生、操控与探测，对应电子学的“光版本”。",
+    "Power Converters": "功率变换器：把电能在不同电压/电流/交流直流形态之间转换的装置。",
+    "Power Devices": "功率器件：能承受高电压大电流的半导体开关器件。",
+    "Power Electronics Control": "电力电子控制：控制功率变换器如何开关，以实现稳压、调速等。",
+    "Power Management IC": "电源管理芯片：给电子设备分配、转换与管理电能的集成电路。",
+    "Privacy-preserving Computing": "隐私计算：在尽量不暴露原始数据的前提下完成计算或协作分析。",
+    "Quantum Communication": "量子通信：利用量子态传信息，常见目标是更安全的密钥分发。",
+    "Quantum Random Number Generation": "量子随机数：用量子过程产生更“真随机”的随机数，用于安全与仿真。",
+    "Quantum Sensing": "量子传感：用量子效应做超灵敏测量（磁场、重力、时间等）。",
+    "Radar Systems": "雷达系统：发射电磁波并接收回波，用于探测距离、速度与目标。",
+    "Resource Allocation": "资源分配：把频谱、功率、算力等有限资源合理分给用户或任务。",
+    "Satellite Communication": "卫星通信：通过卫星中继实现地面远距离通信。",
+    "Semiconductor Lasers": "半导体激光器：用半导体材料产生激光，广泛用于通信与传感。",
+    "Semiconductor Physics": "半导体物理：研究半导体材料中电子如何运动与跃迁的基础科学。",
+    "Smart Sensing": "智能传感：传感器不仅采集，还能做本地处理、识别或自适应。",
+    "Solid-state Circuits": "固态电路：用半导体器件构成的集成电路与电子电路。",
+    "Sparse Signal Recovery": "稀疏信号重建：利用信号“大部分为零”的结构，从少量测量恢复原信号。",
+    "Super-resolution": "超分辨率：从低分辨率图像/信号恢复出更清晰的细节。",
+    "Systems Biology": "系统生物学：把生物过程当成系统，用建模与计算理解其整体行为。",
+    "THz Antennas": "太赫兹天线：工作在太赫兹频段的天线，面向超高速通信与成像。",
+    "THz Devices": "太赫兹器件：产生、探测或调制太赫兹波的电子/光电器件。",
+    "Telecom Networks": "电信网络：电话、互联网等运营商级通信网络。",
+    "Visual Prosthetics": "视觉假体：用电刺激等方式帮助恢复或部分替代视觉功能。",
+    "Wireless Communications": "无线通信：不靠线缆、用电磁波传信息的通信方式。",
+    "Wireless Networks": "无线网络：设备通过无线方式互联的网络（Wi‑Fi、蜂窝等）。",
+    "Wireless Power": "无线供电：不插电线、用电磁场给设备传能量充电。",
+    "Wireless Systems": "无线系统：发射机、接收机、天线与协议组成的无线通信整体。",
+    "mmWave Systems": "毫米波系统：工作在毫米波频段的通信/雷达系统，带宽大但遮挡敏感。",
+    "nlp": "自然语言处理（Natural Language Processing）：让计算机理解、生成人类语言的技术，涵盖翻译、问答、对话与文本分类等。",
+    "agents": "智能体（Agents）：能感知环境、做决策并行动的软件/机器人实体；近年常指基于大模型的可规划、可调用工具的代理系统。",
+    "hci": "人机交互（Human-Computer Interaction）：研究人如何与计算系统交互，关注可用性、体验与交互技术本身。",
+    "交互": "人机交互方向的中文说法：做界面、手势、可穿戴、XR 等「人怎么用系统」的问题，而不只是后端算法。",
+    "区块链": "用加密与共识把交易/状态记在多方共享的账本上，强调去中心化与不可篡改；常见于加密货币、供应链与存证。",
+    "人工智能": "让机器表现出感知、学习、推理或决策能力的技术总称；包含机器学习、视觉、语音、规划等子领域。",
+    "优化": "在约束下找更好解的数学与算法问题；机器学习训练、资源调度、多目标权衡都大量用到优化。",
+    "低功耗": "在有限电量/散热下尽量少耗能仍完成计算或通信——物联网、可穿戴与端侧 AI 的核心约束。",
+    "可解释": "让模型决策过程可被人类理解或审计（可解释 AI）；不只看准确率，还要能说明「为什么这么判」。",
+    "云安全": "保护云上数据、身份与工作负载的安全实践与技术，涉及隔离、访问控制、加密与合规。",
+    "ai security": "针对 AI 系统的安全：对抗样本、模型窃取、提示注入、数据投毒、隐私泄漏与滥用防护等。",
+    "ai安全": "针对 AI 系统的安全：对抗样本、模型窃取、提示注入、数据投毒、隐私泄漏与滥用防护等。",
+    "machine learning": "机器学习：从数据中自动学规律，用来预测或决策，而不是纯手写规则。",
+    "机器学习": "从数据中自动学规律，用来预测或决策，而不是纯手写规则。",
+    "deep learning": "深度学习：用多层神经网络自动学特征，是现代视觉、语音与大模型的主干技术。",
+    "深度学习": "用多层神经网络自动学特征，是现代视觉、语音与大模型的主干技术。",
+    "reinforcement learning": "强化学习：智能体通过试错与奖励信号学策略，常见于控制、游戏与具身智能。",
+    "强化学习": "智能体通过试错与奖励信号学策略，常见于控制、游戏与具身智能。",
+    "computer vision": "计算机视觉：让机器理解图像/视频中的内容，如检测、分割、跟踪与三维重建。",
+    "计算机视觉": "让机器理解图像/视频中的内容，如检测、分割、跟踪与三维重建。",
+    "computer graphics": "计算机图形学：生成与渲染图像/三维内容，偏「怎么画出来」，常与视觉、交互交叉。",
+    "计算机图形": "生成与渲染图像/三维内容，偏「怎么画出来」，常与视觉、交互交叉。",
+    "edge computing": "边缘计算：把计算放到靠近数据产生处（手机、基站、网关），降低延迟与带宽压力。",
+    "边缘计算": "把计算放到靠近数据产生处（手机、基站、网关），降低延迟与带宽压力。",
+    "federated learning": "联邦学习：数据留在本地，只汇总模型更新，用来在隐私约束下协作训练。",
+    "联邦学习": "数据留在本地，只汇总模型更新，用来在隐私约束下协作训练。",
+    "program analysis": "程序分析：自动分析代码行为以找 bug、漏洞或做优化，是软件安全与编译器的基础工具。",
+    "程序分析": "自动分析代码行为以找 bug、漏洞或做优化，是软件安全与编译器的基础工具。",
+    "cyber-physical systems": "信息物理系统（CPS）：计算与物理过程深度耦合，如工控、自动驾驶与智能楼宇。",
+    "real-time systems": "实时系统：正确性不仅看结果对不对，还要求在截止时间前完成。",
+    "embedded systems": "嵌入式系统：嵌在设备里的专用计算系统，资源（算力/内存/电量）通常很紧。",
+    "bioinformatics": "生物信息学：用计算与算法分析生物数据（基因组、蛋白等）。",
+    "生物信息": "用计算与算法分析生物数据（基因组、蛋白等）。",
+    "recommender systems": "推荐系统：根据用户与物品数据预测偏好，决定「接下来给你看什么」。",
+    "推荐系统": "根据用户与物品数据预测偏好，决定「接下来给你看什么」。",
+    "automl": "自动机器学习：尽量自动选模型结构、超参与流水线，降低手工调参成本。",
+    "embodied ai": "具身智能：把感知-决策-行动放进机器人/智能体，在真实或仿真环境中交互。",
+    "具身智能": "把感知-决策-行动放进机器人/智能体，在真实或仿真环境中交互。",
+    "multimodal": "多模态：同时处理文本、图像、语音、视频等多种信号并建立对齐理解。",
+    "多模态": "同时处理文本、图像、语音、视频等多种信号并建立对齐理解。",
+    "model compression": "模型压缩：用剪枝、量化、蒸馏等手段把大模型变小变快，方便端侧部署。",
+    "模型压缩": "用剪枝、量化、蒸馏等手段把大模型变小变快，方便端侧部署。",
+    "consensus": "共识机制：分布式节点就账本状态达成一致的协议，是区块链可用性与安全的核心。",
+    "共识": "分布式节点就账本状态达成一致的协议，是区块链可用性与安全的核心。",
+    "decentralized finance": "去中心化金融（DeFi）：在链上用智能合约提供借贷、交易等金融服务。",
+    "defi": "去中心化金融：在链上用智能合约提供借贷、交易等金融服务。",
+    "wireless networks": "无线网络：用无线电波连接设备的通信网络，从 Wi-Fi/蜂窝到传感网都属此类。",
+    "无线网络": "用无线电波连接设备的通信网络，从 Wi-Fi/蜂窝到传感网都属此类。",
+    "iot security": "物联网安全：保护传感器、网关与云端链路，防窃听、伪造、劫持与固件攻击。",
+    "物联网安全": "保护传感器、网关与云端链路，防窃听、伪造、劫持与固件攻击。",
+    "software engineering": "软件工程：系统化地开发、测试、维护大规模软件的方法与工具。",
+    "软件工程": "系统化地开发、测试、维护大规模软件的方法与工具。",
+    "information theory": "信息论：用数学刻画信息量、信道容量与压缩极限，是通信与学习理论的底座之一。",
+    "信息论": "用数学刻画信息量、信道容量与压缩极限，是通信与学习理论的底座之一。",
+    "evolutionary computation": "进化计算：受生物进化启发的优化算法族（遗传算法、进化策略等），擅长黑盒与多目标问题。",
+    "进化计算": "受生物进化启发的优化算法族（遗传算法、进化策略等），擅长黑盒与多目标问题。",
+    "multiobjective optimization": "多目标优化：同时优化多个冲突目标，求的是权衡曲面（Pareto 前沿）而不只是单一最优。",
+    "多目标优化": "同时优化多个冲突目标，求的是权衡曲面（Pareto 前沿）而不只是单一最优。",
+    "algorithmic game theory": "算法博弈论：用算法视角研究策略互动、机制设计与均衡计算。",
+    "算法博弈论": "用算法视角研究策略互动、机制设计与均衡计算。",
+    "network economics": "网络经济学：用经济与博弈工具分析网络资源分配、定价与用户行为。",
+    "网络经济": "用经济与博弈工具分析网络资源分配、定价与用户行为。",
+    "heads-up computing": "抬头计算：在不打断主任务的前提下，用可穿戴/空间界面提供即时信息与助手能力。",
+    "perceptual image processing": "感知图像处理：按人眼/人脑感知来优化图像质量与压缩，而不只看像素误差。",
+    "multimedia forensics": "多媒体取证：判断图像/视频是否被篡改、来源何处，用于安全与内容真实性。",
+    "多媒体取证": "判断图像/视频是否被篡改、来源何处，用于安全与内容真实性。",
+    "lpwan": "低功耗广域网（LPWAN）：让物联网设备用很低功耗、较远距离上报数据的一类通信技术。",
+    "sdn": "软件定义网络（SDN）：把网络控制面集中可编程，便于灵活编排流量与策略。",
+    "nfv": "网络功能虚拟化（NFV）：把防火墙、网关等网络功能跑在通用服务器上，而不是专用盒。",
+    "vr/ar/mr": "虚拟/增强/混合现实：用头显或眼镜把数字内容叠进或替代现实场景的交互技术。",
+    "wearable": "可穿戴设备：戴在身上的计算设备（手表、眼镜、手环等），强调持续感知与低打扰交互。",
+    "可穿戴": "戴在身上的计算设备（手表、眼镜、手环等），强调持续感知与低打扰交互。",
+    "reverse engineering": "逆向工程：从成品（二进制/协议）反推结构与行为，常用于安全分析与兼容。",
+    "逆向工程": "从成品（二进制/协议）反推结构与行为，常用于安全分析与兼容。",
+    "ble": "低功耗蓝牙（Bluetooth Low Energy）：短距低功耗无线协议，广泛用于可穿戴与物联网外设。",
+    "calibration": "校准：让模型输出的置信度与真实正确率对齐，避免「很自信但经常错」。",
+    "校准": "让模型输出的置信度与真实正确率对齐，避免「很自信但经常错」。",
+    "adversarial robustness": "对抗鲁棒性：模型在受到精心构造的微小扰动时仍保持正确，是可信 AI 的重要指标。",
+    "对抗鲁棒": "模型在受到精心构造的微小扰动时仍保持正确，是可信 AI 的重要指标。",
+    "neural architecture search": "神经架构搜索（NAS）：自动搜索网络结构，减少手工设计模型的成本。",
+    "nas": "神经架构搜索：自动搜索网络结构，减少手工设计模型的成本。",
+    "continuous learning": "持续/终身学习：模型在新任务到来时持续更新，同时尽量不忘旧知识。",
+    "持续学习": "模型在新任务到来时持续更新，同时尽量不忘旧知识。",
+    "representation learning": "表征学习：自动学出适合下游任务的特征表示，是现代深度学习的核心思想之一。",
+    "表征学习": "自动学出适合下游任务的特征表示，是现代深度学习的核心思想之一。",
+    "distributed systems": "分布式系统：多台机器协作完成计算与存储，要处理一致性、故障与延迟。",
+    "分布式系统": "多台机器协作完成计算与存储，要处理一致性、故障与延迟。",
+    "cloud computing": "云计算：按需使用远程计算与存储资源，强调弹性、多租户与服务化。",
+    "云计算": "按需使用远程计算与存储资源，强调弹性、多租户与服务化。",
+    "data mining": "数据挖掘：从大规模数据中发现模式、关联与异常，常服务于决策与推荐。",
+    "数据挖掘": "从大规模数据中发现模式、关联与异常，常服务于决策与推荐。",
+    "privacy": "隐私：控制个人/敏感数据被谁收集、用于何处；技术上常涉及脱敏、加密与差分隐私等。",
+    "隐私": "控制个人/敏感数据被谁收集、用于何处；技术上常涉及脱敏、加密与差分隐私等。",
+    "security": "安全：防止未授权访问、篡改与破坏；涵盖密码、系统加固、漏洞与威胁建模等。",
+    "安全": "防止未授权访问、篡改与破坏；涵盖密码、系统加固、漏洞与威胁建模等。",
+    "chip design": "芯片设计：从架构到电路/版图把计算功能落到硅片上的工程过程。",
+    "soc": "片上系统（System-on-Chip）：把 CPU、加速器、存储与接口集成在一颗芯片里。",
+    "hardware accelerator": "硬件加速器：为特定计算（如矩阵乘、编解码）定制的电路，比通用 CPU 更高效。",
+    "硬件加速": "为特定计算（如矩阵乘、编解码）定制的电路，比通用 CPU 更高效。",
+    "neuromorphic": "神经形态计算：用类似生物神经的事件驱动电路做高效感知与学习。",
+    "神经形态": "用类似生物神经的事件驱动电路做高效感知与学习。",
+    "wireless charging": "无线充电：用磁场/电场耦合传能，设备无需插线即可充电。",
+    "无线充电": "用磁场/电场耦合传能，设备无需插线即可充电。",
+    "medical imaging": "医学成像：用 CT/MRI/超声等产生人体内部图像，并做重建、增强与辅助诊断。",
+    "医学成像": "用 CT/MRI/超声等产生人体内部图像，并做重建、增强与辅助诊断。",
+    "face recognition": "人脸识别：从图像/视频中识别或验证身份；涉及检测、特征与防伪。",
+    "人脸识别": "从图像/视频中识别或验证身份；涉及检测、特征与防伪。",
+    "quality assessment": "质量评估：自动或主观地给图像/视频/语音打「好不好看/好不好听」的分，服务压缩与增强。",
+    "质量评估": "自动或主观地给图像/视频/语音打「好不好看/好不好听」的分，服务压缩与增强。",
+    "cybersecurity": "网络安全：保护网络与信息系统免受攻击、入侵与数据泄露。",
+    "网络安全": "保护网络与信息系统免受攻击、入侵与数据泄露。",
+    "communication theory": "通信理论：用信息论与信号处理描述信道、编码与可靠传输的极限与方法。",
+    "通信理论": "用信息论与信号处理描述信道、编码与可靠传输的极限与方法。",
+    "networking": "网络：研究如何把计算节点互联并可靠、高效地传数据（协议、路由、拥塞等）。",
+    "网络": "研究如何把计算节点互联并可靠、高效地传数据（协议、路由、拥塞等）。",
+    "data science": "数据科学：用统计、机器学习与工程手段从数据中提取洞见并支持决策。",
+    "数据科学": "用统计、机器学习与工程手段从数据中提取洞见并支持决策。",
+    "humanoid": "人形机器人：形态接近人类的机器人，强调双足/双手操作与人机共处场景。",
+    "人形机器人": "形态接近人类的机器人，强调双足/双手操作与人机共处场景。",
+    "alignment": "对齐：让 AI 系统的目标与行为符合人类意图与价值观，减少失控与有害输出。",
+    "对齐": "让 AI 系统的目标与行为符合人类意图与价值观，减少失控与有害输出。",
+    "video": "视频相关方向：覆盖编码、理解、生成、检索与质量评估等与时序影像有关的研究。",
+    "视频": "覆盖编码、理解、生成、检索与质量评估等与时序影像有关的研究。",
+    "low power": "低功耗设计：在性能达标前提下尽量减少能耗，是移动与物联网硬件的关键约束。",
+    "artificial intelligence": "人工智能：让机器表现出感知、学习、推理或决策能力的技术总称。"
   },
   "metadata": {
-    "version": "1.2.0",
+    "version": "1.4.0",
     "phase": 1,
     "totalProfessors": 50,
     "pilotCount": 7,
     "coverage": "Chair Professor / Professor / Associate Professor / Assistant Professor (full-time faculty only)",
     "excluded": "Honorary, Emeritus, and Adjunct Professors",
-    "lastUpdated": "2026-07-16",
+    "lastUpdated": "2026-07-17",
     "dataSource": "CityUHK Scholars, Google Scholar, Scopus",
     "department": "Department of Electrical Engineering, City University of Hong Kong",
-    "siteVersion": "v1.3.0",
-    "changelog": "v1.3.0: poker-card grid, tier tabs, tutorial overlay, unified search, CS pilot"
-  }
+    "siteVersion": "v1.4.0",
+    "changelog": "v1.4.0: full curated-v1 pass for remaining faculty; quality board; recruiting/industry pilots",
+    "industryProfilePilot": {
+      "updated": "2026-07-16",
+      "ids": [
+        "po"
+      ],
+      "note": "合作 Tab 试点：仅公开可核信息；不代表能安排实习"
+    },
+    "recruitingPilot": {
+      "updated": "2026-07-16",
+      "note": "招生信号试点：仅公开页可见信息，status=open/closed/unknown"
+    },
+    "qualitySummary": {
+      "curated": 50,
+      "batch": 0,
+      "total": 50,
+      "note": "2026-07-16 全员 curated-v1；叙事精修 + glossary 增补",
+      "lastCuratedPass": "2026-07-16"
+    }
+  },
+  "themeContinents": [
+    {
+      "id": "devices-light",
+      "nameZh": "电子·光与器件",
+      "nameEn": "Devices & Photonics",
+      "blurb": "从微纳器件到光子/太赫兹——硬件与光物理主干",
+      "themeIds": [
+        "micro",
+        "nano",
+        "photonics",
+        "thz"
+      ]
+    },
+    {
+      "id": "comms-net",
+      "nameZh": "通信与网络",
+      "nameEn": "Communications & Networks",
+      "blurb": "天线、无线与物联网——把信号送出去的主干",
+      "themeIds": [
+        "antenna",
+        "wireless",
+        "network"
+      ]
+    },
+    {
+      "id": "energy-sys",
+      "nameZh": "能源与控制系统",
+      "nameEn": "Power & Control",
+      "blurb": "电力电子与控制优化——能量与系统主干",
+      "themeIds": [
+        "power",
+        "control"
+      ]
+    },
+    {
+      "id": "info-intel",
+      "nameZh": "信息与智能",
+      "nameEn": "Information & Intelligence",
+      "blurb": "信号、计算与 AI——信息处理向智能壮大的分支",
+      "themeIds": [
+        "aiml",
+        "signal",
+        "compeng"
+      ]
+    },
+    {
+      "id": "life-x",
+      "nameZh": "生命交叉",
+      "nameEn": "Life Sciences Cross",
+      "blurb": "生物医学与生物信息——从工程主干长出的交叉区",
+      "themeIds": [
+        "biomed",
+        "bioinfo"
+      ]
+    }
+  ]
 }
